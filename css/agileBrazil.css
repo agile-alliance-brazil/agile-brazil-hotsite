@@ -49,11 +49,31 @@ body > * {
 	font-size: 0.6em;
 }
 
+/* Advantages */
+.advantages {
+	list-style: none;
+	background-color: #ddd;
+}
+
+.advantages li {
+	display: block;
+	margin-top: 2em;
+	font-size: 1.2em;
+}
+
+.advantages li:last-child {
+	margin-bottom: 2em;
+}
+
+.advantages i {
+	float: left;
+	margin-right: 0.5em;
+}
+
 /* Keynote section */
 .keynote {
 	text-align: center;
 	padding: 2em 0;
-	background: #ddd;
 	overflow: hidden;
 }
 
