@@ -87,6 +87,14 @@ body > * {
 	border-radius: 50%;
 }
 
+.keynote-speaker-img {
+	margin-top: 3em;
+}
+
+.keynote-speaker-img:first-child {
+	margin-top: 0;
+}
+
 .keynote-speaker-name {
 	font-size: 1.7em;
 	font-weight: bold;
