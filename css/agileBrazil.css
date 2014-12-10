@@ -14,6 +14,10 @@ body > * {
 }
 
 /* Header */
+.header img{
+	vertical-align: top;
+}
+
 .header ul {
 	line-height: 0;
 	text-align: right;
