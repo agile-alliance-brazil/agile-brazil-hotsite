@@ -18,6 +18,12 @@ body > * {
 	vertical-align: top;
 }
 
+.header #agileAllianceBrazil {
+	position: absolute;
+	top: 0;
+	right: 1em;
+}
+
 .header ul {
 	line-height: 0;
 	text-align: right;
