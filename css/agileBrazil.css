@@ -161,6 +161,10 @@ body > * {
 	.keynote-speaker-img {
 		float: left;
 		margin-right: 1em;
+		margin-bottom: 2em;
 	}
 
+	.keynote-speaker-miniBio {
+		padding-right: 1em;
+	}
 }
