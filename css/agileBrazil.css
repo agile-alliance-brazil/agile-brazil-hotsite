@@ -43,12 +43,12 @@ body > * {
 
 /* Main banner */
 .conferenceInfo {
-	background: url("../images/portoDeGalinhas.png") repeat scroll center bottom;
+	background: url("../images/portoDeGalinhas.jpg") repeat scroll center bottom;
 	color: #fff;
-	font-size: 2.8em;
+	font-size: 14vw;
 	line-height: 1.7;
-	padding: 1em 0;
 	text-align: center;
+	padding: 2em 0;
 }
 
 .conferenceInfo .place {
@@ -58,7 +58,7 @@ body > * {
 /* Advantages */
 .advantages {
 	list-style: none;
-	background-color: #ddd;
+	color: #506060;
 }
 
 .advantages li {
@@ -81,18 +81,20 @@ body > * {
 	text-align: center;
 	padding: 2em 0;
 	overflow: hidden;
+	list-style: none;
+	background-color: #eee;
 }
 
-.keynote-speaker-img img {
-	border-radius: 50%;
-}
-
-.keynote-speaker-img {
+.keynote li {
 	margin-top: 3em;
 }
 
-.keynote-speaker-img:first-child {
+.keynote li:first-child {
 	margin-top: 0;
+}
+
+.keynote-speaker-img {
+	border-radius: 50%;
 }
 
 .keynote-speaker-name {
@@ -114,7 +116,9 @@ body > * {
 
 /* Footer */
 .footer {
-	background-color: #555;
+	background-color: #206297;
+	height: 200px;
+	padding-top: 2em;
 }
 
 .footer .social {
@@ -128,7 +132,7 @@ body > * {
 }
 
 .footer li a {
-	color: #111;
+	color: #fff;
 }
 
 .footer .license {
@@ -136,9 +140,27 @@ body > * {
 	margin-left: 2em;
 }
 
+@media(min-width: 450px) {
+	.conferenceInfo {
+		font-size: 4em;
+	}
+}
+
 @media(min-width: 950px) {
 	.advantages li {
 		display: inline-block;
 		width: 33%;
 	}
+
+	.keynote li {
+		display: inline-block;
+		width: 48%;
+		text-align: left;
+	}
+
+	.keynote-speaker-img {
+		float: left;
+		margin-right: 1em;
+	}
+
 }
