@@ -41,6 +41,15 @@ body > * {
 	color: #fff;
 }
 
+.header #languageShift {
+	position: absolute;
+	top: 6.5em;
+	right: 1em;
+	text-decoration: none;
+	color: #666;
+	font-size: 0.8em;
+}
+
 /* Main banner */
 .conferenceInfo {
 	background: url("../images/portoDeGalinhas.jpg") repeat scroll center bottom;
