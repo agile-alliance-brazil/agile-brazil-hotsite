@@ -11,6 +11,12 @@ body > * {
 	padding: 0 5%;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	color: #222;
+}
+
+a {
+	text-decoration: none;
+	color: #206297;
 }
 
 /* Header */
@@ -45,8 +51,6 @@ body > * {
 	position: absolute;
 	top: 6.5em;
 	right: 1em;
-	text-decoration: none;
-	color: #666;
 	font-size: 0.8em;
 }
 
@@ -98,6 +102,7 @@ body > * {
 	overflow: hidden;
 	list-style: none;
 	background-color: #eee;
+	display: none;
 }
 
 .keynote li {
@@ -127,6 +132,30 @@ body > * {
 .keynote-speaker-miniBio {
 	text-align: left;
 	padding: 1em 1em 0;
+}
+
+/* Sponsorship section */
+.sponsorship {
+	background-color: #def;
+}
+
+.sponsorship h2 {
+	margin-bottom: 1em;
+	font-weight: normal;
+	color: #000;
+	padding-left: 0.2em;
+}
+
+.sponsorship i {
+	float: left;
+	vertical-align: super;
+	font-size: 9em;
+	color: #206297;
+	margin-right: 0.1em;
+}
+
+.sponsorship p {
+	text-align: right;
 }
 
 /* Footer */
