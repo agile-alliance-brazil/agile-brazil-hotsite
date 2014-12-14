@@ -72,8 +72,14 @@ body > * {
 }
 
 .advantages i {
-	float: left;
+	display: inline-block;
 	margin-right: 0.5em;
+}
+
+.advantages p {
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 5em);
 }
 
 /* Keynote section */
