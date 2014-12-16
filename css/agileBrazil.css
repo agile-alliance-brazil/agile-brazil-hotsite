@@ -137,6 +137,7 @@ a {
 /* Sponsorship section */
 .sponsorship {
 	background-color: #def;
+	overflow: hidden;
 }
 
 .sponsorship h2 {
