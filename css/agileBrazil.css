@@ -145,27 +145,32 @@ a {
 
 /* Sponsorship section */
 .sponsorship {
-	background-color: #def;
-	overflow: hidden;
+	background-color: #FFD700;
+	color: #0F4E34;
+	font-size: 1.4em;
+	text-align: center;
 }
 
 .sponsorship h2 {
-	margin-bottom: 1em;
+	display: block;
 	font-weight: normal;
-	color: #000;
 	padding-left: 0.2em;
+	margin: 0 auto;
+	max-width: 15em;
 }
 
-.sponsorship i {
-	float: left;
-	vertical-align: super;
-	font-size: 9em;
-	color: #206297;
-	margin-right: 0.1em;
-}
-
-.sponsorship p {
-	text-align: right;
+.sponsorship a {
+	background-color: #26C281;
+	border-right: 2px solid rgba(0,0,0,0.2);
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	color: #cfc;
+	cursor: pointer;
+	display: block;
+	font-size: 1.4em;
+	margin: 1em auto 0.5em;
+	padding: 0.5em;
+	max-width: 10em;
+	width: 100%;
 }
 
 /* Footer */
@@ -221,4 +226,9 @@ a {
 	.keynote-speaker-miniBio {
 		padding-right: 1em;
 	}
+
+	.sponsorship {
+		padding: 2em 0;
+	}
+
 }
