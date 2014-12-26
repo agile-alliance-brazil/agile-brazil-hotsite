@@ -1,0 +1,75 @@
+/* Main banner */
+.pageTitle {
+	position: relative;
+	background: url("../images/jangadas.jpg") repeat scroll left center;
+	color: #fff;
+	line-height: 1.7;
+	min-height: 340px;
+}
+
+.pageTitle h1 {
+	font-size: 14vw;
+	font-variant: small-caps;
+	position: absolute;
+	bottom: 0;
+	left: 0.2em;
+}
+
+.pastSponsors div {
+	border: 1px solid #ddd;
+	margin-bottom: 1em;
+	text-align: justify;
+}
+
+.pastSponsors img {
+	display: block;
+	margin: 1em auto;
+	max-width: 300px;
+	width: 90%;
+}
+
+.pastSponsors .bronze img {
+	display: inline-block;
+	margin: 1em;
+	margin-top: 2em;
+	vertical-align: middle;
+	max-width: 200px;
+	width: 35%;
+}
+
+.pastSponsors div:before {
+	margin: 0.3em;
+	font-size: 7vw;
+	font-variant: small-caps;
+	display: block;
+}
+
+.pastSponsors .diamond:before {
+	content: "Diamond";
+}
+
+.pastSponsors .gold:before {
+	content: "Gold";
+}
+
+.pastSponsors .silver:before {
+	content: "Silver";
+}
+
+.pastSponsors .bronze:before {
+	content: "Bronze";
+}
+
+@media(min-width: 450px) {
+	.pageTitle h1 {
+		font-size: 4em;
+	}
+
+	.pastSponsors div:before {
+		font-size: 2em;
+	}
+
+	.pastSponsors .bronze img {
+
+	}
+}
