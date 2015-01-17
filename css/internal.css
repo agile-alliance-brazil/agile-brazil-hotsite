@@ -1,7 +1,7 @@
 /* Main banner */
 .pageTitle {
 	position: relative;
-	background: url("../images/jangadas.jpg") repeat scroll left center;
+	background: url("../images/jangadas.jpg") repeat scroll center top;
 	color: #fff;
 	line-height: 1.7;
 	min-height: 340px;

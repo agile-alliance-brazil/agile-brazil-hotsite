@@ -57,24 +57,16 @@ a {
 /* Main banner */
 .conferenceInfo {
 	position: relative;
-	background: url("../images/portoDeGalinhas.jpg") repeat scroll center bottom;
+	background: url("../images/aereo.jpg") repeat scroll top center;
 	color: #fff;
-	font-size: 14vw;
+	font-size: 10vw;
 	line-height: 1.7;
 	text-align: center;
-	padding: 2em 0;
+	padding: 3em 0;
 }
 
 .conferenceInfo .place {
 	font-size: 0.6em;
-}
-
-.photoCredit {
-	position: absolute;
-	display: block;
-	font-size: 0.2em;
-	bottom: 1em;
-	right: 1em;
 }
 
 /* Advantages */
@@ -202,7 +194,7 @@ a {
 
 @media(min-width: 450px) {
 	.conferenceInfo {
-		font-size: 4em;
+		font-size: 3em;
 	}
 }
 
@@ -210,6 +202,11 @@ a {
 	.advantages li {
 		display: inline-block;
 		width: 33%;
+	}
+
+	.conferenceInfo {
+		font-size: 4em;
+		padding: 2em 0;
 	}
 
 	.keynote li {
