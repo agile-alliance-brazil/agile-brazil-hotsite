@@ -1,7 +1,11 @@
 /* Main banner */
 .pageTitle {
 	position: relative;
-	background: url("../images/jangadas.jpg") repeat scroll center top;
+	background: url("../images/jangadas.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	color: #fff;
 	line-height: 1.7;
 	min-height: 340px;
