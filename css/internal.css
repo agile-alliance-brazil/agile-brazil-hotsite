@@ -68,6 +68,10 @@ p {
 	content: "Bronze";
 }
 
+section.pastSponsors{
+    padding: 20px 25px 5px 25px;
+}
+
 @media(min-width: 450px) {
 	.pageTitle h1 {
 		font-size: 4em;

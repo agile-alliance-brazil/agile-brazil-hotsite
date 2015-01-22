@@ -1,0 +1,9 @@
+.DS_Store
+tmp/cache/models/*
+tmp/cache/persistent/*
+tmp/cache/views/*
+tmp/logs/*
+tmp/sessions/*
+tmp/testes/*
+webroot/files/*
+/.idea/

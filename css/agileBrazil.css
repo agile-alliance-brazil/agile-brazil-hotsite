@@ -167,6 +167,10 @@ a {
 	width: calc(100% - 5em);
 }
 
+#sectionAdvantages{
+    padding: 0px 25px 0px 25px;
+}
+
 /* Keynote section */
 .keynote {
 	text-align: center;
