@@ -1,22 +1,10 @@
 /* Main banner */
-.pageTitle {
-	position: relative;
+.sectionConferenceInfo.internal {
 	background: url("../images/jangadas.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	color: #fff;
-	line-height: 1.7;
-	min-height: 340px;
-}
-
-.pageTitle h1 {
-	font-size: 14vw;
-	font-variant: small-caps;
-	position: absolute;
-	bottom: 0;
-	left: 0.3em;
 }
 
 p {
@@ -32,7 +20,7 @@ p {
 .pastSponsors img {
 	display: block;
 	margin: 1em auto;
-	max-width: 300px;
+	max-width: 18.75em;
 	width: 90%;
 }
 
@@ -41,7 +29,7 @@ p {
 	margin: 1em;
 	margin-top: 2em;
 	vertical-align: middle;
-	max-width: 200px;
+	max-width: 12.50em;
 	width: 35%;
 }
 
@@ -69,15 +57,10 @@ p {
 }
 
 section.pastSponsors{
-    padding: 20px 25px 5px 25px;
+    padding: 1em 5% 0 5%;
 }
 
 @media(min-width: 450px) {
-	.pageTitle h1 {
-		font-size: 4em;
-		left: auto;
-	}
-
 	.pastSponsors div:before {
 		font-size: 2em;
 	}
