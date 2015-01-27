@@ -2,10 +2,10 @@
 .pageTitle {
 	position: relative;
 	background: url("../images/jangadas.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #fff;
 	line-height: 1.7;
 	min-height: 340px;
@@ -69,7 +69,7 @@ p {
 }
 
 section.pastSponsors{
-    padding: 20px 25px 5px 25px;
+	padding: 20px 25px 5px 25px;
 }
 
 @media(min-width: 450px) {
@@ -80,9 +80,5 @@ section.pastSponsors{
 
 	.pastSponsors div:before {
 		font-size: 2em;
-	}
-
-	.pastSponsors .bronze img {
-
 	}
 }

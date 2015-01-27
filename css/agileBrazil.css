@@ -24,7 +24,7 @@ a {
 }
 
 .header .ab_logo{
-    padding: 15px 0px 0px 5%;
+	padding: 15px 0px 0px 5%;
 }
 
 .header #agileAllianceBrazil {
@@ -50,85 +50,85 @@ a {
 
 .header #languageShift {
 	position: absolute;
-    top: 72px;
-    right: 7px;
+	top: 72px;
+	right: 7px;
 	font-size: 0.8em;
 }
 
 #aga_banner {
-    padding-bottom: 0px;
-    zoom: 1;
+	padding-bottom: 0px;
+	zoom: 1;
 }
 #aga_banner:before, #aga_banner:after {
-    content:"";
-    display: table;
+	content:"";
+	display: table;
 }
 #aga_banner:after {
-    clear: both;
+	clear: both;
 }
 #aga_banner div.agile.outer {
-    line-height: 26px;
-    height: 30px;
-    background: #5c95b6;
-    border-bottom: 1px solid #b0874e;
+	line-height: 26px;
+	height: 30px;
+	background: #5c95b6;
+	border-bottom: 1px solid #b0874e;
 }
 
 #aga_banner div.agile.inner {
-    margin: 0 auto;
-    max-width: 1200px;
-    position: relative;
+	margin: 0 auto;
+	max-width: 1200px;
+	position: relative;
 }
 #aga_banner #logo {
-    position: absolute;
-    right: 5px;
+	position: absolute;
+	right: 5px;
 }
 #aga_banner ul.agile.nav {
-    list-style: none;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0px;
-    position: absolute;
-    right: 170px;
-    display: none;
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0px;
+	position: absolute;
+	right: 170px;
+	display: none;
 }
 @media (min-width: 768px) {
-    #aga_banner ul.agile.nav {
-        display: inline-block;
-    }
+	#aga_banner ul.agile.nav {
+		display: inline-block;
+	}
 }
 #aga_banner ul.agile.nav li {
-    margin: 0 15px 0 0;
-    padding: 0;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    font-family:"myriad-pro-n6", "myriad-pro", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.85714em;
+	margin: 0 15px 0 0;
+	padding: 0;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	font-family:"myriad-pro-n6", "myriad-pro", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.85714em;
 }
 #aga_banner ul.agile.nav li a {
-    color: #e6eff4;
-    text-decoration: none;
-    padding: 0 em(12px, 13px) 0 0;
+	color: #e6eff4;
+	text-decoration: none;
+	padding: 0 em(12px, 13px) 0 0;
 }
 #aga_banner ul.agile.nav li a:hover {
-    color: white;
-    background-color: #5c95b6;
+	color: white;
+	background-color: #5c95b6;
 }
 @media (min-width: 768px) {
-    ul.navbar-aga {
-        display: none;
-    }
+	ul.navbar-aga {
+		display: none;
+	}
 }
 
 /* Main banner */
 .conferenceInfo {
 	position: relative;
 	background: url("../images/aereo.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #fff;
 	font-size: 10vw;
 	line-height: 1.7;
@@ -168,7 +168,7 @@ a {
 }
 
 #sectionAdvantages{
-    padding: 0px 25px 0px 25px;
+	padding: 0px 25px 0px 25px;
 }
 
 /* Keynote section */
