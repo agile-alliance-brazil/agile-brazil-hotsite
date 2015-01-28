@@ -7,6 +7,8 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/agileBrazil.css">
 	<link rel="stylesheet" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 <body>
 	<header class="header">
@@ -82,19 +84,18 @@
     <section id="subscribe-form">
         <div class="subscribe-form">
             <p>Preencha o formulário para receber novidades por email.</p>
-            <form id="formEmail" enctype="application/x-www-form-urlencoded" target="_blank" action="http://agilebrazil.ip-zone.com/ccm/subscribe/index/form/" method="post">
+            <form id="formEmail" action="" method="post">
                 <ul>
                     <li class="required">
-                        <input type="text" class="inputLarge" name="name" id="name" value="" placeholder="Nome" />
+                        <input type="text" class="inputLarge" name="name" id="name" value="" required placeholder="Nome" />
                     </li>
                     <li class="required">
-                        <input type="text" class="inputLarge" name="email" id="email" value="" placeholder="Email" />
+                        <input type="email" class="inputLarge" name="email" id="email" value="" required placeholder="Email" />
                     </li>
                     <li class="submitEmail">
-                        <input type="submit" class="btnGreen" name="submit" id="submit" value="Assinar" />
+                        <input type="button" class="btnGreen" name="submit" id="submit" value="Assinar" />
                     </li>
                 </ul>
-                <input type="hidden" name="groups[]" value="2" />
             </form>
         </div>
     </section>
