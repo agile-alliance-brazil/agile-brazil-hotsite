@@ -192,10 +192,20 @@ header {
 .footer {
 	background-color: #206297;
 	height: 200px;
-	padding-top: 2em;
+	padding: 1em 3em;
 }
 
-.footer .social {
+.footer .block {
+	width: 50%;
+	padding: 2em;
+	float:left;
+}
+
+.footer .social h3 {
+	color: #fff;
+	font-weight: normal;
+}
+.footer .social ul {
 	display: inline;
 }
 
@@ -210,13 +220,36 @@ header {
 }
 
 .footer .license {
+	text-align: right;
+}
+.footer .license-item {
 	display: inline-block;
 	margin-left: 2em;
+	margin-top: 2em;
 }
 
 @media(min-width: 450px) {
 	.conferenceInfo {
 		font-size: 3em;
+	}
+}
+
+@media(max-width: 750px) {
+	.footer .block {
+		float: none;
+		width: 100%;
+	}
+
+	.footer {
+		height: 300px;
+	}
+
+	.footer .license {
+		text-align: left;
+	}
+
+	.footer .license-item {
+		margin: 0;
 	}
 }
 
@@ -251,4 +284,12 @@ header {
 		padding: 2em 0;
 	}
 
+}
+
+@media(max-width: 450px) {
+
+	.footer .block {
+		float: none;
+		width: 100%;
+	}
 }
