@@ -274,13 +274,4 @@ header {
 	.sponsorship {
 		padding: 2em 0;
 	}
-
-}
-
-@media(max-width: 450px) {
-
-	.footer .block {
-		float: none;
-		width: 100%;
-	}
 }
