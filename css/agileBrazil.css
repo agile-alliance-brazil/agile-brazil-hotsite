@@ -276,6 +276,27 @@ a {
   border-radius: 5px;
 }
 
+.subscribe-form .notice {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.subscribe-form .notice .error,
+.subscribe-form .notice .success {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.subscribe-form .notice .error {
+  background-color: #F5C6C6;
+}
+
+.subscribe-form .notice .success {
+  background-color: #BBE0C0;
+}
+
 .subscribe-form .btnGreen {
   font-size: 0.7em;
   max-width: 5em;
@@ -305,6 +326,10 @@ a {
 .footer .license {
 	display: inline-block;
 	margin-left: 2em;
+}
+
+.hide {
+  display: none !important;
 }
 
 @media(min-width: 450px) {
