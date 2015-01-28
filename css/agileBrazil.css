@@ -8,8 +8,6 @@
 
 body > * {
 	display: block;
-
-	padding-bottom: 1em;
 	color: #222;
 }
 
@@ -18,117 +16,66 @@ a {
 	color: #206297;
 }
 
-/* Header */
-.header img{
-	vertical-align: top;
+header,
+section {
+	padding-bottom: 1em;
 }
 
-.header .ab_logo{
-    padding: 15px 0px 0px 5%;
+header {
+	padding-top: 1em;
 }
 
-.header #agileAllianceBrazil {
-	position: absolute;
-	top: 0;
-	right: 1em;
-}
-
-.header ul {
+/* Agile Alliance bar */
+.agileAlliance {
 	text-align: right;
+	padding-right: 110px;
+	position: relative;
+	background-color: #5c95b6;
+	border-bottom: 1px solid #b0874e;
 }
 
-.header li {
+.agileAlliance-links li {
 	display: inline-block;
-	margin-top: 1em;
 	padding: 1em;
-	color: #777;
 }
 
-.header li:hover {
+.agileAlliance-links a {
+	color: #e6eff4;
+}
+
+.agileAlliance-links a:hover {
 	color: #fff;
 }
 
-.header #languageShift {
+.agileAlliance-flag {
 	position: absolute;
-    top: 72px;
-    right: 7px;
+	top: 0;
+	right: 1em;
+	text-align: center;
+}
+
+.agileAlliance-logo {
+	display: block;
+	width: 96px;
+}
+
+.agileAlliance-logo img {
+	width: 100%;
+}
+
+.agileAlliance-languageShift {
 	font-size: 0.8em;
-}
-
-#aga_banner {
-    padding-bottom: 0px;
-    zoom: 1;
-}
-#aga_banner:before, #aga_banner:after {
-    content:"";
-    display: table;
-}
-#aga_banner:after {
-    clear: both;
-}
-#aga_banner div.agile.outer {
-    line-height: 26px;
-    height: 30px;
-    background: #5c95b6;
-    border-bottom: 1px solid #b0874e;
-}
-
-#aga_banner div.agile.inner {
-    margin: 0 auto;
-    max-width: 1200px;
-    position: relative;
-}
-#aga_banner #logo {
-    position: absolute;
-    right: 5px;
-}
-#aga_banner ul.agile.nav {
-    list-style: none;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0px;
-    position: absolute;
-    right: 170px;
-    display: none;
-}
-@media (min-width: 768px) {
-    #aga_banner ul.agile.nav {
-        display: inline-block;
-    }
-}
-#aga_banner ul.agile.nav li {
-    margin: 0 15px 0 0;
-    padding: 0;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    font-family:"myriad-pro-n6", "myriad-pro", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.85714em;
-}
-#aga_banner ul.agile.nav li a {
-    color: #e6eff4;
-    text-decoration: none;
-    padding: 0 em(12px, 13px) 0 0;
-}
-#aga_banner ul.agile.nav li a:hover {
-    color: white;
-    background-color: #5c95b6;
-}
-@media (min-width: 768px) {
-    ul.navbar-aga {
-        display: none;
-    }
+	text-shadow: 0 0 2px white;
 }
 
 /* Main banner */
 .conferenceInfo {
 	position: relative;
 	background: url("../images/aereo.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	color: #fff;
 	font-size: 10vw;
 	line-height: 1.7;
@@ -168,7 +115,7 @@ a {
 }
 
 #sectionAdvantages{
-    padding: 0px 25px 0px 25px;
+	padding: 0px 25px 0px 25px;
 }
 
 /* Keynote section */
