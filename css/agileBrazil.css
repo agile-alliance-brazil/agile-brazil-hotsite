@@ -308,9 +308,15 @@ a {
 }
 
 @media(min-width: 450px) {
-	.conferenceInfo {
-		font-size: 3em;
-	}
+  .conferenceInfo {
+    font-size: 3em;
+  }
+}
+
+@media(min-width: 768px) {
+  .subscribe-form ul li {
+    display: inline-block;
+  }
 }
 
 @media(min-width: 950px) {
