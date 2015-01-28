@@ -24,7 +24,7 @@ a {
 }
 
 .header .ab_logo{
-    padding: 15px 0px 0px 5%;
+  padding: 15px 0px 0px 5%;
 }
 
 .header #agileAllianceBrazil {
@@ -210,34 +210,38 @@ a {
 	padding: 1em 1em 0;
 }
 
+/* Green Button */
+.btnGreen {
+  margin: 1em auto 0.5em;
+  padding: 0.5em;
+  width: 100%;
+  background-color: #26C281;
+  border-right: 2px solid rgba(0,0,0,0.2);
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  color: #cfc;
+  cursor: pointer;
+}
+
 /* Sponsorship section */
 .sponsorship {
-	background-color: #FFD700;
-	color: #0F4E34;
-	font-size: 1.4em;
-	text-align: center;
+  background-color: #FFD700;
+  color: #0F4E34;
+  font-size: 1.4em;
+  text-align: center;
 }
 
 .sponsorship h2 {
-	display: block;
-	font-weight: normal;
-	padding-left: 0.2em;
-	margin: 0 auto;
-	max-width: 15em;
+  display: block;
+  font-weight: normal;
+  padding-left: 0.2em;
+  margin: 0 auto;
+  max-width: 15em;
 }
 
 .sponsorship a {
-	background-color: #26C281;
-	border-right: 2px solid rgba(0,0,0,0.2);
-	border-bottom: 2px solid rgba(0,0,0,0.2);
-	color: #cfc;
-	cursor: pointer;
-	display: block;
-	font-size: 1.4em;
-	margin: 1em auto 0.5em;
-	padding: 0.5em;
-	max-width: 10em;
-	width: 100%;
+  display: block;
+  font-size: 1.4em;
+  max-width: 10em;
 }
 
 
