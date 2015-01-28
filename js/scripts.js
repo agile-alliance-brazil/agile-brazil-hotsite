@@ -8,14 +8,15 @@ $(document).ready(function(){
       crossDomain: true,
       datatype: 'jsonp',
       type: 'POST',
-      url: 'http://2014.staging.agilebrazil.com/add_subscriber.php',
+      url: 'add_subscriber.php',
       data: $form.serialize(),
       success: function( response, status ) {
-        var jsonResponse = JSON.parse(response) || { "status": "error" };
+        var _obj = { "status": "error", "message": "Não foi possível enviar seus dados. Tente novamente mais tarde." };
+        var jsonResponse = JSON.parse(response) || _obj;
 
         if ( jsonResponse.status === 'error' ) {
           $('.success', $form).addClass('hide');
-          $('.error', $form).removeClass('hide');
+          $('.error', $form).removeClass('hide').text(jsonResponse.message);
           return false;
         }
 
