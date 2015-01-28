@@ -191,14 +191,12 @@ header {
 /* Footer */
 .footer {
 	background-color: #206297;
-	height: 200px;
-	padding: 1em 3em;
+	height: 300px;
+	padding: 1em;
 }
 
 .footer .block {
-	width: 50%;
-	padding: 2em;
-	float:left;
+	padding: 2em 1em;
 }
 
 .footer .social h3 {
@@ -219,13 +217,8 @@ header {
 	color: #fff;
 }
 
-.footer .license {
-	text-align: right;
-}
 .footer .license-item {
 	display: inline-block;
-	margin-left: 2em;
-	margin-top: 2em;
 }
 
 @media(min-width: 450px) {
@@ -234,22 +227,20 @@ header {
 	}
 }
 
-@media(max-width: 750px) {
-	.footer .block {
-		float: none;
-		width: 100%;
-	}
+@media(min-width: 750px) {
 
-	.footer {
-		height: 300px;
+	.footer .block {
+		width: 50%;
+		float:left;
 	}
 
 	.footer .license {
-		text-align: left;
+		text-align: right;
 	}
 
 	.footer .license-item {
-		margin: 0;
+		margin-left: 2em;
+		margin-top: 2em;
 	}
 }
 
