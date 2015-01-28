@@ -244,6 +244,43 @@ a {
   max-width: 10em;
 }
 
+/* Subscribe Form section */
+.subscribe-form {
+	background-color: #D9EDF7;
+	color: #0F4E34;
+	font-size: 1.2em;
+	text-align: center;
+  padding: 1em 0em;
+}
+
+.subscribe-form p {
+  display: block;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+.subscribe-form ul {
+  list-style: none;
+}
+
+.subscribe-form ul li {
+  display: block;
+  padding: 0em 0.5em;
+}
+
+.subscribe-form .inputLarge {
+  color: #626262;
+  font-size: 0.8em;
+  margin: 1em auto 0.5em;
+  padding: 0.5em;
+  width: 20em;
+  border-radius: 5px;
+}
+
+.subscribe-form .btnGreen {
+  font-size: 0.7em;
+  max-width: 5em;
+}
 
 /* Footer */
 .footer {

@@ -79,6 +79,26 @@
         </div>
     </section>
 
+    <section id="subscribe-form">
+        <div class="subscribe-form">
+            <p>Preencha o formulário para receber novidades por email.</p>
+            <form id="formEmail" enctype="application/x-www-form-urlencoded" target="_blank" action="http://agilebrazil.ip-zone.com/ccm/subscribe/index/form/" method="post">
+                <ul>
+                    <li class="required">
+                        <input type="text" class="inputLarge" name="name" id="name" value="" placeholder="Nome" />
+                    </li>
+                    <li class="required">
+                        <input type="text" class="inputLarge" name="email" id="email" value="" placeholder="Email" />
+                    </li>
+                    <li class="submitEmail">
+                        <input type="submit" class="btnGreen" name="submit" id="submit" value="Assinar" />
+                    </li>
+                </ul>
+                <input type="hidden" name="groups[]" value="2" />
+            </form>
+        </div>
+    </section>
+
 	<footer class="footer">
 		<ul class="social">
 			<li><a href="https://twitter.com/agilebrazil" target="_blank">
