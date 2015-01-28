@@ -8,8 +8,6 @@
 
 body > * {
 	display: block;
-
-	padding-bottom: 1em;
 	color: #222;
 }
 
@@ -24,7 +22,7 @@ a {
 }
 
 .header .ab_logo{
-  padding: 15px 0px 0px 5%;
+  padding: 15px 0px 1em 5%;
 }
 
 .header #agileAllianceBrazil {
