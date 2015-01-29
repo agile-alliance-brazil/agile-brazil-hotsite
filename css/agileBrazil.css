@@ -272,7 +272,7 @@ a {
   font-size: 0.8em;
   margin: 1em auto 0.5em;
   padding: 0.5em;
-  width: 20em;
+  width: 16.5em;
   border-radius: 0.5em;
 }
 
@@ -336,15 +336,17 @@ a {
   .conferenceInfo {
     font-size: 3em;
   }
-}
 
-@media(min-width: 768px) {
-  .subscribe-form ul li {
-    display: inline-block;
+  .subscribe-form .inputLarge {
+    width: 20em;
   }
 }
 
 @media(min-width: 950px) {
+  .subscribe-form ul li {
+    display: inline-block;
+  }
+
 	.advantages li {
 		display: inline-block;
 		width: 33%;
