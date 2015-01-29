@@ -276,6 +276,10 @@ a {
   border-radius: 0.5em;
 }
 
+#formMessage {
+  display: none;
+}
+
 .subscribe-form .notice {
   display: inline-block;
   margin: 0 auto;
@@ -326,10 +330,6 @@ a {
 .footer .license {
 	display: inline-block;
 	margin-left: 2em;
-}
-
-.hide {
-  display: none !important;
 }
 
 @media(min-width: 450px) {

@@ -11,20 +11,33 @@ $(document).ready(function(){
       url: 'add_subscriber.php',
       data: $form.serialize(),
       success: function( response, status ) {
+        var messageContainer = $('#formMessage');
         var _obj = { "status": "error", "message": "Não foi possível enviar seus dados. Tente novamente mais tarde." };
         var jsonResponse = JSON.parse(response) || _obj;
 
         if ( jsonResponse.status === 'error' ) {
-          $('.success', $form).addClass('hide');
-          $('.error', $form).removeClass('hide').text(jsonResponse.message);
+          messageContainer
+            .text(jsonResponse.message)
+            .removeClass('success')
+            .addClass('error')
+            .css('display', 'block');
           return false;
         }
 
-        $('.error', $form).addClass('hide');
-        $('.success', $form).removeClass('hide');
+        messageContainer
+          .text('Mensagem enviada com sucesso!')
+          .removeClass('error')
+          .addClass('success')
+          .css('display', 'block');
       },
       error: function( xhr, status ) {
-        $('.error', $form).removeClass('hide');
+        var messageContainer = $('#formMessage');
+
+        messageContainer
+          .text('Não foi possível enviar seus dados. Tente novamente mais tarde.')
+          .removeClass('success')
+          .addClass('error')
+          .css('display', 'block');
       }
     });
   });
