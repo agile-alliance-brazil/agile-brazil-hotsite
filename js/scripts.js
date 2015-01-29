@@ -3,10 +3,9 @@ $('#submit').on('click', function() {
   var $form = $('#formEmail');
 
   $.ajax({
-    crossDomain: true,
-    datatype: 'jsonp',
     type: 'POST',
-    url: 'add_subscriber.php',
+    datatype: 'json',
+    url: $form[0].action,
     data: $form.serialize(),
     success: function( response, status ) {
       var messageContainer = $('#formMessage');
