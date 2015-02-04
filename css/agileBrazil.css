@@ -16,56 +16,105 @@ a {
 	color: #206297;
 }
 
-header,
-section {
-	padding-bottom: 1em;
+/* Header */
+.header img {
+	vertical-align: top;
 }
 
-header {
-	padding-top: 1em;
+.header .ab_logo {
+	padding: 1em 0 1em 5%;
 }
 
-/* Agile Alliance bar */
-.agileAlliance {
-	text-align: right;
-	padding-right: 110px;
-	position: relative;
-	background-color: #5c95b6;
-	border-bottom: 1px solid #b0874e;
-}
-
-.agileAlliance-links li {
-	display: inline-block;
-	padding: 1em;
-}
-
-.agileAlliance-links a {
-	color: #e6eff4;
-}
-
-.agileAlliance-links a:hover {
-	color: #fff;
-}
-
-.agileAlliance-flag {
+.header #agileAllianceBrazil {
 	position: absolute;
 	top: 0;
 	right: 1em;
-	text-align: center;
 }
 
-.agileAlliance-logo {
-	display: block;
-	width: 96px;
+.header ul {
+	text-align: right;
 }
 
-.agileAlliance-logo img {
-	width: 100%;
+.header li {
+	display: inline-block;
+	margin-top: 1em;
+	padding: 1em;
+	color: #777;
 }
 
-.agileAlliance-languageShift {
+.header li:hover {
+	color: #fff;
+}
+
+.header .languageShift {
+	position: absolute;
+	top: 5.5em;
+	right: 0.7em;
 	font-size: 0.8em;
-	text-shadow: 0 0 2px white;
+}
+
+/* Agile Alliance Bar */
+.agileAllianceTopBar {
+	padding-bottom: 0;
+	zoom: 1;
+}
+
+.agileAllianceTopBar:before, .agileAllianceTopBar:after {
+	content: "";
+	display: table;
+}
+
+.agileAllianceTopBar:after {
+	clear: both;
+}
+
+.agileAllianceTopBar div.agile.outer {
+	line-height: 26px;
+	height: 30px;
+	background: #5c95b6;
+	border-bottom: 1px solid #b0874e;
+}
+
+.agileAllianceTopBar div.agile.inner {
+	margin: 0 auto;
+	max-width: 1200px;
+	position: relative;
+}
+
+.agileAllianceTopBar #logo {
+	position: absolute;
+	right: 5px;
+}
+
+.agileAllianceTopBar ul.agile.nav {
+	list-style: none;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0px;
+	position: absolute;
+	right: 170px;
+	display: none;
+}
+
+.agileAllianceTopBar ul.agile.nav li {
+	margin: 0 15px 0 0;
+	padding: 0;
+	display: inline-block;
+	zoom: 1;
+	font-family: "myriad-pro-n6", "myriad-pro", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.85714em;
+}
+
+.agileAllianceTopBar ul.agile.nav li a {
+	color: #e6eff4;
+	text-decoration: none;
+	padding: 0 0.6em 0 0;
+}
+
+.agileAllianceTopBar ul.agile.nav li a:hover {
+	color: white;
+	background-color: #5c95b6;
 }
 
 /* Main banner */
@@ -114,8 +163,8 @@ header {
 	width: calc(100% - 5em);
 }
 
-#sectionAdvantages{
-	padding: 0px 25px 0px 25px;
+#sectionAdvantages {
+	padding: 1em 5% 0 5%;
 }
 
 /* Keynote section */
@@ -157,12 +206,25 @@ header {
 	padding: 1em 1em 0;
 }
 
+/* Green Button */
+.btnBase {
+	margin: 1em auto 0.5em;
+	padding: 0.5em;
+	width: 100%;
+	background-color: #26C281;
+	border-right: 2px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	color: #cfc;
+	cursor: pointer;
+}
+
 /* Sponsorship section */
 .sponsorship {
 	background-color: #FFD700;
 	color: #0F4E34;
 	font-size: 1.4em;
 	text-align: center;
+	padding: 1em 0;
 }
 
 .sponsorship h2 {
@@ -174,24 +236,78 @@ header {
 }
 
 .sponsorship a {
-	background-color: #26C281;
-	border-right: 2px solid rgba(0,0,0,0.2);
-	border-bottom: 2px solid rgba(0,0,0,0.2);
-	color: #cfc;
-	cursor: pointer;
 	display: block;
 	font-size: 1.4em;
-	margin: 1em auto 0.5em;
-	padding: 0.5em;
 	max-width: 10em;
-	width: 100%;
 }
 
+/* Subscribe Form section */
+.subscribe-form {
+	background-color: #D9EDF7;
+	color: #0F4E34;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 1em 0em;
+}
+
+.subscribe-form p {
+	display: block;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+.subscribe-form ul {
+	list-style: none;
+}
+
+.subscribe-form ul li {
+	display: block;
+	padding: 0em 0.5em;
+}
+
+.subscribe-form .inputLarge {
+	color: #626262;
+	font-size: 0.8em;
+	margin: 1em auto 0.5em;
+	padding: 0.5em;
+	width: 16.5em;
+	border-radius: 0.5em;
+}
+
+#formMessage {
+	display: none;
+}
+
+.subscribe-form .notice {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.subscribe-form .notice .error,
+.subscribe-form .notice .success {
+	display: block;
+	padding: 0.7em 1.1em;
+	border-radius: 0.4em;
+	font-size: 0.8em;
+}
+
+.subscribe-form .notice .error {
+	background-color: #F5C6C6;
+}
+
+.subscribe-form .notice .success {
+	background-color: #BBE0C0;
+}
+
+.subscribe-form .btnBase {
+	font-size: 0.7em;
+	max-width: 5em;
+}
 
 /* Footer */
 .footer {
 	background-color: #206297;
-	height: 300px;
+	height: 10.75em;
 	padding: 1em;
 }
 
@@ -203,6 +319,7 @@ header {
 	color: #fff;
 	font-weight: normal;
 }
+
 .footer .social ul {
 	display: inline;
 }
@@ -221,17 +338,22 @@ header {
 	display: inline-block;
 }
 
-@media(min-width: 450px) {
+/* Media Query */
+@media (min-width: 450px) {
 	.conferenceInfo {
 		font-size: 3em;
 	}
+
+	.subscribe-form .inputLarge {
+		width: 20em;
+	}
 }
 
-@media(min-width: 750px) {
+@media (min-width: 750px) {
 
 	.footer .block {
 		width: 50%;
-		float:left;
+		float: left;
 	}
 
 	.footer .license {
@@ -242,9 +364,21 @@ header {
 		margin-left: 2em;
 		margin-top: 2em;
 	}
+
+	ul.navbar-aga {
+		display: none;
+	}
+
+	.agileAllianceTopBar ul.agile.nav {
+		display: inline-block;
+	}
 }
 
-@media(min-width: 950px) {
+@media (min-width: 950px) {
+	.subscribe-form ul li {
+		display: inline-block;
+	}
+
 	.advantages li {
 		display: inline-block;
 		width: 33%;
@@ -274,4 +408,5 @@ header {
 	.sponsorship {
 		padding: 2em 0;
 	}
+
 }
