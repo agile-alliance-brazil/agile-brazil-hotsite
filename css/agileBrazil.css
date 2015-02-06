@@ -5,7 +5,9 @@
 	box-sizing: border-box;
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
-
+ul, ol {
+    list-style: none;
+}
 body > * {
 	display: block;
 	color: #222;
@@ -17,12 +19,12 @@ a {
 }
 
 /* Header */
-.header img {
-	vertical-align: top;
+.header {
+    overflow: hidden;
 }
-
-.header .ab_logo {
-	padding: 1em 0 1em 5%;
+.header-abLogo {
+    float: left;
+	padding: 1em 0 1em 2em;
 }
 
 .header #agileAllianceBrazil {
@@ -31,90 +33,43 @@ a {
 	right: 1em;
 }
 
-.header ul {
-	text-align: right;
-}
-
-.header li {
-	display: inline-block;
-	margin-top: 1em;
-	padding: 1em;
-	color: #777;
-}
-
-.header li:hover {
-	color: #fff;
-}
-
-.header .languageShift {
-	position: absolute;
-	top: 5.5em;
-	right: 0.7em;
-	font-size: 0.8em;
-}
-
 /* Agile Alliance Bar */
-.agileAllianceTopBar {
-	padding-bottom: 0;
-	zoom: 1;
-}
+.menu {
+    background-color: #5C95B6;
 
-.agileAllianceTopBar:before, .agileAllianceTopBar:after {
-	content: "";
-	display: table;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 2em;
+    padding-left: 2em;
 }
-
-.agileAllianceTopBar:after {
-	clear: both;
+.menu-list {
+    float: right;
 }
-
-.agileAllianceTopBar div.agile.outer {
-	line-height: 26px;
-	height: 30px;
-	background: #5c95b6;
-	border-bottom: 1px solid #b0874e;
+.menu-list-item:not(:last-child) {
+    float: left;
+    margin-right: 15px;
 }
-
-.agileAllianceTopBar div.agile.inner {
-	margin: 0 auto;
-	max-width: 1200px;
-	position: relative;
+.menu-list-item.logo { margin-right: 0; }
+.menu-list-item img {
+    float: left;
 }
-
-.agileAllianceTopBar #logo {
-	position: absolute;
-	right: 5px;
+.menu-list-item:last-child {
+    float: right;
+    clear: left;
+    font-size: 0.9em;
 }
-
-.agileAllianceTopBar ul.agile.nav {
-	list-style: none;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0px;
-	position: absolute;
-	right: 170px;
-	display: none;
+[lang=en] .menu-list-item:last-child {
+    font-size: 0.95em;
 }
-
-.agileAllianceTopBar ul.agile.nav li {
-	margin: 0 15px 0 0;
-	padding: 0;
-	display: inline-block;
-	zoom: 1;
-	font-family: "myriad-pro-n6", "myriad-pro", Arial, Helvetica, sans-serif;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 0.85714em;
+.menu-list-item:not(:last-child) a {
+    text-decoration: none;
+    color: #E6EFF4;
+    font-size: 0.85714em;
+    font-weight: 600;
+    display: block;
 }
-
-.agileAllianceTopBar ul.agile.nav li a {
-	color: #e6eff4;
-	text-decoration: none;
-	padding: 0 0.6em 0 0;
-}
-
-.agileAllianceTopBar ul.agile.nav li a:hover {
-	color: white;
-	background-color: #5c95b6;
+.menu-list-item:not(:last-child) a:hover {
+    color: #FFF;
 }
 
 /* Main banner */
