@@ -132,6 +132,9 @@ a {
 	width: 24%;
 }
 
+#sectionSupport h2 {
+	color: #0F4E34;
+}
 /* Keynote section */
 .keynote {
 	text-align: center;
