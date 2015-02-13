@@ -9,164 +9,175 @@
 	<link rel="stylesheet" href="../fonts/font-awesome-4.2.0/css/font-awesome.min.css">
 </head>
 <body>
-<header class="header">
-	<nav class="menu">
-		<ul class="menu-list">
-			<li class="menu-list-item">
-                <a href="http://agilealliance.org" target="_blank">Agile Alliance Home</a>
-            </li>
-
-			<li class="menu-list-item">
-                <a href="http://agilealliance.org/the-alliance/" target="_blank">The Alliance</a>
-            </li>
-
-			<li class="menu-list-item">
-                <a href="http://agilealliance.org/events/" target="_blank">Events</a>
-            </li>
-
-			<li class="menu-list-item">
-                <a href="http://agilealliance.org/resources/" target="_blank">Resources</a>
-            </li>
-
-			<li class="menu-list-item">
-                <a href="http://agilealliance.org/membership/" target="_blank">Membership</a>
-            </li>
-
-            <li class="menu-list-item logo">
-			    <a href="http://agilealliance.org/" target="_blank">
-                    <img src="../images/logoAgileAlliance.png" alt="Agile Alliance" width="96" height="70" id="logo">
-                </a>
-            </li>
-
-            <li class="menu-list-item">
-			    <a href="../index.html">Em português</a>
-            </li>
-		</ul>
-	</nav>
-
-	<a class="header-abLogo" href="index.html">
-        <img src="../images/logoAgileBrazil.png" alt="Agile Brazil" width="200" height="73">
-    </a>
-</header>
-
-<section id="sectionBanner">
-	<div class="conferenceInfo">
-		<p class="date">October 2015</p>
-
-		<p class="place">Porto de Galinhas - Brazil</p>
-	</div>
-</section>
-
-<section id="sectionAdvantages">
-	<ul class="advantages">
-		<li>
-			<i class="fa fa-thumbs-o-up fa-3x"></i>
-
-			<p> The largest and most renowned agile conference in Brazil</p>
-		</li>
-		<li>
-			<i class="fa fa-comment fa-3x"></i>
-
-			<p>Opportunities to bring your ideas and meet new people</p>
-		</li>
-		<li>
-			<i class="fa fa-globe fa-3x"></i>
-
-			<p>Presentations from great agilists from Brazil and abroad</p>
-		</li>
-	</ul>
-</section>
-
-<section id="sectionKeynotes">
-	<ul class="keynote">
-		<li>
-			<img class="keynote-speaker-img" src="../images/lindaRising.png" alt="Keynote speaker: Linda Rising"/>
-
-			<h3 class="keynote-speaker-name">Linda Rising</h3>
-
-			<p class="keynote-speaker-miniBio">
-				Linda Rising is an independent consultant who lives in Nashville, Tennessee. She has authored four books
-				and numerous articles and is an internationally known presenter on topics related to patterns,
-				retrospectives, influence strategies, agile development, and the change process.
-			</p>
-		</li>
-		<li>
-			<img class="keynote-speaker-img" src="../images/michaelFeathers.png"
-			     alt="Keynote speaker: Michael Feathers"/>
-
-			<h3 class="keynote-speaker-name">Michael Feathers</h3>
-
-			<p class="keynote-speaker-miniBio">
-				Author of <em>Working effectively with Legacy Code</em>, Michael's key passion is helping teams surmount
-				problems in large legacy code bases and connecting with what makes developing software fun and
-				enriching. A main goal of his is to make software development more effective and integrated to business.
-			</p>
-		</li>
-	</ul>
-</section>
-
-<section id="sectionSponsorship">
-	<div class="sponsorship">
-		<h2>Put your brand, products or services in the spotlight</h2>
-		<a href="sponsorship.html" class="btnBase">Be a sponsor</a>
-	</div>
-</section>
-
-<section id="subscribe-form">
-	<div class="subscribe-form">
-		<p>Fill the form to get news by e-mail.</p>
-
-		<form id="formEmail" action="../add_subscriber.php" method="post">
-			<ul>
-				<li class="required">
-					<label for="name">Name</label>
-					<input type="text" class="inputLarge" name="name" id="name" value="" required placeholder="Name"/>
+	<header class="header">
+		<nav class="menu">
+			<ul class="menu-list">
+				<li class="menu-list-item">
+					<a href="http://agilealliance.org" target="_blank">Agile Alliance Home</a>
 				</li>
-				<li class="required">
-					<label for="email">Email</label>
-					<input type="email" class="inputLarge" name="email" id="email" value="" required
-					       placeholder="Email"/>
+
+				<!--<li class="menu-list-item">
+					<a href="http://agilealliance.org/the-alliance/" target="_blank">The Alliance</a>
 				</li>
-				<li class="submitEmail">
-					<input type="hidden" name="lang" id="lang" value="en">
-					<input type="button" class="btnBase" name="submit" id="submit" value="Submit"/>
+
+				<li class="menu-list-item">
+					<a href="http://agilealliance.org/events/" target="_blank">Events</a>
+				</li>
+
+				<li class="menu-list-item">
+					<a href="http://agilealliance.org/resources/" target="_blank">Resources</a>
+				</li>-->
+
+				<li class="menu-list-item">
+					<a href="http://agilealliance.org/membership/" target="_blank">Membership</a>
+				</li>
+
+				<li class="menu-list-item logo">
+					<a href="http://agilealliance.org/" target="_blank">
+						<img src="../images/logoAgileAlliance.png" alt="Agile Alliance" width="96" height="70" id="logo">
+					</a>
+				</li>
+
+				<li class="menu-list-item">
+					<a href="../index.html">Em português</a>
 				</li>
 			</ul>
-			<div class="notice">
-				<span id="formMessage" class="notice" aria-hidden="true"/>
-			</div>
-		</form>
+		</nav>
 
-	</div>
-</section>
-
-<footer class="footer">
-	<div class="social block">
-		<h3>
-			Follow us and stay connected!
-		</h3>
-		<ul>
-			<li><a href="https://twitter.com/agilebrazil" target="_blank">
-				<i class="fa fa-twitter-square "></i>
-			</a></li>
-			<li><a href="https://www.facebook.com/AgileBrazil" target="_blank">
-				<i class="fa fa-facebook-square"></i>
-			</a></li>
-			<li><a href="mailto:contato@agilebrazil.com">
-				<i class="fa fa-envelope-square"></i>
-			</a></li>
-		</ul>
-	</div>
-
-	<div class="license block">
-		<a class="license-item" rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-			<img alt="Creative Commons By License" src="../images/creativeCommons-by.png"/>
+		<a class="header-abLogo" href="index.html">
+			<img src="../images/logoAgileBrazil.png" alt="Agile Brazil" width="200" height="73">
 		</a>
-	</div>
+	</header>
 
-</footer>
+	<section id="sectionBanner">
+		<div class="conferenceInfo">
+			<p class="date">October 2015</p>
 
-<script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
-<script type="text/javascript" src="../js/scripts.js"></script>
+			<p class="place">Porto de Galinhas - Brazil</p>
+		</div>
+	</section>
+
+	<section id="sectionAdvantages">
+		<ul class="advantages">
+			<li>
+				<i class="fa fa-thumbs-o-up fa-3x"></i>
+
+				<p> The largest and most renowned agile conference in Brazil</p>
+			</li>
+			<li>
+				<i class="fa fa-comment fa-3x"></i>
+
+				<p>Opportunities to bring your ideas and meet new people</p>
+			</li>
+			<li>
+				<i class="fa fa-globe fa-3x"></i>
+
+				<p>Presentations from great agilists from Brazil and abroad</p>
+			</li>
+		</ul>
+	</section>
+
+	<section id="sectionKeynotes">
+		<ul class="keynote">
+			<li>
+				<img class="keynote-speaker-img" src="../images/lindaRising.png" alt="Keynote speaker: Linda Rising"/>
+
+				<h3 class="keynote-speaker-name">Linda Rising</h3>
+
+				<p class="keynote-speaker-miniBio">
+					Linda Rising is an independent consultant who lives in Nashville, Tennessee. She has authored four books
+					and numerous articles and is an internationally known presenter on topics related to patterns,
+					retrospectives, influence strategies, agile development, and the change process.
+				</p>
+			</li>
+			<li>
+				<img class="keynote-speaker-img" src="../images/michaelFeathers.png"
+				alt="Keynote speaker: Michael Feathers"/>
+
+				<h3 class="keynote-speaker-name">Michael Feathers</h3>
+
+				<p class="keynote-speaker-miniBio">
+					Author of <em>Working effectively with Legacy Code</em>, Michael's key passion is helping teams surmount
+					problems in large legacy code bases and connecting with what makes developing software fun and
+					enriching. A main goal of his is to make software development more effective and integrated to business.
+				</p>
+			</li>
+		</ul>
+	</section>
+
+	<section id="sectionSponsorship">
+		<div class="sponsorship">
+			<h2>Put your brand, products or services in the spotlight</h2>
+			<a href="sponsorship.html" class="btnBase">Be a sponsor</a>
+		</div>
+	</section>
+
+	<section id="subscribe-form">
+		<div class="subscribe-form">
+			<p>Fill the form to get news by e-mail.</p>
+
+			<form id="formEmail" action="../add_subscriber.php" method="post">
+				<ul>
+					<li class="required">
+						<label for="name">Name</label>
+						<input type="text" class="inputLarge" name="name" id="name" value="" required placeholder="Name"/>
+					</li>
+					<li class="required">
+						<label for="email">Email</label>
+						<input type="email" class="inputLarge" name="email" id="email" value="" required
+						placeholder="Email"/>
+					</li>
+					<li class="submitEmail">
+						<input type="hidden" name="lang" id="lang" value="en">
+						<input type="button" class="btnBase" name="submit" id="submit" value="Submit"/>
+					</li>
+				</ul>
+				<div class="notice">
+					<span id="formMessage" class="notice" aria-hidden="true"/>
+				</div>
+			</form>
+
+		</div>
+	</section>
+	<section id="sectionSupport">
+  	<div class="support">
+  		<h2>Support</h2>
+  		<ul>
+  			<li><a href="http://www.recife.softex.br/" rel="external"><img src="../images/apoio/softex_recife_logo.jpg" title="Softex Recife"></a></li>
+  			<li><a href="http://www2.cin.ufpe.br/" rel="external"><img src="../images/apoio/cin_ufpe_logo.jpg" title="Centro de Informática UFPE"></a></li>
+  			<li><a href="http://www.portodigital.org/" rel="external"><img src="../images/apoio/porto_digital_logo.jpg" title="Porto Digital"></a></li>
+  			<li><a href="http://www.deinfo.ufrpe.br/" rel="external"><img src="../images/apoio/deinfo_logo.jpg" title="Departamento de estatística e Informática"></a></li>
+  		</ul>
+  	</div>
+  </section>
+
+	<footer class="footer">
+		<div class="social block">
+			<h3>
+				Follow us and stay connected!
+			</h3>
+			<ul>
+				<li><a href="https://twitter.com/agilebrazil" target="_blank">
+					<i class="fa fa-twitter-square "></i>
+				</a></li>
+				<li><a href="https://www.facebook.com/AgileBrazil" target="_blank">
+					<i class="fa fa-facebook-square"></i>
+				</a></li>
+				<li><a href="mailto:contato@agilebrazil.com">
+					<i class="fa fa-envelope-square"></i>
+				</a></li>
+			</ul>
+		</div>
+
+		<div class="license block">
+			<a class="license-item" rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+				<img alt="Creative Commons By License" src="../images/creativeCommons-by.png"/>
+			</a>
+		</div>
+
+	</footer>
+
+	<script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="../js/scripts.js"></script>
 </body>
 </html>
