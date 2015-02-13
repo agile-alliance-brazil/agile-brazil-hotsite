@@ -38,3 +38,10 @@ $('#submit').on('click', function () {
 		}
 	});
 });
+
+jQuery(document).ready(function($){
+	$('a[rel*=external]').click( function() {
+		window.open(this.href);
+		return false;
+	});
+});

@@ -130,8 +130,13 @@ a {
 #sectionSupport li {
 	display: inline-block;
 	width: 24%;
+	margin-bottom: 1em;
 }
 
+#sectionSupport h2 {
+	color: #0F4E34;
+	margin-bottom: 1em;
+}
 /* Keynote section */
 .keynote {
 	text-align: center;
@@ -311,6 +316,12 @@ a {
 
 	.subscribe-form .inputLarge {
 		width: 20em;
+	}
+}
+@media (max-width: 450px) {
+	#sectionSupport li {
+		display: block;
+		width: auto;
 	}
 }
 
