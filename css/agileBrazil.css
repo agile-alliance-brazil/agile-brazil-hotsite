@@ -122,20 +122,28 @@ a {
 	padding: 1em 5% 0 5%;
 }
 
-#sectionSupport {
+#sectionSupport,
+#sectionSponsor {
 	padding: 1em 5%;
 	text-align: center;
 }
 
-#sectionSupport li {
+#sectionSupport li,
+#sectionSponsor li {
 	display: inline-block;
 	width: 24%;
 	margin-bottom: 1em;
 }
 
-#sectionSupport h2 {
+#sectionSupport h2,
+#sectionSponsor h2 {
 	color: #0F4E34;
 	margin-bottom: 1em;
+}
+
+#sectionSponsor h1 {
+	color: #0F4E34;
+	margin-bottom: 0.6em;
 }
 /* Keynote section */
 .keynote {
