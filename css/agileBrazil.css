@@ -8,23 +8,26 @@
 ul, ol {
     list-style: none;
 }
-body > * {
-	display: block;
-	color: #222;
-}
 
 a {
 	text-decoration: none;
-	color: #206297;
 }
+
+/* Main banner */
+body {
+	position: relative;
+	background: url("../images/bg-body.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
 
 /* Header */
 .header {
     overflow: hidden;
-}
-.header-abLogo {
-    float: left;
-	padding: 1em 0 1em 2em;
 }
 
 .header #agileAllianceBrazil {
@@ -39,15 +42,16 @@ a {
 
     height: 30px;
     line-height: 30px;
-    padding-right: 2em;
-    padding-left: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 .menu-list {
     float: right;
+		font-size: 0.8em;
 }
 .menu-list-item:not(:last-child) {
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 .menu-list-item.logo { margin-right: 0; }
 .menu-list-item img {
@@ -56,183 +60,80 @@ a {
 .menu-list-item:last-child {
     float: right;
     clear: left;
-    font-size: 0.9em;
+
 }
 [lang=en] .menu-list-item:last-child {
-    font-size: 0.95em;
+	color: #fff;
 }
+
+.menu-list-item:last-child a {
+	color: #fff;
+}
+
+
 .menu-list-item:not(:last-child) a {
     text-decoration: none;
     color: #E6EFF4;
-    font-size: 0.85714em;
-    font-weight: 600;
+
     display: block;
 }
 .menu-list-item:not(:last-child) a:hover {
     color: #FFF;
 }
 
-/* Main banner */
-.conferenceInfo {
-	position: relative;
-	background: url("../images/aereo.jpg") no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	color: #fff;
-	font-size: 10vw;
-	line-height: 1.7;
-	text-align: center;
-	padding: 3em 0;
-}
 
 .conferenceInfo .place {
-	font-size: 0.6em;
 }
 
-/* Advantages */
-.advantages {
-	list-style: none;
-	color: #506060;
-}
-
-.advantages li {
-	display: block;
-	margin-top: 2em;
-	font-size: 1.2em;
-}
-
-.advantages li:last-child {
-	margin-bottom: 2em;
-}
-
-.advantages i {
-	display: inline-block;
-	margin-right: 0.5em;
-}
-
-.advantages p {
-	display: inline-block;
-	vertical-align: top;
-	width: calc(100% - 5em);
-}
-
-#sectionAdvantages {
-	padding: 1em 5% 0 5%;
-}
-
-#sectionSupport,
-#sectionSponsor {
-	padding: 1em 5%;
-	text-align: center;
-}
-
-#sectionSupport li,
-#sectionSponsor li {
-	display: inline-block;
-	width: 24%;
-	margin-bottom: 1em;
-}
-
-#sectionSupport h2,
-#sectionSponsor h2 {
-	color: #0F4E34;
-	margin-bottom: 1em;
-}
-
-#sectionSponsor h1 {
-	color: #0F4E34;
-	margin-bottom: 0.6em;
-}
-/* Keynote section */
-.keynote {
-	text-align: center;
-	padding: 2em 0;
-	overflow: hidden;
-	list-style: none;
-	background-color: #eee;
-	display: none;
-}
-
-.keynote li {
-	margin-top: 3em;
-}
-
-.keynote li:first-child {
-	margin-top: 0;
-}
-
-.keynote-speaker-img {
-	border-radius: 50%;
-}
-
-.keynote-speaker-name {
-	font-size: 1.7em;
-	font-weight: bold;
-}
-
-.keynote-speaker-name:after {
-	display: block;
-	font-weight: normal;
-	font-size: 0.5em;
-	content: "Keynote speaker"
-}
-
-.keynote-speaker-miniBio {
-	text-align: left;
-	padding: 1em 1em 0;
-}
-
-/* Green Button */
+/*  Button */
 .btnBase {
-	margin: 1em auto 0.5em;
-	padding: 0.5em;
-	width: 100%;
-	background-color: #26C281;
-	border-right: 2px solid rgba(0, 0, 0, 0.2);
-	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-	color: #cfc;
 	cursor: pointer;
 }
 
-/* Sponsorship section */
-.sponsorship {
-	background-color: #FFD700;
-	color: #0F4E34;
-	font-size: 1.4em;
+#sectionBanner {
+	margin: 5%;
+	padding: 5%;
+	background-color: rgba(118, 171, 217, 0.8);
+}
+
+.header-abLogo {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header-abLogo img {
+	width: 100%;
+}
+
+
+.place {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.date {
 	text-align: center;
-	padding: 1em 0;
+	font-size: 1.9em;
+	text-transform: uppercase;
+	color: #F8E71C;
+	font-weight: 300;
+	margin-bottom: .3em;
 }
 
-.sponsorship h2 {
-	display: block;
-	font-weight: normal;
-	padding-left: 0.2em;
-	margin: 0 auto;
-	max-width: 15em;
+#sectionBanner p {
+	padding: 0.3em 0.7em;
+  line-height: 1.3em;
 }
 
-.sponsorship a {
-	display: block;
-	font-size: 1.4em;
-	max-width: 10em;
-}
+
 
 /* Subscribe Form section */
 .subscribe-form {
-	background-color: #D9EDF7;
-	color: #0F4E34;
-	font-size: 1.2em;
-	text-align: center;
-	padding: 1em 0em;
+	padding: .7em;
 }
 
-.subscribe-form p {
-	display: block;
-	font-weight: normal;
-	margin: 0 auto;
-}
 
 .subscribe-form ul {
 	list-style: none;
@@ -240,16 +141,13 @@ a {
 
 .subscribe-form ul li {
 	display: block;
-	padding: 0em 0.5em;
 }
 
 .subscribe-form .inputLarge {
-	color: #626262;
-	font-size: 0.8em;
-	margin: 1em auto 0.5em;
-	padding: 0.5em;
-	width: 16.5em;
-	border-radius: 0.5em;
+    width: 100%;
+    padding: .3em;
+    font-size: 1.2em;
+    border: none;
 }
 
 #formMessage {
@@ -264,9 +162,6 @@ a {
 .subscribe-form .notice .error,
 .subscribe-form .notice .success {
 	display: block;
-	padding: 0.7em 1.1em;
-	border-radius: 0.4em;
-	font-size: 0.8em;
 }
 
 .subscribe-form .notice .error {
@@ -278,76 +173,65 @@ a {
 }
 
 .subscribe-form .btnBase {
-	font-size: 0.7em;
-	max-width: 5em;
-}
-
-/* Footer */
-.footer {
-	background-color: #206297;
-	height: 10.75em;
-	padding: 1em;
-}
-
-.footer .block {
-	padding: 2em 1em;
-}
-
-.footer .social h3 {
-	color: #fff;
-	font-weight: normal;
-}
-
-.footer .social ul {
-	display: inline;
-}
-
-.footer li {
-	list-style: none;
-	display: inline-block;
-	font-size: 3em;
-}
-
-.footer li a {
+	padding: 0.5em 1.2em;
+  font-size: 1.2em;
+  line-height: 1.3333333;
+  border: 0;
+	width: 100%;
+	background-color: #0091D9;
 	color: #fff;
 }
 
-.footer .license-item {
-	display: inline-block;
+.footer-socialNetworks {
+    overflow: hidden;
+		width: 100%;
+		display: table;
+		margin-left: 0.7em;
 }
+
+
+.footer-socialNetworks-item:not(:last-child) {
+
+}
+.footer-socialNetworks-item {
+    display: table-cell;
+}
+
+.footer-socialNetworks-item [href*=twitter] {
+    background-image: url(../images/social-icons/twitter.png);
+    background-size: 3.4em;
+}
+
+.footer-socialNetworks-item [href*=facebook] {
+    background-image: url(../images/social-icons/facebook.png);
+    background-size: 3.4em;
+}
+
+.footer-socialNetworks-item [href*=linkedin] {
+    background-image: url(../images/social-icons/linkedin.png);
+    background-size: 3.4em;
+}
+
+.footer-socialNetworks-item [href*=vimeo] {
+    background-image: url(../images/social-icons/vimeo.png);
+    background-size: 3.4em;
+}
+
+.footer-socialNetworks-item a {
+    text-indent: -999px;
+    overflow: hidden;
+    display: block;
+    width: 3.4em;
+    height: 3.4em;
+}
+
 
 /* Media Query */
 @media (min-width: 450px) {
-	.conferenceInfo {
-		font-size: 3em;
-	}
 
-	.subscribe-form .inputLarge {
-		width: 20em;
-	}
-}
-@media (max-width: 450px) {
-	#sectionSupport li {
-		display: block;
-		width: auto;
-	}
 }
 
 @media (min-width: 750px) {
-
-	.footer .block {
-		width: 50%;
-		float: left;
-	}
-
-	.footer .license {
-		text-align: right;
-	}
-
-	.footer .license-item {
-		margin-left: 2em;
-		margin-top: 2em;
-	}
 
 	ul.navbar-aga {
 		display: none;
@@ -356,41 +240,26 @@ a {
 	.agileAllianceTopBar ul.agile.nav {
 		display: inline-block;
 	}
+
+	#sectionBanner {
+		margin: 5% 15%;
+		padding: 3%;
+		background-color: rgba(118, 171, 217, 0.8);
+	}
+
 }
 
 @media (min-width: 950px) {
-	.subscribe-form ul li {
-		display: inline-block;
+	#sectionBanner {
+		margin: 2% 10% 5% 60%;
+		padding: 2%;
+		background-color: rgba(118, 171, 217, 0.8);
 	}
-
-	.advantages li {
-		display: inline-block;
-		width: 33%;
+	.place {
+		font-size: 5.1em;
 	}
-
-	.conferenceInfo {
-		font-size: 4em;
-		padding: 2em 0;
-	}
-
-	.keynote li {
-		display: inline-block;
-		width: 48%;
-		text-align: left;
-	}
-
-	.keynote-speaker-img {
-		float: left;
-		margin-right: 1em;
-		margin-bottom: 2em;
-	}
-
-	.keynote-speaker-miniBio {
-		padding-right: 1em;
-	}
-
-	.sponsorship {
-		padding: 2em 0;
+	.date {
+		font-size: 3.1em;
 	}
 
 }
