@@ -1,320 +1,265 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
-
-body > * {
-    display: block;
-
-    padding-bottom: 1em;
-    color: #222;
+ul, ol {
+    list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: #206297;
-}
-
-/* Header */
-.header img {
-    vertical-align: top;
-}
-
-.header .ab_logo {
-    padding: 1em 0 0 5%;
-}
-
-.header #agileAllianceBrazil {
-    position: absolute;
-    top: 0;
-    right: 1em;
-}
-
-.header ul {
-    text-align: right;
-}
-
-.header li {
-    display: inline-block;
-    margin-top: 1em;
-    padding: 1em;
-    color: #777;
-}
-
-.header li:hover {
-    color: #fff;
-}
-
-.header #languageShift {
-    position: absolute;
-    top: 5.5em;
-    right: 0.7em;
-    font-size: 0.8em;
-}
-
-.agileAllianceTopBar {
-    padding-bottom: 0em;
-    zoom: 1;
-}
-
-.agileAllianceTopBar:before, .agileAllianceTopBar:after {
-    content: "";
-    display: table;
-}
-
-.agileAllianceTopBar:after {
-    clear: both;
-}
-
-.agileAllianceTopBar div.agile.outer {
-    line-height: 1.63em;
-    height: 1.88em;
-    background: #5c95b6;
-    border-bottom: 0.06em solid #b0874e;
-}
-
-.agileAllianceTopBar div.agile.inner {
-    margin: 0 auto;
-    max-width: 75em;
-    position: relative;
-}
-
-.agileAllianceTopBar #logo {
-    position: absolute;
-    right: 0.31em;
-}
-
-.agileAllianceTopBar ul.agile.nav {
-    list-style: none;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    position: absolute;
-    right: 10.63em;
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .agileAllianceTopBar ul.agile.nav {
-        display: inline-block;
-    }
-}
-
-.agileAllianceTopBar ul.agile.nav li {
-    margin: 0 0.94em 0 0;
-    padding: 0;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    font-family: "myriad-pro-n6", "myriad-pro", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.85714em;
-}
-
-.agileAllianceTopBar ul.agile.nav li a {
-    color: #e6eff4;
-    text-decoration: none;
-    padding: 0 0.6em 0 0;
-}
-
-.agileAllianceTopBar ul.agile.nav li a:hover {
-    color: white;
-    background-color: #5c95b6;
-}
-
-@media (min-width: 768px) {
-    ul.navbar-aga {
-        display: none;
-    }
+	text-decoration: none;
 }
 
 /* Main banner */
-.sectionConferenceInfo {
-    position: relative;
-    background: url("../images/aereo.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    font-size: 10vw;
-    line-height: 1.7;
-    text-align: center;
-    padding: 3em 0;
+body {
+	position: relative;
+	background: url("../images/bg-body.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
 }
 
-.sectionConferenceInfo .place {
-    font-size: 0.6em;
-}
 
-/* Advantages */
-.advantages {
-    list-style: none;
-    color: #506060;
-}
-
-.advantages li {
-    display: block;
-    margin-top: 2em;
-    font-size: 1.2em;
-}
-
-.advantages li:last-child {
-    margin-bottom: 2em;
-}
-
-.advantages i {
-    display: inline-block;
-    margin-right: 0.5em;
-}
-
-.advantages p {
-    display: inline-block;
-    vertical-align: top;
-    width: calc(100% - 5em);
-}
-
-.sectionAdvantages {
-    padding: 1em 5% 0 5%;
-}
-
-/* Keynote section */
-.keynote {
-    text-align: center;
-    padding: 2em 0;
+/* Header */
+.header {
     overflow: hidden;
-    list-style: none;
-    background-color: #eee;
-    display: none;
 }
 
-.keynote li {
-    margin-top: 3em;
+.header #agileAllianceBrazil {
+	position: absolute;
+	top: 0;
+	right: 1em;
 }
 
-.keynote li:first-child {
-    margin-top: 0;
+/* Agile Alliance Bar */
+.menu {
+    background-color: #5C95B6;
+
+    height: 30px;
+    line-height: 30px;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.menu-list {
+    float: right;
+		font-size: 0.8em;
+}
+.menu-list-item:not(:last-child) {
+    float: left;
+    margin-right: 10px;
+}
+.menu-list-item.logo { margin-right: 0; }
+.menu-list-item img {
+    float: left;
+}
+.menu-list-item:last-child {
+    float: right;
+    clear: left;
+
+}
+[lang=en] .menu-list-item:last-child {
+	color: #fff;
 }
 
-.keynote-speaker-img {
-    border-radius: 50%;
+.menu-list-item:last-child a {
+	color: #fff;
 }
 
-.keynote-speaker-name {
-    font-size: 1.7em;
-    font-weight: bold;
-}
 
-.keynote-speaker-name:after {
+.menu-list-item:not(:last-child) a {
+    text-decoration: none;
+    color: #E6EFF4;
+
     display: block;
-    font-weight: normal;
-    font-size: 0.5em;
-    content: "Keynote speaker"
+}
+.menu-list-item:not(:last-child) a:hover {
+    color: #FFF;
 }
 
-.keynote-speaker-miniBio {
-    text-align: left;
-    padding: 1em 1em 0;
+
+.conferenceInfo .place {
 }
 
-/* sectionSponsorship section */
-.sectionSponsorship {
-    background-color: #FFD700;
-    color: #0F4E34;
-    font-size: 1.4em;
-    text-align: center;
+/*  Button */
+.btnBase {
+	cursor: pointer;
 }
 
-.sectionSponsorship h2 {
+#sectionBanner {
+	margin: 5%;
+	padding: 5%;
+	background-color: rgba(118, 171, 217, 0.8);
+}
+
+.header-abLogo {
     display: block;
-    font-weight: normal;
-    padding-left: 0.2em;
     margin: 0 auto;
-    max-width: 15em;
+    width: 80%;
 }
 
-.sectionSponsorship a {
-    background-color: #26C281;
-    border-right: 0.13em solid rgba(0, 0, 0, 0.2);
-    border-bottom: 0.13em solid rgba(0, 0, 0, 0.2);
-    color: #cfc;
-    cursor: pointer;
-    display: block;
-    font-size: 1.4em;
-    margin: 1em auto 0.5em;
-    padding: 0.5em;
-    max-width: 10em;
+.header-abLogo img {
+	width: 100%;
+}
+
+
+.place {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.date {
+	text-align: center;
+	font-size: 1.9em;
+	text-transform: uppercase;
+	color: #F8E71C;
+	font-weight: 300;
+	margin-bottom: .3em;
+}
+
+#sectionBanner p {
+	padding: 0.3em 0.7em;
+  line-height: 1.3em;
+}
+
+
+
+/* Subscribe Form section */
+.subscribe-form {
+	padding: .7em;
+}
+
+
+.subscribe-form ul {
+	list-style: none;
+}
+
+.subscribe-form ul li {
+	display: block;
+}
+
+.subscribe-form .inputLarge {
     width: 100%;
+    padding: .3em;
+    font-size: 1.2em;
+    border: none;
 }
 
-/* Footer */
-.footer {
-    background-color: #206297;
-    height: 12.5em;
-    padding-top: 2em;
+#formMessage {
+	display: none;
 }
 
-.footer .social {
-    display: inline;
+.subscribe-form .notice {
+	display: inline-block;
+	margin: 0 auto;
 }
 
-.footer li {
-    list-style: none;
-    display: inline-block;
-    font-size: 3em;
+.subscribe-form .notice .error,
+.subscribe-form .notice .success {
+	display: block;
 }
 
-.footer li a {
-    color: #fff;
+.subscribe-form .notice .error {
+	background-color: #F5C6C6;
 }
 
-.footer .license {
-    display: inline-block;
-    margin-left: 2em;
+.subscribe-form .notice .success {
+	background-color: #BBE0C0;
 }
 
+.subscribe-form .btnBase {
+	padding: 0.5em 1.2em;
+  font-size: 1.2em;
+  line-height: 1.3333333;
+  border: 0;
+	width: 100%;
+	background-color: #0091D9;
+	color: #fff;
+}
+
+.footer-socialNetworks {
+    overflow: hidden;
+		width: 100%;
+		display: table;
+		margin-left: 0.7em;
+}
+
+
+.footer-socialNetworks-item:not(:last-child) {
+
+}
+.footer-socialNetworks-item {
+    display: table-cell;
+}
+
+.footer-socialNetworks-item [href*=twitter] {
+    background-image: url(../images/social-icons/twitter.png);
+    background-size: 3.4em;
+}
+
+.footer-socialNetworks-item [href*=facebook] {
+    background-image: url(../images/social-icons/facebook.png);
+    background-size: 3.4em;
+}
+
+.footer-socialNetworks-item [href*=linkedin] {
+    background-image: url(../images/social-icons/linkedin.png);
+    background-size: 3.4em;
+}
+
+.footer-socialNetworks-item [href*=vimeo] {
+    background-image: url(../images/social-icons/vimeo.png);
+    background-size: 3.4em;
+}
+
+.footer-socialNetworks-item a {
+    text-indent: -999px;
+    overflow: hidden;
+    display: block;
+    width: 3.4em;
+    height: 3.4em;
+}
+
+
+/* Media Query */
 @media (min-width: 450px) {
-    .sectionConferenceInfo {
-        font-size: 3em;
-    }
 
-    .sectionSponsorship h2{
-        padding-top: 0.7em;
-    }
+}
+
+@media (min-width: 750px) {
+
+	ul.navbar-aga {
+		display: none;
+	}
+
+	.agileAllianceTopBar ul.agile.nav {
+		display: inline-block;
+	}
+
+	#sectionBanner {
+		margin: 5% 15%;
+		padding: 3%;
+		background-color: rgba(118, 171, 217, 0.8);
+	}
+
 }
 
 @media (min-width: 950px) {
-    .advantages li {
-        display: inline-block;
-        width: 33%;
-        padding: 0 0.5em 0 0.5em;
-    }
+	#sectionBanner {
+		margin: 2% 10% 5% 60%;
+		padding: 2%;
+		background-color: rgba(118, 171, 217, 0.8);
+	}
+	.place {
+		font-size: 5.1em;
+	}
+	.date {
+		font-size: 3.1em;
+	}
 
-    .sectionConferenceInfo {
-        font-size: 4em;
-        padding: 2em 0;
-    }
-
-    .keynote li {
-        display: inline-block;
-        width: 48%;
-        text-align: left;
-    }
-
-    .keynote-speaker-img {
-        float: left;
-        margin-right: 1em;
-        margin-bottom: 2em;
-    }
-
-    .keynote-speaker-miniBio {
-        padding-right: 1em;
-    }
-
-    .sectionSponsorship {
-        padding: 2em 0;
-    }
 }

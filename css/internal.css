@@ -5,7 +5,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
 
 p {
 	font-size: 1.2em;
@@ -61,11 +60,15 @@ section.pastSponsors{
 }
 
 @media(min-width: 450px) {
-	.pastSponsors div:before {
-		font-size: 2em;
+
+}
+
+@media (min-width: 450px) {
+	.pageTitle h1 {
+		font-size: 4em;
 	}
 
-	.pastSponsors .bronze img {
-
+	.pastSponsors div:before {
+		font-size: 2em;
 	}
 }

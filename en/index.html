@@ -4,9 +4,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Agile Brazil 2015</title>
-	<link rel="shortcut icon" href="../favicon.ico" />
+	<link rel="shortcut icon" href="../favicon.ico"/>
 	<link rel="stylesheet" href="../css/agileBrazil.css">
-    <link rel="stylesheet" href="../fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+
+	<script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-12446729-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </head>
 <body>
     <header class="header">
@@ -76,22 +86,85 @@
         <a href="sponsorship.html">Be a sponsor</a>
     </section>
 
-	<footer class="footer">
-		<ul class="social">
-			<li><a href="https://twitter.com/agilebrazil" target="_blank">
-				<i class="fa fa-twitter-square "></i>
-			</a></li>
-			<li><a href="https://www.facebook.com/AgileBrazil" target="_blank">
-				<i class="fa fa-facebook-square"></i>
-			</a></li>
-			<li><a href="mailto:contato@agilebrazil.com">
-				<i class="fa fa-envelope-square"></i>
-			</a></li>
-		</ul>
+	<section id="sectionSponsor">
+		<div class="support">
+			<h2>Sponsor</h2>
+			<h1>Silver</h1>
+			<ul>
+				<li><a href="http://www.ines.org.br/" rel="external"><img src="../images/2015sponsors/silver/ines.jpg" title="Instituto Nacional para Engenharia de Software" style="height: 75pt;"></a></li>
+			</ul>
+		</div>
+	</section>
 
-		<a class="license" rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-			<img alt="Creative Commons By License" src="../images/creativeCommons-by.png" />
-		</a>
+	<section id="subscribe-form">
+		<div class="subscribe-form">
+			<p>Fill the form to get news by e-mail.</p>
+
+			<form id="formEmail" action="../add_subscriber.php" method="post">
+				<ul>
+					<li class="required">
+						<label for="name">Name</label>
+						<input type="text" class="inputLarge" name="name" id="name" value="" required placeholder="Name"/>
+					</li>
+					<li class="required">
+						<label for="email">Email</label>
+						<input type="email" class="inputLarge" name="email" id="email" value="" required
+						placeholder="Email"/>
+					</li>
+					<li class="submitEmail">
+						<input type="hidden" name="lang" id="lang" value="en">
+						<input type="button" class="btnBase" name="submit" id="submit" value="Submit"/>
+					</li>
+				</ul>
+				<div class="notice">
+					<span id="formMessage" class="notice" aria-hidden="true"/>
+				</div>
+			</form>
+
+		</div>
+	</section>
+	<section id="sectionSupport">
+		<div class="support">
+			<h2>Support</h2>
+			<ul>
+				<li><a href="http://www.sbc.org.br/" rel="external"><img src="../images/apoio/SBC.png" title="Sociedade Brasileira de Computação" style="height: 75pt;"></a></li>
+				<li><a href="http://www.recifecvb.com.br/" rel="external"><img src="../images/apoio/rcvb-logo.jpg" title="Recife Convention Bureau" style="height: 75pt;"></a></li>
+				<li><a href="http://agilidaderecife.com.br/" rel="external"><img src="../images/apoio/agilidaderecife_logofinal_vertical.jpg" title="Agilidade@Recife" style="height: 75pt;"></a></li>
+				<li><a href="http://www.recife.softex.br/" rel="external"><img src="../images/apoio/softex_recife_logo.jpg" title="Softex Recife"></a></li>
+				<li><a href="http://www2.cin.ufpe.br/" rel="external"><img src="../images/apoio/cin_ufpe_logo.jpg" title="Centro de Informática UFPE"></a></li>
+				<li><a href="http://www.portodigital.org/" rel="external"><img src="../images/apoio/porto_digital_logo.jpg" title="Porto Digital"></a></li>
+				<li><a href="http://www.deinfo.ufrpe.br/" rel="external"><img src="../images/apoio/deinfo_logo.jpg" title="Departamento de estatística e Informática"></a></li>
+			</ul>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="social block">
+			<h3>
+				Follow us and stay connected!
+			</h3>
+			<ul>
+				<li><a href="https://twitter.com/agilebrazil" target="_blank">
+					<i class="fa fa-twitter-square "></i>
+				</a></li>
+				<li><a href="https://www.facebook.com/AgileBrazil" target="_blank">
+					<i class="fa fa-facebook-square"></i>
+				</a></li>
+				<li><a href="mailto:contato@agilebrazil.com">
+					<i class="fa fa-envelope-square"></i>
+				</a></li>
+			</ul>
+		</div>
+
+		<div class="license block">
+			<a class="license-item" rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+				<img alt="Creative Commons By License" src="../images/creativeCommons-by.png"/>
+			</a>
+		</div>
+
 	</footer>
+
+	<script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="../js/scripts.js"></script>
 </body>
 </html>

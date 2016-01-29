@@ -1,103 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Agile Brazil 2015</title>
-    <link rel="shortcut icon" href="favicon.ico"/>
-    <link rel="stylesheet" href="css/agileBrazil.css">
-    <link rel="stylesheet" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Agile Brazil 2015</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="css/agileBrazil.css">
+	<link rel="stylesheet" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+
+	<script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-12446729-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </head>
 <body>
-    <header class="header">
-        <div class="agileAllianceTopBar">
-            <div class="agile outer">
-                <div class="agile inner">
-                    <a href="http://agilealliance.org/pt/" target="_blank"><img src="images/aa_logo_@2x.png" alt="logo_@2x" width="96" height="70" id="logo"></a>
-                    <a id="languageShift" href="en/index.html">English version</a>
-                    <ul class="agile nav">
-                        <li><a href="http://agilealliance.org/pt/" target="_blank">Agile Alliance Principal</a></li>
-                        <li><a href="http://agilealliance.org/the-alliance/" target="_blank">The Alliance</a></li>
-                        <li><a href="http://agilealliance.org/events/" target="_blank">Events</a></li>
-                        <li><a href="http://agilealliance.org/resources/" target="_blank">Resources</a></li>
-                        <li><a href="http://agilealliance.org/pt/membresia/" target="_blank">Membresia</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <a href="index.html"><img src="images/logoAgileBrazil.png" alt="Agile Brazil" class="ab_logo"></a>
+	<header class="header">
+		<nav class="menu">
+			<ul class="menu-list">
+				<li class="menu-list-item">
+					<a href="http://agilealliance.org/pt/">Agile Alliance</a>
+				</li>
+            <!--
+            <li class="menu-list-item">
+                <a href="http://agilealliance.org/the-alliance/">The Alliance</a>
+            </li>
+
+            <li class="menu-list-item">
+                <a href="http://agilealliance.org/events/">Events</a>
+            </li>
+
+            <li class="menu-list-item">
+                <a href="http://agilealliance.org/resources/">Resouces</a>
+            </li>
+          -->
+          <li class="menu-list-item">
+          	<a href="http://agilealliance.org/pt/membresia/">Membresia</a>
+          </li>
+
+          <li class="menu-list-item logo">
+          	<a href="http://agilealliance.org/pt/">
+          		<img src="images/logoAgileAlliance.png" alt="logo_@2x" width="96" height="70">
+          	</a>
+          </li>
+
+          <li class="menu-list-item">
+          	<a href="en/index.html">English version</a>
+          </li>
+        </ul>
+      </nav>
+
     </header>
 
-    <section class="sectionConferenceInfo">
-        <p class="date">Outubro de 2015</p>
-        <p class="place">Porto de Galinhas - PE</p>
+    <section id="sectionBanner">
+    	<div class="conferenceInfo">
+				<a class="header-abLogo" href="index.html">
+	      	<img src="images/logoAgileBrazil.png" alt="Agile Brazil" >
+	      </a>
+    		<h2 class="place">Curitiba</h2>
+
+    		<h3 class="date">Setembro.2016</h3>
+				<p class="description">
+					Prepare-se para uma edição especial, este ano com o tema de volta às <strong>raízes</strong>, convidamos a <strong>comunidade ágil</strong> para semear valores e princípios ágeis e juntos colher os frutos de nossa cultura #AgileBR2016
+				</p>
+				<p>
+					Um evento da comunidade para a comunidade!
+				</p>
+				<p>Preencha o formulário para receber novidades por email.</p>
+				<div class="subscribe-form">
+					<form id="formEmail" action="add_subscriber.php" method="post">
+						<ul>
+							<li class="required">
+								<input placeholder="Seu e-mail" type="email" class="inputLarge" name="email" id="email" value="" required
+								placeholder="Email"/>
+							</li>
+							<li class="submitEmail">
+								<input type="hidden" name="lang" id="lang" value="pt">
+								<input type="button" class="btnBase" name="submit" id="submit" value="Assinar"/>
+							</li>
+						</ul>
+						<div class="notice">
+							<span id="formMessage" class="notice" aria-hidden="true"/>
+						</div>
+					</form>
+				</div>
+				<ul class="footer-socialNetworks">
+      		<li class="footer-socialNetworks-item">
+      			<a href="https://twitter.com/agilebrazil">Twitter da Agile Brazil</a>
+      		</li>
+
+      		<li class="footer-socialNetworks-item">
+      			<a href="https://www.linkedin.com/groups/Agile-Brazil-3148432">Linkedin da Agile Brazil</a>
+      		</li>
+
+      		<li class="footer-socialNetworks-item">
+      			<a href="https://www.facebook.com/AgileBrazil">Facebook da Agile Brazil</a>
+      		</li>
+
+      		<li class="footer-socialNetworks-item">
+      			<a href="https://vimeo.com/agilebrazil">Vimeo da Agile Brazil</a>
+      		</li>
+      	</ul>
+
+    	</div>
     </section>
 
-    <section class="sectionAdvantages">
-        <ul class="advantages">
-            <li>
-                <i class="fa fa-thumbs-o-up fa-3x"></i>
-                <p>A mais conceituada conferência sobre agilidade do Brasil</p>
-            </li>
-            <li>
-                <i class="fa fa-comment fa-3x"></i>
-                <p>Oportunidades para trazer suas ideias e fazer networking</p>
-            </li>
-            <li>
-                <i class="fa fa-globe fa-3x"></i>
-                <p>Sessões com grandes agilistas do Brasil e do exterior</p>
-            </li>
-        </ul>
-    </section>
-
-    <section class="sectionKeynotes">
-        <ul class="keynote">
-            <li>
-                <img class="keynote-speaker-img" src="images/lindaRising.png" alt="Keynote speaker: Linda Rising"/>
-
-                <h3 class="keynote-speaker-name">Linda Rising</h3>
-
-                <p class="keynote-speaker-miniBio">
-                    Consultora independente, Linda mora em Nashville, Tennessee. Ela é autora de quatro livros e diversos
-                    artigos e é uma palestrante internacionalmente conhecida em tópicos relacionados a padrões,
-                    retrospectivas, estratégias de influência e o processo de mudança.
-                </p>
-            </li>
-            <li>
-                <img class="keynote-speaker-img" src="images/michaelFeathers.png" alt="Keynote speaker: Michael Feathers"/>
-
-                <h3 class="keynote-speaker-name">Michael Feathers</h3>
-
-                <p class="keynote-speaker-miniBio">
-                    Autor de <em>Working effectively with Legacy Code</em>, sua paixão é ajudar empresas a entenderem o
-                    impacto que organização e comunicação têm sobre suas aplicações a longo prazo. Seu objetivo é tornar
-                    desenvolvimento de software mais efetivo e integrado às metas de negócios.
-                </p>
-            </li>
-        </ul>
-    </section>
-
-    <section class="sectionSponsorship">
-        <h2>Quer divulgar sua marca, produtos ou serviços?</h2>
-        <a href="sponsorship.html">Patrocine!</a>
-    </section>
-
-    <footer class="footer">
-        <ul class="social">
-            <li><a href="https://twitter.com/agilebrazil" target="_blank">
-                <i class="fa fa-twitter-square "></i>
-            </a></li>
-            <li><a href="https://www.facebook.com/AgileBrazil" target="_blank">
-                <i class="fa fa-facebook-square"></i>
-            </a></li>
-            <li><a href="mailto:contato@agilebrazil.com">
-                <i class="fa fa-envelope-square"></i>
-            </a></li>
-        </ul>
-
-        <a class="license" rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-            <img alt="Creative Commons By License" src="images/creativeCommons-by.png"/>
-        </a>
-    </footer>
-</body>
-</html>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+  </html>
