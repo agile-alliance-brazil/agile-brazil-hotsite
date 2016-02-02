@@ -44,6 +44,7 @@ if (empty($return)) {
 
 	if ($result->status == 0) {
 		$api_message = strtolower($result->error);
+		$return['status'] = "error";
 
 		switch (true) {
 			case (strpos($api_message, "se requiere un valor") !== false):
@@ -62,13 +63,14 @@ if (empty($return)) {
 					"groups" => array(11)
 				);
 				$result = CallMailrelayApi($curl, $postData);
-				
+				$return['status'] = "success";
+				$message = "";
+
 				break;
 			default:
 				$message = ($_POST['lang'] == 'pt') ? "Erro desconhecido" : $message = "Unknown error.";
 		}
 
-		$return['status'] = "error";
 		$return['message'] = $message;
 	} else {
 		$return['status'] = "success";
