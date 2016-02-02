@@ -17,7 +17,7 @@ if (strlen($name) < 1) {
 
 if (empty($return)) {
 	$domain = 'agilebrazil.ip-zone.com';
-	$apiKey = $_SERVER["APIKEY_MR"];
+	require_once('api_key.php');
 
 	$curl = curl_init("http://$domain/ccm/admin/api/version/2/&type=json");
 
