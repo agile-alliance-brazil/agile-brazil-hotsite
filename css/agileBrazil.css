@@ -256,10 +256,30 @@ body {
 		background-color: rgba(118, 171, 217, 0.8);
 	}
 	.place {
+		font-size: 3.0em;
+	}
+	.date {
+		font-size: 2.0em;
+	}
+
+}
+
+@media (min-width: 1460px) {
+	.place {
 		font-size: 5.1em;
 	}
 	.date {
 		font-size: 3.1em;
+	}
+
+}
+
+@media (min-width: 1170px) {
+	.place {
+		font-size: 3.5em;
+	}
+	.date {
+		font-size: 2.5em;
 	}
 
 }
