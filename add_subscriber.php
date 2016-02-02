@@ -26,7 +26,7 @@ if (empty($return)) {
 		"apiKey" => $apiKey,
 		"email" => $email,
 		"name" => $nome,
-		"groups" => array(2)
+		"groups" => array(11)
 	);
 
 	$post = http_build_query($postData);
