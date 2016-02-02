@@ -7,3 +7,4 @@ tmp/sessions/*
 tmp/testes/*
 webroot/files/*
 /.idea/
+api_key.php
