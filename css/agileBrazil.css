@@ -267,6 +267,12 @@ body {
 	.agileAllianceTopBar ul.agile.nav {
 		display: inline-block;
 	}
+	.menu-list-item.logo {
+		margin-right: 0;
+		max-width: 92px;
+		max-height: 70px;
+	}
+
 
 }
 
