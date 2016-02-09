@@ -22,6 +22,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	color: #fff;
+	-webkit-font-smoothing: antialiased;
 }
 
 
@@ -99,9 +100,9 @@ body {
 }
 
 #sectionBanner {
-	margin: 3% auto;
-	padding: 5%;
-	background-color: rgba(118, 171, 217, 0.8);
+	margin: 1% auto;
+	padding: 4%;
+	background-color: rgba(115, 170, 215, 0.8);
 	max-width: 400px;
 	min-width: 320px;
 }
@@ -139,14 +140,14 @@ body {
 #sectionBanner p {
 	padding: 0.3em 0.7em;
   line-height: 1.2em;
-	font-size: .9em;
+	font-size: 1em;
 }
 
 
 
 /* Subscribe Form section */
 .subscribe-form {
-	padding: .7em;
+	padding: 0 .7em;
 }
 
 
@@ -171,7 +172,6 @@ body {
 }
 
 .subscribe-form .notice {
-	display: inline-block;
 	margin: 0 auto;
 }
 
@@ -200,6 +200,13 @@ body {
 	width: 100%;
 	background-color: #0091D9;
 	color: #fff;
+}
+
+
+.highlight {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 1em;
 }
 
 .footer-socialNetworks {
@@ -290,6 +297,14 @@ body {
 	}
 	.date {
 		/*font-size: 2.0em;*/
+	}
+
+	.subscribe-form ul li {
+    display: inline-block;
+    width: 49%;
+	}
+	.subscribe-form ul li.submitEmail {
+	    width: 100%;
 	}
 
 }
