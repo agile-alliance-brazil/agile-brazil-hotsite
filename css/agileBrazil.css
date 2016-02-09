@@ -66,6 +66,8 @@ body {
 .menu-list-item:last-child {
     float: right;
     clear: left;
+		width: 92px; /* size of AA logo */
+		text-align: center;
 
 }
 [lang=en] .menu-list-item:last-child {
