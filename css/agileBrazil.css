@@ -209,6 +209,17 @@ body {
 	margin-bottom: 1em;
 }
 
+.survey a {
+    color: #fff;
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+
 .footer-socialNetworks {
     overflow: hidden;
 		width: 100%;
