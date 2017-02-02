@@ -102,7 +102,7 @@ body {
 #sectionBanner {
 	margin: 1% auto;
 	padding: 4%;
-	background-color: rgba(53, 166, 51, 0.8);
+	background-color: rgba(115, 170, 215, 0.8);
 	max-width: 400px;
 	min-width: 320px;
 }
@@ -198,7 +198,7 @@ body {
   line-height: 1.3333333;
   border: 0;
 	width: 100%;
-	background-color: #003c18;
+	background-color: #003441;
 	color: #fff;
 }
 
