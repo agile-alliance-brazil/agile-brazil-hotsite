@@ -200,6 +200,8 @@ body {
 	width: 100%;
 	background-color: #003441;
 	color: #fff;
+	display: block;
+	text-align: center;
 }
 
 
@@ -268,7 +270,7 @@ body {
 @media (min-width: 400px) {
 
 	.place {
-		font-size: 5.3em
+		font-size: 3.7em
 	}
 
 	.date {
