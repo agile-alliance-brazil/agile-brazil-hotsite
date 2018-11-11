@@ -105,6 +105,7 @@ body {
 	background-color: rgba(115, 170, 215, 0.8);
 	max-width: 400px;
 	min-width: 320px;
+	width: 102%;
 }
 
 .header-abLogo {
@@ -122,8 +123,9 @@ body {
   text-align: center;
   font-size: 16vw;
   text-transform: uppercase;
-	letter-spacing: 3px;
-	line-height: .9em;
+  letter-spacing: 3px;
+  line-height: .9em;
+  margin-left: -17px;
 }
 
 .date {
@@ -139,7 +141,7 @@ body {
 
 #sectionBanner p {
 	padding: 0.3em 0.7em;
-  line-height: 1.2em;
+    line-height: 1.2em;
 	font-size: 1em;
 }
 
