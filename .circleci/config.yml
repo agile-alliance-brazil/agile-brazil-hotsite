@@ -1,0 +1,45 @@
+version: 2
+defaults: &defaults
+  working_directory: ~/agile-brazil-hotsite
+  docker:
+    - image: circleci/node:lts-browsers
+jobs:
+  staging:
+    <<: *defaults
+    steps:
+      - checkout
+      - run:
+          name: Deploy Over SSH to staging
+          command: |
+            git remote add staging $SSH_USER@$SSH_HOST:repo/staging.agilebrazil.com.git
+            git push staging master -f
+  production:
+    <<: *defaults
+    steps:
+      - checkout
+      - run:
+          name: Deploy Over SSH to production
+          command: |
+            git remote add production $SSH_USER@$SSH_HOST:repo/agilebrazil.com.git
+            git push production master -f
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - staging:
+          filters:
+            branches:
+              only: master
+      - hold:
+          type: approval
+          requires:
+            - staging
+          filters:
+            branches:
+              only: master
+      - production:
+          requires:
+            - hold
+          filters:
+            branches:
+              only: master
