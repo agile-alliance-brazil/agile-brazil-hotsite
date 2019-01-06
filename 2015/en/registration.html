@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>Registration - Agile Brazil</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="../assets/css/reset.css">
+	<link rel="stylesheet" href="../assets/css/lib/grid12.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/button.css">
+	<link rel="stylesheet" href="../assets/css/headerAa.css">
+	<link rel="stylesheet" href="../assets/css/header.css">
+	<link rel="stylesheet" href="../assets/css/keynotes.css">
+	<link rel="stylesheet" href="../assets/css/program.css">
+	<link rel="stylesheet" href="../assets/css/place.css">
+	<link rel="stylesheet" href="../assets/css/subscriptions.css">
+	<link rel="stylesheet" href="../assets/css/supporter.css">
+	<link rel="stylesheet" href="../assets/css/footer.css">
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="../assets/js/html5shiv.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-12446729-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$('.wrap-header-menu').click(function () {;
+				$('.header-menu').slideToggle();
+			});
+
+			$('ul.nav.nav-tabs li a').click(function () {
+				$('ul.nav.nav-tabs li').removeClass('active');
+				$(this).parent().addClass('active');
+				$('dl.price').hide();
+				$('dl.price.'+$(this).attr('href')).show();
+
+				return false;
+			});
+		});
+	</script>
+</head>
+
+<body class="">
+<header class="headerAa">
+	<nav class="headerAa-menu">
+		<ul class="headerAa-menu-list">
+			<li class="headerAa-menu-list-item">
+				<a href="http://agilealliance.org/pt/">Agile Alliance</a>
+			</li>
+
+			<li class="headerAa-menu-list-item">
+				<a href="http://agilealliance.org/pt/membresia/">Members</a>
+			</li>
+
+			<li class="headerAa-menu-list-item logo">
+				<a href="http://agilealliance.org/pt/">
+					<img src="../assets/img/logoAgileAlliance.png" alt="Logo da Agile Alliance">
+				</a>
+			</li>
+
+			<li class="headerAa-menu-list-item">
+				<a href="../inscricoes.html">Versão Português</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<main>
+<header class="header">
+	<div class="container">
+		<h1 class="header-title">
+			<a href="index.html">
+				<img src="../assets/images/logo-ab.png" alt="Agile Brazil">
+			</a>
+		</h1>
+		<nav class="wrap-header-menu">
+			<ul class="header-menu">
+				<li class="header-menu-item"><a href="about.html">About</a></li>
+        <li class="header-menu-item"><a href="schedule.html">Schedule</a> </li>
+				<li class="header-menu-item"><a href="sponsorship.html">Sponsorship</a></li>
+				<li class="header-menu-item"><a class="active" href="registration.html">Buy your ticket</a></li>
+				<li class="header-menu-item"><a href="location.html">Location</a></li>
+				<li class="header-menu-item"><a href="wbma.html">WBMA</a></li>
+				<!-- <li class="header-menu-item"><a href="#">Programa</a> </li> -->
+				<!-- <li class="header-menu-item"><a href="#">Virada Ágil</a> </li> -->
+				<!-- <li class="header-menu-item"><a href="#">FAQ</a> </li> -->
+				<!-- <li class="header-menu-item"><a href="#">Contato</a> </li> -->
+			</ul>
+		</nav>
+	</div>
+</header>
+
+	<section class="subscriptions">
+		<h1>Registration</h1>
+		<div class="content">
+			<p>We prepare great discounts for our early birds and Agile Alliance members.</p>
+			<p>The prices ranger for this year are:</p>
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="regular">Regular</a></li>
+				<li><a href="aa">Agile Alliance</a></li>
+				<li><a href="student">Student</a></li>
+			</ul>
+
+			<dl class="price regular">
+				<dt><del>Super early bird (100 first)</del> SOLD OUT</dt>
+				<dd><del>R$ 420,00</del></dd>
+				<dt>Early bird (150 next)</dt>
+				<dd>R$ 540,00</dd>
+				<dt>Standard</dt>
+				<dd>R$ 740,00</dd>
+				<dt>Last Minute</dt>
+				<dd>R$ 840,00</dd>
+			</dl>
+			<dl class="price aa">
+				<dt><del>Agile Alliance Member - Super Early Bird</del> SOLD OUT</dt>
+				<dd><del>R$ 378,00</del></dd>
+				<dt>Agile Alliance Member -  Early Bird</dt>
+				<dd>R$ 486,00</dd>
+				<dt>Agile Alliance Member - Standard</dt>
+				<dd>R$ 666,00</dd>
+				<dt>ATTENTION</dt>
+				<dd>The system will identify you by your email which is registered with the Agile Alliance. If you identify a problem, you should send an e-mail to <a href="mailto:inscricoes@agilebrazil.com"> inscricoes@agilebrazil.com </a> informing your registration e-mail as a member of the Agile Alliance and requesting further information.</dd>
+			</dl>
+			<dl class="price student">
+				<dt>Student Graduation, Master and Doc (Limited to 80)</dt>
+				<dd>R$ 370,00</dd>
+				<dt>ATTENTION</dt>
+				<dd>To get the student value, you must put the following token when it is requested in your application: ea2c1a4d316ba80c39932ae7a700e588<br>
+					You should have a document issued by your university to show at the event's accreditation, proving it really is a Graduate Student.
+				</dd>
+			</dl>
+
+			<a href="https://inscricoes.agilebrazil.com/events/12/attendances/new?locale=en" target="_blank" class="buttonAction">Register now!</a>
+
+			<p>You need more information? Send an email to <a href="mailto:inscricoes@agilebrazil.com">inscricoes@agilebrazil.com</a></p>
+		</div>
+	</section>
+<footer class="footer">
+	<ul class="footer-socialNetworks">
+		<li class="footer-socialNetworks-item">
+			<a href="https://twitter.com/agilebrazil">Twitter da Agile Brazil</a>
+		</li>
+
+		<li class="footer-socialNetworks-item">
+			<a href="https://www.linkedin.com/groups/Agile-Brazil-3148432">Linkedin da Agile Brazil</a>
+		</li>
+
+		<li class="footer-socialNetworks-item">
+			<a href="https://www.facebook.com/AgileBrazil">Facebook da Agile Brazil</a>
+		</li>
+
+		<li class="footer-socialNetworks-item">
+			<a href="https://vimeo.com/agilebrazil">Vimeo da Agile Brazil</a>
+		</li>
+	</ul>
+</footer>
+</main>
+</body>
+</html>
