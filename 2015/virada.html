@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Virada Ágil - Agile Brazil</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name=viewport content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/lib/grid12.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/button.css">
+	<link rel="stylesheet" href="assets/css/tables.css">
+	<link rel="stylesheet" href="assets/css/headerAa.css">
+	<link rel="stylesheet" href="assets/css/header.css">
+	<link rel="stylesheet" href="assets/css/keynotes.css">
+	<link rel="stylesheet" href="assets/css/program.css">
+	<link rel="stylesheet" href="assets/css/place.css">
+	<link rel="stylesheet" href="assets/css/virada.css">
+	<link rel="stylesheet" href="assets/css/subscriptions.css">
+	<link rel="stylesheet" href="assets/css/supporter.css">
+	<link rel="stylesheet" href="assets/css/footer.css">
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<![endif]-->
+	<script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-12446729-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+		$(function() {
+			$('.wrap-header-menu').click(function () {;
+				$('.header-menu').slideToggle();
+			});
+
+			$('ul.nav.nav-tabs li a').click(function () {
+				event.preventDefault();
+				$('ul.nav.nav-tabs li').removeClass('active');
+				$(this).parent().addClass('active');
+				$('dl.price').hide();
+				$('dl.price.'+$(this).attr('href')).show();
+
+				return false;
+			});
+		});
+	</script>
+</head>
+
+<body class="">
+<header class="headerAa">
+	<nav class="headerAa-menu">
+		<ul class="headerAa-menu-list">
+			<li class="headerAa-menu-list-item">
+				<a href="http://agilealliance.org/pt/">Agile Alliance</a>
+			</li>
+
+			<li class="headerAa-menu-list-item">
+				<a href="http://agilealliance.org/pt/membresia/">Membros</a>
+			</li>
+
+			<li class="headerAa-menu-list-item logo">
+				<a href="http://agilealliance.org/pt/">
+					<img src="assets/img/logoAgileAlliance.png" alt="Logo da Agile Alliance">
+				</a>
+			</li>
+
+			<li class="headerAa-menu-list-item">
+				<!--<a href="en/virada.html">English version</a>-->
+			</li>
+		</ul>
+	</nav>
+</header>
+<main>
+	<header class="header">
+			<div class="container">
+				<h1 class="header-title">
+					<a href="index.html">
+						<img src="assets/images/logo-ab.png" alt="Logo da Agile Brazil">
+					</a>
+				</h1>
+				<nav class="wrap-header-menu">
+					<ul class="header-menu">
+						<li class="header-menu-item"><a href="sobre.html">Sobre</a> </li>
+            <li class="header-menu-item"><a href="programa.html">Programa</a> </li>
+						<li class="header-menu-item"><a href="patrocinio.html">Patrocine</a></li>
+						<li class="header-menu-item"><a href="inscricoes.html">Inscrições</a></li>
+						<li class="header-menu-item"><a href="localizacao.html">Hospedagem</a></li>
+						<li class="header-menu-item"><a class="active" href="virada.html">Virada Ágil</a></li>
+						<li class="header-menu-item"><a href="wbma.html">WBMA</a> </li>
+						<!-- <li class="header-menu-item"><a href="#">Programa</a> </li> -->
+						<!-- <li class="header-menu-item"><a href="#">Virada Ágil</a> </li> -->
+						<!-- <li class="header-menu-item"><a href="#">FAQ</a> </li> -->
+						<!-- <li class="header-menu-item"><a href="#">Contato</a> </li> -->
+					</ul>
+				</nav>
+			</div>
+	</header>
+
+	<section class="virada content-wrapper">
+		<div class="content">
+			<img src="assets/images/virada-agil.png" alt="Virada Ágil" class="right" />
+			<p>O Agile Brazil 2015 promoverá a <b>4ª Virada Ágil</b> com cursos e treinamentos a preços absurdamente baixos. Serão dois dias com os <b>melhores cursos e treinamentos</b> oferecidos por várias das principais empresas brasileiras especializadas em agilidade.</p>
+			<p>Durante os dias que precedem o Agile Brazil, <b>Porto de Galinhas</b> estará repleta de cursos de excelente qualidade a preços reduzidos. Se você pretende fazer um curso nos próximos meses, aguarde a programação da Virada Ágil pois essa será a oportunidade de fazer o mesmo treinamento com <b><u>até 50% de desconto</u></b> sobre o valor de mercado! <b>Não perca essa oportunidade!</b></p>
+
+			<h2 id="cursos">Cursos</h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Treinamento</th>
+						<th>Local</th>
+						<th>Data</th>
+						<th>Oferecido por</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td data-label="Treinamento"><a href="virada-safe.html">Certificação SAFe Agilist (SA)</a></td>
+						<td data-label="Local">Recife - PE</td>
+						<td data-label="Data">19 a 20 - Outubro</td>
+						<td data-label="Oferecido por">Adaptworks</td>
+					</tr>
+					<tr>
+						<td data-label="Treinamento"><a href="virada-fearless-change.html">Fearless Change: Patterns for Introducing New Ideas</a></td>
+						<td data-label="Local">Porto de Galinhas</td>
+						<td data-label="Data">20 - Outubro</td>
+						<td data-label="Oferecido por">Linda Rising</td>
+					</tr>
+					<tr>
+						<td data-label="Treinamento"><a href="virada-learning30.html">Learning 3.0 Experience</a></td>
+						<td data-label="Local">São Paulo - SP</td>
+						<td data-label="Data">28 a 29 - Novembro</td>
+						<td data-label="Oferecido por">Happy Melly</td>
+					</tr>
+					<tr>
+						<td data-label="Treinamento"><a href="virada-direto-ao-ponto.html">Direto ao Ponto</a></td>
+						<td data-label="Local">Recife - PE</td>
+						<td data-label="Data">16 - Outubro</td>
+						<td data-label="Oferecido por">Thought Works</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</div>
+	</section>
+
+	<footer class="footer">
+		<ul class="footer-socialNetworks">
+			<li class="footer-socialNetworks-item">
+				<a href="https://twitter.com/agilebrazil">Twitter da Agile Brazil</a>
+			</li>
+
+			<li class="footer-socialNetworks-item">
+				<a href="https://www.linkedin.com/groups/Agile-Brazil-3148432">Linkedin da Agile Brazil</a>
+			</li>
+
+			<li class="footer-socialNetworks-item">
+				<a href="https://www.facebook.com/AgileBrazil">Facebook da Agile Brazil</a>
+			</li>
+
+			<li class="footer-socialNetworks-item">
+				<a href="https://vimeo.com/agilebrazil">Vimeo da Agile Brazil</a>
+			</li>
+		</ul>
+	</footer>
+</main>
+</body>
+</html>
