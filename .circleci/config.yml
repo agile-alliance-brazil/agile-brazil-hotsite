@@ -9,6 +9,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Add SSH Server host key to known_hosts
+          command: ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
+      - run:
           name: Deploy Over SSH to staging
           command: |
             git remote add staging $SSH_USER@$SSH_HOST:repo/staging.agilebrazil.com.git
@@ -17,6 +20,9 @@ jobs:
     <<: *defaults
     steps:
       - checkout
+      - run:
+          name: Add SSH Server host key to known_hosts
+          command: ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
       - run:
           name: Deploy Over SSH to production
           command: |
