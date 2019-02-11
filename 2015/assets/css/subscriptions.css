@@ -1,0 +1,127 @@
+.subscriptions {
+	background-color: #218CCB;
+
+	color: #FFF;
+	text-align: left;
+
+	overflow: hidden;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.subscriptions h1 {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 800;
+
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.8em;
+}
+
+.subscriptions h3 {
+	font-size: 1.4em;
+	font-weight: 600;
+	margin-bottom: 0.6em;
+	margin-top: 1em;
+}
+
+.subscriptions .content {
+	font-size: 1.4em;
+	font-weight: 300;
+
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.8em;
+}
+
+.subscriptions .buttonAction {
+	background-color: #FFF;
+	color: #218ac9;
+	
+	margin-left: 0;
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+
+.price {
+	margin-bottom: 1.5em;
+	/*border-bottom: 0.05em solid #dddddd;*/
+	padding-bottom: 1em;
+}
+
+.price dt {
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.faq {
+	margin-bottom: 2em;
+}
+
+.faq dd {
+	margin-bottom: 2em;
+}
+
+
+.nav-tabs {
+	border-bottom: 0.05em solid #dddddd;
+	margin-bottom: 1.250em;
+}
+.nav {
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
+.nav:after {
+	clear: both;
+}
+.nav:before, .nav:after {
+	content: " ";
+	display: table;
+}
+.nav-tabs > li {
+	float: left;
+	margin-bottom: -0.05em;
+}
+.nav > li {
+	position: relative;
+	display: block;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #218ac9;
+	background-color: white;
+	border: 0.05em solid #dddddd;
+	border-bottom-color: transparent;
+	cursor: default;
+}
+.nav-tabs > li > a {
+	margin-right: 0.1em;
+	line-height: 1.428571429;
+	border: 0.05em solid transparent;
+	border-radius: 0.250em 0.250em 0 0;
+}
+.nav > li > a {
+	position: relative;
+	display: block;
+	padding: 0.625em 0.938em;
+}
+dl.price.aa,
+dl.price.student{
+	display: none;
+}
+
+
+@media(max-width: 577px) {
+	body p,
+	body div{
+		font-size: 0.9em !important;
+	}
+
+	body h1{
+		font-size: 1.4em !important;
+	}
+}

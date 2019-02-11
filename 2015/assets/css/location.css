@@ -1,0 +1,113 @@
+.location {
+  background-color: #218CCB;
+  color: #FFF;
+  text-align: left;
+  overflow: hidden;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.location .content {
+  font-size: 1.4em;
+  font-weight: 300;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.8em;
+}
+
+.location  h1 {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 800;
+
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.8em;
+}
+
+.location h2 {
+	font-size: 1.6em;
+	font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}
+
+.location h2:first-child {
+  padding-top: 0;
+}
+
+.location h3 {
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}
+
+
+.location p,
+.location ul,
+.location table {
+  margin-bottom: 1em;
+}
+
+.location ul {
+  padding: 1em;
+}
+
+.location li {
+  list-style-type: disc;
+  line-height: 2em;
+}
+
+.location li a {
+  text-decoration: none;
+}
+
+.location li a:hover {
+  text-decoration: underline;
+}
+
+.location img {
+  width: 100%;
+}
+
+.google-map {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.google-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+@media(min-width: 772px) {
+
+}
+
+@media(min-width: 992px) {
+  .location img {
+    width: 40%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+  }
+
+  .location img.right {
+    float: right;
+    margin-left: 2em;
+  }
+
+  .location img.left {
+    float: left;
+    margin-right: 2em;
+  }
+
+
+}

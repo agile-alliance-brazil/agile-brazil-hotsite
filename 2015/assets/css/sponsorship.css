@@ -1,0 +1,129 @@
+
+.sponsorship-top {
+	background-color: #218CCB;
+
+	color: #FFF;
+	text-align: left;
+
+	overflow: hidden;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.sponsorship-top-title {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 800;
+
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.8em;
+}
+
+.sponsorship-top-description {
+	font-size: 1.4em;
+	font-weight: 300;
+
+	text-align: justify;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.8em;
+}
+
+.sponsorship-top-description a{
+	color: #FFF;
+}
+
+/* Sponsorship */
+
+.sponsorship {
+	background: url(../images/bg-patrocionio-2.png) no-repeat center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+
+	-webkit-background-attachment: fixed;
+ 	   -moz-background-attachment: fixed;
+       -o-background-attachment: fixed;
+	        background-attachment: fixed;
+
+	color: #fff;
+	text-align: center;
+
+
+	overflow: hidden;
+}
+
+.sponsorship .container {
+	padding-top: 2em;
+	padding-bottom: 6em;
+	background: url(../images/icon-white-vela.png) no-repeat center right;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+}
+
+.sponsorship-info-title {
+	font-size: 2em;
+	font-weight: 800;
+
+	max-width: 79.8%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.8em;
+}
+
+.sponsorship-info-description {
+	font-size: 1.4em;
+	font-weight: 300;
+
+	max-width: 465px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+
+@media(min-width: 800px) {
+	.sponsorship {
+		text-align: right;
+	}
+
+	.sponsorship-info {
+		position: relative;
+	}
+
+	.sponsorship-info:before {
+		content: url(../images/icon-patrocionio.png);
+
+		position: absolute;
+  	top: 0;
+  	left: -70%;
+	}
+
+
+	.sponsorship-info-title {
+		margin-top: 3em;
+		text-transform: uppercase;
+	}
+
+	.sponsorship-info-title,
+	.sponsorship-info-description {
+		text-align: right;
+		max-width: none;
+		width: auto;
+	}
+
+	.sponsorship .buttonAction {
+		margin-right: 0;
+	}
+
+	.sponsorship-description {
+		max-width: auto;
+		width: auto;
+	}
+}

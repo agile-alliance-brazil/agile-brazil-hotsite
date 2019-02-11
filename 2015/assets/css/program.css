@@ -1,0 +1,207 @@
+.program {
+	background: url(../images/bg-header.png) no-repeat center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+
+	-webkit-background-attachment: fixed;
+ 	   -moz-background-attachment: fixed;
+       -o-background-attachment: fixed;
+	        background-attachment: fixed;
+
+	color: #fff;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.program .container {
+	padding-top: 2em;
+	padding-bottom: 4em;
+	background: url(../images/icon-white-vela.png) no-repeat center right;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+
+}
+
+.wrap-program.content-wrapper {
+	background-color: #fff;
+}
+
+.wrap-program .content {
+	width: 80%;
+	margin: 2em auto;
+}
+
+.wrap-program iframe {
+	width: 100%;
+	height: 17300px;
+}
+
+.wrap-program p {
+
+}
+
+
+.program-info {
+	text-align: center;
+	padding: 0 2em;
+}
+
+.program-info-title {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 800;
+	margin-bottom: 0.6em;
+}
+.program-info-description {
+	font-size: 1.4em;
+	font-weight: 300;
+	margin-bottom: 0.8em;
+}
+.program-info-description a {
+	color: #fca027;
+}
+
+.program-info .buttonAction {
+  margin: 0 auto;
+	padding: 0 2em;
+}
+
+.program-info:after {
+	clear: both;
+}
+
+@media(min-width: 340px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 16500px;
+	}
+}
+
+@media(min-width: 410px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 15500px;
+	}
+}
+
+@media(min-width: 440px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 14500px;
+	}
+}
+
+
+@media(min-width: 510px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 13500px;
+	}
+}
+
+@media(min-width: 540px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 12500px;
+	}
+}
+
+@media(min-width: 610px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 11500px;
+	}
+}
+
+@media(min-width: 640px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 10500px;
+	}
+}
+
+
+@media(min-width: 710px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 9500px;
+	}
+}
+
+
+@media(min-width: 768px) {
+	.program {
+
+	}
+
+	.program .container {
+		padding-bottom: 7em;
+	}
+	.program-info:before {
+		content: url(../images/speaker.png);
+		position: absolute;
+		top: 0;
+		left: -95%;
+	}
+	.program-info {
+		text-align: right;
+		padding: 0;
+
+	}
+
+	.program-info-title {
+		margin-top: 2em;
+	}
+
+	.program-info .buttonAction {
+	  margin: 0;
+		float: right;
+		padding: 0 2em;
+	}
+
+	.wrap-program iframe {
+		height: 9000px;
+	}
+
+}
+
+@media(min-width: 820px) {
+
+	.wrap-program iframe {
+		width: 100%;
+		max-width: 990px;
+		height: 8500px;
+	}
+}
+
+
+@media(min-width: 992px) {
+	.program-info:before {
+		left: -70%;
+	}
+	.program-title,
+	.program-description,
+	.program .buttonAction {
+	}
+	.program:before {
+
+	}
+
+	.wrap-program iframe {
+		width: 100%;
+		height: 8100px;
+	}
+}
+
+
+@media(min-width: 1200px) {
+	.wrap-program iframe {
+		width: 100%;
+		height: 7500px;
+	}
+}

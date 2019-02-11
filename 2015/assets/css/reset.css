@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style: none;
+}
+
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	
+	height: 100%;  
+	min-width: 320px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
