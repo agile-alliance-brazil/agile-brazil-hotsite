@@ -1,0 +1,148 @@
+#internal-page-header {
+  background: #006c84;
+  padding-top: 115px; }
+
+#internal-page-header h1 {
+  text-align: center;
+  color: #d9edf7; }
+
+#internal-page-header h2 {
+  text-align: center;
+  font-size: 22px;
+  text-transform: none;
+  color: #fef64f;
+  padding-top: 10px; }
+
+#internal-page {
+  background: #fff;
+  color: #4a4a4a; }
+
+#internal-page .container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left; }
+
+#internal-page .container h3 {
+  margin: 1em 0 0.3em; }
+
+#internal-page p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.8;
+  margin-bottom: 1em; }
+
+#internal-page ul {
+  margin: 0 2em 1em;
+  list-style: circle;}
+
+#internal-page li {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.8; }
+
+#internal-page dl {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.6; }
+
+#internal-page dt {
+  font-weight: bold }
+
+#internal-page dd {
+  margin-bottom: 0.8em; }
+
+#internal-page a {
+  color: #35a633;
+}
+
+
+.social-networking a {
+  color: #d9edf7;
+}
+
+.social-networking a:hover {
+  color: #00cbe4;
+}
+
+
+#internal-page .cta-button {
+    background-color: #00a1c7;
+    color: #d9edf7;
+    padding: 18px 35px;
+    border-radius: 28px;
+    text-decoration: none;
+}
+
+#internal-page .cta-button:hover {
+    background-color: #006c84;
+}
+
+/* Keynotes */
+
+#keynotes {
+  background-color: #00a1c7;
+  text-align: center;
+}
+
+#keynotes h1 {
+  color: #fff;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+#keynotes ul {
+  margin-bottom: 2em;
+  overflow: auto;
+}
+
+#keynotes ul li {
+  padding: 0 0 1em;
+}
+
+#keynotes h3 {
+  color: #fef64f;
+  font-size: 1.4em;
+}
+
+#keynotes h5 {
+  color: rgba(0, 52, 65, 0.6);
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#keynotes p.description {
+  color: #f2f2f2;
+  padding: 0.8em 0;
+  font-size: 1.2em;
+}
+
+#keynotes img {
+    width: 100%;
+    border-radius: 100%;
+    padding: 1em 20%;
+    opacity: 0.7;
+}
+
+#keynotes .cta-button {
+    padding: 1.2em 2em;
+    border-radius: 28px;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: #00a1c7;
+}
+
+
+@media (min-width: 750px) {
+  #keynotes img {
+    padding: 1em 30%;
+  }
+  #keynotes ul li {
+    padding-bottom: 1em;
+  }
+  #keynotes p.description {
+    padding: 0.8em 1.5em;
+    font-size: 1em;
+  }
+
+}

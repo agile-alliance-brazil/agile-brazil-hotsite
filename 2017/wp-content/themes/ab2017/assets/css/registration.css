@@ -1,0 +1,135 @@
+#prices {
+    padding:0;
+    background-color: #f3f4f4;
+}
+
+#prices p {
+  font-family: "Montserrat";
+}
+
+#prices .container {
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+#prices .cta-button {
+    background-color: #00a1c7;
+    color: #d9edf7;
+    padding: 18px 35px;
+    border-radius: 28px;
+    text-decoration: none;
+}
+
+
+.pricesWhole {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 10px;
+    width: 300px;
+}
+
+.pricesType {
+    background-color: #ffd24f;
+}
+
+.pricesType.aa {
+    background-color: #00cbe4;
+}
+
+.student .pricesType {
+    background-color: #008e39;
+}
+
+.pricesType p {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.pricesPlan {
+    background-color: #fff;
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.pricesHeader {
+    border-bottom: 1px solid #f3f4f4;
+    padding-bottom: 5px;
+}
+
+.pricesHeader span {
+    font-size: 32px;
+}
+
+.pricesHeader span.priceValue {
+    font-size: 42px;
+}
+
+.pricesHeader sup {
+    font-size: 25px;
+}
+
+.pricesTitle {
+    font-size: 24px;
+    color: #575757;
+    padding-top: 5px;
+}
+
+.student .pricesTitle {
+  font-size: 20px;
+  padding: 5px 20px;
+}
+
+.pricesSubtitle {
+    font-size: 14px;
+    color: #575757;
+    padding: 0 10px 25px 10px;
+    margin: -10px;
+}
+
+.student .pricesSubtitle {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 25px 25px 25px;
+  color: #9095aa;
+}
+
+.pricesHeader.coming {
+    border-bottom: 1px solid #f3f4f4;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 20px;
+    color: #9095aa;
+}
+
+.pricesHeader.coming span,
+.pricesHeader.coming sup {
+    font-size: 15px;
+}
+
+.pricesHeader.coming span.priceValue {
+    font-size: 25px;
+}
+
+.pricesHeader.coming p.pricesSubtitle {
+    margin: -5px;
+}
+
+.pricesPlan .price {
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: 17px;
+}
+
+.coming .pricesTitle {
+  font-size: 18px;
+  color: #9095aa;
+}
+
+.coming .pricesSubtitle {
+  color: #9095aa;
+}

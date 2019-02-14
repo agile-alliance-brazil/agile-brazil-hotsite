@@ -1,0 +1,139 @@
+
+table {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0.4em;
+}
+
+table th, table td {
+    padding: 0.8em;
+    text-align: center;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 772px) {
+
+    table {
+        border: 0;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        display: block;
+        border-bottom: 2px solid #ddd;
+    }
+
+    table td {
+        display: block;
+        text-align: right;
+        border-bottom: 1px dotted #ccc;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+        border-top: 0;
+    }
+
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+
+
+
+.virada p,
+.virada ul,
+.virada table {
+    margin-bottom: 1em;
+}
+
+.virada ul {
+    padding: 1em;
+}
+
+.virada li {
+    list-style-type: disc;
+    line-height: 2em;
+}
+
+.virada li a {
+    text-decoration: none;
+}
+
+.virada li a:hover {
+    text-decoration: underline;
+}
+
+.virada img {
+    width: 100%;
+}
+
+.google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.contact_map {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+    -moz-box-shadow: 0px 1px 3px #989898;
+    -webkit-box-shadow: 0px 1px 3px #989898;
+    box-shadow: 0px 1px 3px #989898;
+}
+
+@media(min-width: 772px) {
+
+}
+
+@media(min-width: 992px) {
+    .virada img {
+        width: 30%;
+        margin-top: 0.6em;
+        margin-bottom: 0.6em;
+    }
+
+    .virada img.right {
+        float: right;
+        margin-left: 2em;
+    }
+
+    .virada img.left {
+        float: left;
+        margin-right: 2em;
+    }
+
+
+}

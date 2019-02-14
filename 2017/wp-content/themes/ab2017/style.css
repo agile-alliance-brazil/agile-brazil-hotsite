@@ -1,0 +1,299 @@
+/*Theme Name: Agile Brazil 2017
+Theme URI: http://evolucaoagil.com.br
+Description: Tema para o site agilebrazil.com/2017/
+Version: 0.1
+Author: Gabriel Vieira
+Author URI: http://evolucaoagil.com.br
+Tags: none
+Text Domain: ab2017
+Domain Path: /languages/
+*/
+.panel-grid-cell .so-panel,
+.panel-grid{
+    margin: 0px !important;
+}
+
+.panel-grid-cell {
+  padding: 0 !important;
+}
+
+.cta-button {
+  white-space: nowrap;
+}
+
+.lang-item {
+    float: right;
+    padding-top: 0.5em;
+}
+
+.social-networking .social-icon {
+    text-indent: -150px;
+}
+
+
+#internal-page ul.pigs {
+    margin-top: 2em;
+    color: #218CCB;
+}
+
+.pigs li {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto 2em auto;
+}
+
+.pigs li img {
+    border-radius: 100%;
+    width: 100%;
+    display: inline-flex;
+}
+
+.pigs li h5 {
+    font-size: 1.2em;
+    line-height: 1.1em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.pigs li p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #444;
+}
+
+.pigs li span {
+    font-size: 0.97em;
+    line-height: 1.5em;
+    color: #444;
+}
+
+.hotels-list {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 1.5em;
+}
+
+.hotels-list li {
+  margin-bottom: 1.5em;
+}
+.hotels-list h3 {
+    font-weight: 700;
+    color: #00a1c7;
+}
+
+.hotels-list h4 {
+  font-size: 0.8em;
+}
+
+.hotels-list p {
+    font-size: 0.8em;
+}
+
+.hotels-list p.small {
+  font-size: 0.7em;
+  margin: 0;
+}
+
+#hotels-evnts {
+  background: #F0F1F4;
+  padding-top: 0;
+}
+
+#hotels .evnts-partner {
+  margin: 1.5em 1em;
+  padding-top: 1.5em 0;
+  clear: both;
+  text-align: center;
+}
+
+#hotels p{
+    padding-top: 0.5em;
+}
+
+#hotels strong{
+    font-weight: bold;
+}
+
+#subscription h2 {
+  color: #fef64f;
+  text-align: center;
+}
+
+#subscription .cta-button {
+  background-color: #fff;
+  color: #006c84;
+}
+
+#subscription .cta-button {
+    padding: 1.2em 1em;
+    border-radius: 28px;
+    text-decoration: none;
+}
+
+#subscription .cta-button:hover {
+  background-color: #f2f2f2;
+}
+
+.right{
+    float: right;
+    margin-left: 2em;
+}
+
+.p1 strong {
+    font-weight: 600;
+}
+
+/*sponsor*/
+.wrap-supporter {
+    color: #FFF;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.wrap-supporter.internal{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.supporter {
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-table;
+}
+
+div.supporter-enclosure{
+    max-width:900px;
+    overflow:hidden;
+    margin:0 auto;
+    position:relative;
+}
+
+div.supporter-enclosure li{
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div.supporter-enclosure figure{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+div.supporter-enclosure figure img{
+    top:11px;
+    left:12px;
+}
+
+.supporter-title {
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: 800;
+    width: 79.6875%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+.supporter-title.internal {
+    color: #218ac9;
+}
+.supporter-item {
+    background-color: #FFF;
+    padding: 10px;
+    width: 145px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.supporter-item.title{
+    width: 310px;
+    height: 310px;
+}
+
+.supporter-item.diamond{
+    width: 280px;
+    height:280px;
+}
+
+.supporter-item.gold{
+    width: 250px;
+    height: 250px;
+}
+
+.supporter-item.silver{
+    width: 210px;
+    height: 210px;
+}
+
+.supporter-item.bronze{
+    width: 170px;
+    height: 170px;
+}
+
+.supporter-item.online{
+    width: 150px;
+    height: 150px;
+}
+
+.supporter-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+/*.supporter-item img {
+    height: auto;
+    max-width: 125px;
+    max-height: 100px;
+}*/
+
+.supporter-item.title img {
+    height: auto;
+    max-width: 290px;
+    max-height: 260px;
+}
+
+.supporter-item.diamond img {
+    height: auto;
+    max-width: 255px;
+    max-height: 230px;
+}
+
+.supporter-item.gold img {
+    height: auto;
+    max-width: 210px;
+    max-height: 210px;
+}
+
+.supporter-item.silver img {
+    height: auto;
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.supporter-item.bronze img {
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/*.supporter-item.online img {
+    height: auto;
+    max-width: 130px;
+    max-height: 130px;
+}*/
+/*sponsor - END*/
+
+@media(max-width: 550px) {
+    .pigs li {
+        width: 100%
+    }
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+    .pigs li {
+        width: 33.333%
+    }
+}
