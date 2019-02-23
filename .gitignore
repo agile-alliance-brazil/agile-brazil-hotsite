@@ -1,3 +1,4 @@
+website/build
 .DS_Store
 tmp/cache/models/*
 tmp/cache/persistent/*
