@@ -15,7 +15,7 @@ jobs:
           name: Deploy Over SSH to staging
           command: |
             git remote add staging $SSH_USER@$SSH_HOST:repo/staging.agilebrazil.com.git
-            git push staging master -f
+            git push staging gh-pages -f
   production:
     <<: *defaults
     steps:
@@ -32,20 +32,4 @@ workflows:
   version: 2
   deploy:
     jobs:
-      - staging:
-          filters:
-            branches:
-              only: master
-      - hold:
-          type: approval
-          requires:
-            - staging
-          filters:
-            branches:
-              only: master
-      - production:
-          requires:
-            - hold
-          filters:
-            branches:
-              only: master
+      - staging
