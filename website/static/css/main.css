@@ -97,7 +97,7 @@ video {
 
 /* Base scaffolding taken from Markswatch theme */
 body {
-  color: #24292e;
+  color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 16px;
@@ -540,7 +540,7 @@ blockquote {
 }
 
 .projectTitle {
-  color: #5C95B6;
+  color: #fff;
   font-size: 250%;
   line-height: 1em;
 }
@@ -1319,6 +1319,7 @@ input::placeholder {
   padding-top: 100px;
   position: relative;
   z-index: 99;
+  background-image: url("/2019/img/cover.jpg");
 }
 
 .singleRowMobileNav.navPusher {
@@ -2181,7 +2182,7 @@ input::placeholder {
 }
 
 .productShowcaseSection h2 {
-  color: #5C95B6;
+  color: #fff;
   font-size: 30px;
   line-height: 1em;
   margin-top: 20px;

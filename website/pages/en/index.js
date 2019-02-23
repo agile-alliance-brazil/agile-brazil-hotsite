@@ -66,6 +66,8 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#quer-ser-um-patrocinador">Patrocínio</Button>
+            <Button href="#">Inscrições</Button>
+            <Button href="#">Programa</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -102,21 +104,19 @@ class Index extends React.Component {
     );
 
     const Detalhes = () => (
-      <Block background="dark" layout="fourColumn">
-        {[
-          {
-            content: 'Convidamos a comunidade ágil para semear valores e princípios ágeis e juntos colher os frutos de nossa cultura.',
-            imageAlign: 'top',
-            title: 'Em 2019 nossa convenção será realizada em Belo Horizonte!',
-          },
-          {
-            content: 'contato@agilebrazil.com',
-            image: `${baseUrl}img/logoAgileAlliance.png`,
-            imageAlign: 'top',
-            title: '#AgileBR',
-          },
-        ]}
-      </Block>
+      <Container padding={['bottom', 'top']} background="dark">
+        <GridBlock
+          contents={[
+            {
+              imageAlign: 'left',
+              image: `${siteConfig.baseUrl}img/bg-body.jpg`,
+              title: 'Em 2019 nossa convenção será realizada em Belo Horizonte!',
+              content: 'Convidamos a comunidade ágil para semear valores e princípios ágeis e juntos colher os frutos de nossa cultura.'
+            },
+          ]}
+          layout="oneColumn"
+        />
+      </Container>
     );
 
     return (
