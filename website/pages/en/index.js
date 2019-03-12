@@ -111,7 +111,7 @@ class Index extends React.Component {
             {
               imageAlign: 'left',
               image: `${siteConfig.baseUrl}img/bg-body.jpg`,
-              title: <translate>In 2019 our convention will be held in Belo Horizonte!</translate>,
+              title: <translate>In 2019 our conference will be held in Belo Horizonte!</translate>,
               content: <translate>We invite the agile community to sow values ​​and agile principles and together reap the fruits of our culture.</translate>
             },
           ]}
