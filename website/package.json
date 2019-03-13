@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "docusaurus": "^1.7.2"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4"
   }
 }

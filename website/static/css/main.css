@@ -2278,6 +2278,15 @@ input::placeholder {
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .social-media-container {
+    display: grid;
+  }
+}
+.social-media-items {
+  display: flex;
+}
+
 .nav-footer .sitemap {
   display: flex;
   justify-content: space-between;

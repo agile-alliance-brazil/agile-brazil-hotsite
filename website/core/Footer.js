@@ -1,25 +1,40 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faLinkedin, faVimeo, faYoutubeSquare, faInstagram, faTwitterSquare } from "@fortawesome/free-brands-svg-icons"
 const React = require('react');
+
+const socialMediaItem = {
+  display: 'inline-block',
+  width: '36px'
+};
+
+const BrandItem = props => 
+  <div>
+    <div className="brand-item" style={socialMediaItem}>
+      <a href={props.link} target="_blank">
+        <div className="icon-item" style={socialMediaItem}>
+          <FontAwesomeIcon icon={props.icon} color='#ffffff'/>
+        </div>
+      </a> 
+    </div>
+  </div>;
+
 
 const Footer = props => {
   const translationMap = require(`../i18n/${props.language}`);
   return (
     <footer className="nav-footer" id="footer">
       <section className="sitemap">
-        <div>
+        <div className="social-media-container">
           <h5>{translationMap['pages-strings']['social_networks']}</h5>
-          <a href="https://www.facebook.com/AgileBrazil" target="_blank">
-            Facebook
-          </a>
-          <a href="https://www.linkedin.com/groups/Agile-Brazil-3148432/" target="_blank">
-            LinkedIn
-          </a>
-          <a href="https://twitter.com/agilebrazil" target="_blank">
-            Twitter
-          </a>
-          <a href="https://vimeo.com/agilebrazil" target="_blank">
-            Vimeo
-          </a>
-        </div>
+          <div className="social-media-items">
+            <BrandItem link={"https://www.facebook.com/AgileBrazil"} icon={faFacebook}/>
+            <BrandItem link={"https://www.linkedin.com/groups/Agile-Brazil-3148432/"} icon={faLinkedin}/>
+            <BrandItem link={"https://twitter.com/agilebrazil"} icon={faTwitterSquare}/>
+            <BrandItem link={"https://vimeo.com/agilebrazil"} icon={faVimeo}/>
+            <BrandItem link={"https://www.youtube.com/channel/UCq45wLjEs9BRRreV02Fe8rw"} icon={faYoutubeSquare}/>
+            <BrandItem link={"https://www.instagram.com/agilebrazil/"} icon={faInstagram}/>
+          </div>
+          </div>
         <div>
           <h5>{translationMap['pages-strings']['contact']}</h5>
           <a href="mailto:contato@agilebrazil.com" target="_blank">
