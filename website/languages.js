@@ -6,8 +6,8 @@ const languages = [
   },
   {
     enabled: true,
-    name: 'Brazilian Portuguese',
-    tag: 'pt-BR',
+    name: 'Português',
+    tag: 'pt',
   }
 ];
 
