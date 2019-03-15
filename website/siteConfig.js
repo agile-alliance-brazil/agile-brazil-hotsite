@@ -25,7 +25,6 @@ const siteConfig = {
   city: 'Belo Horizonte',
   year: '2019',
   tagline: 'Belo Horizonte, 2019',
-  dates: '11,12 e 13 de setembro',
   url: 'http://staging.agilebrazil.com', 
   baseUrl: '/2019/', 
   projectName: 'agile-brazil-hotsite',
