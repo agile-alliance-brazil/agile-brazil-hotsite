@@ -66,7 +66,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#quer-ser-um-patrocinador"><translate>Sponsorship</translate></Button>
+            <Button href="#sponsorship"><translate>Sponsorship</translate></Button>
             <Button href="#"><translate>Tickets</translate></Button>
             <Button href="#"><translate>Schedule</translate></Button>
           </PromoSection>
@@ -97,6 +97,7 @@ class Index extends React.Component {
     const Patrocinadores = () => (
       <div
         className="productShowcaseSection paddingBottom"
+        id="sponsorship" 
         style={{textAlign: 'center'}}>
         <h2><translate>Sponsorship</translate></h2>
         <translate>Want to be a sponsor?</translate>
