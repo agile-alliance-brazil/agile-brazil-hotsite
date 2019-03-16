@@ -115,48 +115,61 @@ class Index extends React.Component {
 
     const BuyTicketsButton = props => (
       <a className="" href="https://inscricoes.agilebrazil.com/">
-        <div id="tickets" className="registerButton">Buy tickets</div>
+        <div id="tickets" className="buyTicketButton">Buy tickets</div>
       </a>
     )
 
-    const SponsorshipCategory = props => (
-      <div className="sponsorshipTable">
-        <div className="sponsorshipCategory">
-          <span className="sponsorType">Innovators</span>
-          <span className="sponsorDescription">100 inscrições ou até 15 de Abril o que vier antes.</span>
-          <span className="sponsorPrice">R$390</span>
-          <span className="sponsorPrice">AA R$351</span>
+    const TicketCategory = props => (
+      <div className="ticketTable">
+        <div className="ticketCategory">
+          <span className="ticketType"></span>
+          <span className="ticketDescription"></span>
+          <span className="ticketTitle">Regular</span>
+          <span className="ticketTitle">Agile Aliance</span>
         </div>
-        <div className="sponsorshipCategory">
-          <span className="sponsorType">Early Adopters</span>
-          <span className="sponsorDescription">100 inscrições ou até 15 de Maio o que vier antes.</span>
-          <span className="sponsorPrice">R$470</span>
-          <span className="sponsorPrice">AA R$423</span>
+        <div className="ticketCategory">
+          <span className="ticketType">Innovators</span>
+          <span className="ticketDescription">100 inscrições ou até 15 de Abril o que vier antes.</span>
+          <span className="ticketPrice">R$390</span>
+          <span className="ticketPrice">AA R$351</span>
         </div>
-        <div className="sponsorshipCategory">
-          <span className="sponsorType">Early Majority</span>
-          <span className="sponsorDescription">100 inscrições ou até 15 de Junho o que vier antes.</span>
-          <span className="sponsorPrice">R$560</span>
-          <span className="sponsorPrice">AA R$504</span>
+        <div className="ticketCategory">
+          <span className="ticketType">Early Adopters</span>
+          <span className="ticketDescription">100 inscrições ou até 15 de Maio o que vier antes.</span>
+          <span className="ticketPrice">R$470</span>
+          <span className="ticketPrice">AA R$423</span>
         </div>
-        <div className="sponsorshipCategory">
-          <span className="sponsorType">Late Majority</span>
-          <span className="sponsorDescription">100 inscrições ou até 15 de Julho o que vier antes.</span>
-          <span className="sponsorPrice">R$660</span>
-          <span className="sponsorPrice">AA R$594</span>
+        <div className="ticketCategory">
+          <span className="ticketType">Early Majority</span>
+          <span className="ticketDescription">100 inscrições ou até 15 de Junho o que vier antes.</span>
+          <span className="ticketPrice">R$560</span>
+          <span className="ticketPrice">AA R$504</span>
         </div>
-        <div className="sponsorshipCategory">
-          <span className="sponsorType">Late Adopters</span>
-          <span className="sponsorDescription">Até 28 de Agosto.</span>
-          <span className="sponsorPrice">R$750</span>
-          <span className="sponsorPrice">AA R$675</span>
+        <div className="ticketCategory">
+          <span className="ticketType">Late Majority</span>
+          <span className="ticketDescription">100 inscrições ou até 15 de Julho o que vier antes.</span>
+          <span className="ticketPrice">R$660</span>
+          <span className="ticketPrice">AA R$594</span>
         </div>
-        <div className="sponsorshipCategory">
-          <span className="sponsorType">Laggards e Empenhos</span>
-          <span className="sponsorDescription">De 29 de Agosto até 11 de Setembro.</span>
-          <span className="sponsorPrice">R$950</span>
-          <span className="sponsorPrice">AA R$855</span>
+        <div className="ticketCategory">
+          <span className="ticketType">Late Adopters</span>
+          <span className="ticketDescription">Até 28 de Agosto.</span>
+          <span className="ticketPrice">R$750</span>
+          <span className="ticketPrice">AA R$675</span>
         </div>
+        <div className="ticketCategory">
+          <span className="ticketType">Laggards e Empenhos</span>
+          <span className="ticketDescription">De 29 de Agosto até 11 de Setembro.</span>
+          <span className="ticketPrice">R$950</span>
+          <span className="ticketPrice">AA R$855</span>
+        </div>
+      </div>
+    );
+
+    const TicketSection = () => (
+      <div className="ticketSection">
+        <BuyTicketsButton />
+        <TicketCategory />
       </div>
     );
 
@@ -165,8 +178,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Details />
-          <BuyTicketsButton />
-          <SponsorshipCategory />
+          <TicketSection />
           <Sponsors />
         </div>
       </div>

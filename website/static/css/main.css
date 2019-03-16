@@ -2258,8 +2258,8 @@ input::placeholder {
 }
 /* End of Showcase */
 
-/* Start Register Button */
-.registerButton {
+/* Start Buy Ticket Button */
+.buyTicketButton {
   width: 9em;
   height: 3em;
   margin: 10px auto;
@@ -2271,19 +2271,23 @@ input::placeholder {
   transition: all 0.5s;
 }
 
-div.registerButton:hover {
+div.buyTicketButton:hover {
   transform: translate(0, -0.3em);
   background-image: linear-gradient(to right, #74BCE5 , #5C95B6);
   box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.249);
 }
 
-.registerButton a {
+.buyTicketButton a {
   color: white;
 }
-/* End Register Button */
+/* End Buy Ticket Button */
 
-/* Start Sponsorship Table */
-.sponsorshipTable {
+/* Start Ticket Table */
+.ticketSection {
+  margin: 50px 0;
+}
+
+.ticketTable {
   width: 90%;
   background: white;
   margin: 0px auto;
@@ -2291,7 +2295,7 @@ div.registerButton:hover {
   box-shadow: 0 0.5em 2em rgba(255, 255, 255, 0.249);
 }
 
-.sponsorshipCategory span{
+.ticketCategory span{
   width: 18%;
   min-height: 60px;
   padding: 20px 10px 5px 10px;
@@ -2304,24 +2308,28 @@ div.registerButton:hover {
   text-align: center;
 }
 
-.sponsorshipCategory span.sponsorDescription {
+.ticketCategory span.ticketDescription {
   width: 46%;
 }
 
+.ticketCategory span.ticketTitle {
+  color: #CC5357;
+}
+
 @media only screen and (max-width: 1060px) {
-  .sponsorshipCategory span{
+  .ticketCategory span{
     min-height: 80px;
     padding: 20px 10px 5px 10px;
   }
 }
 
 @media only screen and (max-width: 690px) {
-  .sponsorshipTable {
+  .ticketTable {
     width: 70%;
     box-shadow: none;
     background: none;
   }
-  .sponsorshipCategory span{
+  .ticketCategory span{
     min-height: 20px;
     display: block;
     border-bottom: none;
@@ -2329,7 +2337,7 @@ div.registerButton:hover {
     background: white;
   }
 
-  .sponsorshipCategory span.sponsorType {
+  .ticketCategory span.ticketType {
     width: 100%;
     font-size: 24px;
     font-weight: bold;
@@ -2337,12 +2345,12 @@ div.registerButton:hover {
     color: #5C95B6;
   }
 
-  .sponsorshipCategory span.sponsorDescription {
+  .ticketCategory span.ticketDescription {
     width: 100%;
     padding: 20px 10px 20px 10px;
   }
 
-  .sponsorshipCategory span.sponsorPrice {
+  .ticketCategory span.ticketPrice {
     width: 50%;
     padding: 0 5% 20px 5%;
     display: inline-block;
@@ -2351,7 +2359,7 @@ div.registerButton:hover {
 
 }
 
-/* End Sponsorship Table */
+/* End Ticket Table */
 
 /* Start of Footer */
 .nav-footer {
