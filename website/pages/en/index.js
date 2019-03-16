@@ -59,8 +59,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#sponsorship"><translate>Sponsorship</translate></Button>
-            <Button href="#tickets"><translate>Tickets</translate></Button>
+            <Button href="#register"><translate>Register now!</translate></Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -116,13 +115,13 @@ class Index extends React.Component {
     const BuyTicketsButton = props => (
       <div className="linkAgileButton">
         <a href="https://inscricoes.agilebrazil.com/">
-          <div id="tickets" className="buyTicketButton">Buy tickets</div>
+          <div className="buyTicketButton">Register now!</div>
         </a>
       </div>
     )
 
     const TicketCategory = props => (
-      <div className="ticketTable">
+      <div id="register" className="ticketTable">
         <div className="ticketCategory ticketHeader">
           <span className="ticketType"></span>
           <span className="ticketDescription"></span>
@@ -133,37 +132,44 @@ class Index extends React.Component {
           <span className="ticketType">Innovators</span>
           <span className="ticketDescription">100 inscrições ou até 15 de Abril o que vier antes.</span>
           <span className="ticketPrice">R$390</span>
-          <span className="ticketPrice">AA R$351</span>
+          <span className="ticketPrice">R$351</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Early Adopters</span>
           <span className="ticketDescription">100 inscrições ou até 15 de Maio o que vier antes.</span>
           <span className="ticketPrice">R$470</span>
-          <span className="ticketPrice">AA R$423</span>
+          <span className="ticketPrice">R$423</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Early Majority</span>
           <span className="ticketDescription">100 inscrições ou até 15 de Junho o que vier antes.</span>
           <span className="ticketPrice">R$560</span>
-          <span className="ticketPrice">AA R$504</span>
+          <span className="ticketPrice">R$504</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Late Majority</span>
           <span className="ticketDescription">100 inscrições ou até 15 de Julho o que vier antes.</span>
           <span className="ticketPrice">R$660</span>
-          <span className="ticketPrice">AA R$594</span>
+          <span className="ticketPrice">R$594</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Late Adopters</span>
           <span className="ticketDescription">Até 28 de Agosto.</span>
           <span className="ticketPrice">R$750</span>
-          <span className="ticketPrice">AA R$675</span>
+          <span className="ticketPrice">R$675</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Laggards e Empenhos</span>
           <span className="ticketDescription">De 29 de Agosto até 11 de Setembro.</span>
           <span className="ticketPrice">R$950</span>
-          <span className="ticketPrice">AA R$855</span>
+          <span className="ticketPrice">R$855</span>
+        </div>
+        <div className="ticketCategory">
+          <span className="ticketType">Estudantes</span>
+          <span className="ticketDescription">
+            <a href="#">Leia nosso FAQ</a>
+          </span>
+          <span className="ticketPrice">R$475</span>
         </div>
       </div>
     );
