@@ -1,7 +1,7 @@
 agile_brazil_site
 =================
 
-Repository for Agile Brazil website at https://agilebrazil.com/
+Repository for Agile Brazil website at https://www.agilebrazil.com/
 
 ## Old websites downloaded with
 
