@@ -68,7 +68,6 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href="#sponsorship"><translate>Sponsorship</translate></Button>
             <Button href="#"><translate>Tickets</translate></Button>
-            <Button href="#"><translate>Schedule</translate></Button>
           </PromoSection>
         </div>
       </SplashContainer>
