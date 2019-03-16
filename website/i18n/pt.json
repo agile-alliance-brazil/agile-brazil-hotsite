@@ -1,0 +1,48 @@
+{
+  "_comment": "Este arquivo é gerado automaticamente pelo write-translations.js",
+  "localized-strings": {
+    "next": "Próximo",
+    "previous": "Voltar",
+    "tagline": "Belo Horizonte, 2019",
+    "docs": {
+      "doc1": {
+        "title": "Latino",
+        "sidebar_label": "Página de Exemplo"
+      },
+      "doc2": {
+        "title": "documento número 2"
+      },
+      "doc3": {
+        "title": "Esse é o documento número 3"
+      },
+      "doc4": {
+        "title": "Outro documento"
+      },
+      "doc5": {
+        "title": "Quinto documento"
+      }
+    },
+    "links": {
+      "Agile Alliance": "Agile Alliance",
+      "Membresia": "Membresia"
+    },
+    "categories": {
+      "Docusaurus": "Docusaurus",
+      "First Category": "Primeira categoria",
+      "Second Category": "Segunda categoria"
+    }
+  },
+  "pages-strings": {
+    "september 11, 12 and 13|no description given": "11, 12 e 13 de setembro",
+    "Sponsorship|no description given": "Patrocínio",
+    "Tickets|no description given": "Inscrições",
+    "Want to be a sponsor?|no description given": "Quer ser um patrocinador?",
+    "In 2019 our conference will be held in Belo Horizonte!|no description given": "Em 2019 nossa conferência será realizada em Belo Horizonte!",
+    "We invite the agile community to sow values ​​and agile principles and together reap the fruits of our culture.|no description given": "Convidamos a comunidade ágil para semear valores e princípios ágeis e juntos colher os frutos de nossa cultura.",
+    "Help Translate|recruit community translators for your project": "Ajude a traduzir",
+    "Edit this Doc|recruitment message asking to edit the doc source": "Editar",
+    "Translate this Doc|recruitment message asking to translate the docs": "Traduzir",
+    "contact": "contato",
+    "social_networks": "Redes Sociais"
+  }
+}
