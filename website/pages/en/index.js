@@ -1,10 +1,3 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -67,7 +60,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#sponsorship"><translate>Sponsorship</translate></Button>
-            <Button href="#register"><translate>Register</translate></Button>
+            <Button href="#tickets"><translate>Tickets</translate></Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -93,7 +86,7 @@ class Index extends React.Component {
       </Container>
     );
 
-    const Patrocinadores = () => (
+    const Sponsors = () => (
       <div
         className="productShowcaseSection paddingBottom"
         id="sponsorship" 
@@ -104,7 +97,7 @@ class Index extends React.Component {
       </div>
     );
 
-    const Detalhes = () => (
+    const Details = () => (
       <Container padding={['bottom', 'top']} background="dark">
         <GridBlock
           contents={[
@@ -120,9 +113,9 @@ class Index extends React.Component {
       </Container>
     );
 
-    const RegisterButton = props => (
+    const BuyTicketsButton = props => (
       <a className="" href="https://inscricoes.agilebrazil.com/">
-        <div id="register" className="registerButton">Register</div>
+        <div id="tickets" className="registerButton">Buy tickets</div>
       </a>
     )
 
@@ -171,10 +164,10 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Detalhes />
-          <RegisterButton />
+          <Details />
+          <BuyTicketsButton />
           <SponsorshipCategory />
-          <Patrocinadores />
+          <Sponsors />
         </div>
       </div>
     );
