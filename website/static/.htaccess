@@ -1,13 +1,12 @@
+<IfModule mod_mime.c>
+	AddType text/css .css
+</IfModule>
+
 <IfModule mod_rewrite.c>
-    RewriteEngine on
-    # Don't rewrite the following
-    RewriteCond %{REQUEST_FILENAME} -f [OR]
-    RewriteCond %{REQUEST_FILENAME} -d [OR]
-    RewriteCond ^2015 [OR]
-    RewriteCond ^2016 [OR]
-    RewriteCond ^2017 [OR]
-    RewriteCond ^2018 [OR]
-    RewriteRule ^ - [L]
-    # Rewrite everything else to index.html
-    RewriteRule ^ index.html [L]
+    RewriteEngine On
+    RewriteBase /2019/
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /2019/index.html [L]
 </IfModule>
