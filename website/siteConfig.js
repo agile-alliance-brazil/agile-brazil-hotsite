@@ -50,6 +50,8 @@ const siteConfig = {
   cleanUrl: true,
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
+  gaTrackingId: 'UA-134176117-1',
+  gaGtag: true
 };
 
 module.exports = siteConfig;
