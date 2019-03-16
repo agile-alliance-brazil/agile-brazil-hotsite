@@ -2262,7 +2262,6 @@ input::placeholder {
 .buyTicketButton {
   width: 9em;
   height: 3em;
-  margin: 10px auto;
   color: white;
   padding-top: 0.65em;
   text-align: center;
@@ -2271,10 +2270,15 @@ input::placeholder {
   transition: all 0.5s;
 }
 
+.linkAgileButton {
+  width: 9em;
+  margin: 20px auto;
+}
+
 div.buyTicketButton:hover {
   transform: translate(0, -0.3em);
   background-image: linear-gradient(to right, #74BCE5 , #5C95B6);
-  box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.249);
+  box-shadow: 0 0.5rem 2rem rgba(25,28,30,.08);
 }
 
 .buyTicketButton a {
@@ -2284,15 +2288,16 @@ div.buyTicketButton:hover {
 
 /* Start Ticket Table */
 .ticketSection {
-  margin: 50px 0;
+  padding: 20px 0;
+  background: white;
 }
 
 .ticketTable {
   width: 90%;
   background: white;
-  margin: 0px auto;
+  margin: 20px auto;
   padding: 20px 25px 30px 25px;
-  box-shadow: 0 0.5em 2em rgba(255, 255, 255, 0.249);
+  box-shadow: 0 0.5rem 2rem rgba(25,28,30,.08);
 }
 
 .ticketCategory span{
@@ -2324,16 +2329,24 @@ div.buyTicketButton:hover {
 }
 
 @media only screen and (max-width: 690px) {
+  .ticketHeader {
+    display: none;
+  }
+
   .ticketTable {
     width: 70%;
     box-shadow: none;
     background: none;
   }
+  
+  .ticketCategory {
+    box-shadow: 0 0.5rem 2rem rgba(25,28,30,.08);
+  }
+
   .ticketCategory span{
     min-height: 20px;
     display: block;
     border-bottom: none;
-    box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.249);
     background: white;
   }
 

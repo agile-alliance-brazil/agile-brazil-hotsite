@@ -114,14 +114,16 @@ class Index extends React.Component {
     );
 
     const BuyTicketsButton = props => (
-      <a className="" href="https://inscricoes.agilebrazil.com/">
-        <div id="tickets" className="buyTicketButton">Buy tickets</div>
-      </a>
+      <div className="linkAgileButton">
+        <a href="https://inscricoes.agilebrazil.com/">
+          <div id="tickets" className="buyTicketButton">Buy tickets</div>
+        </a>
+      </div>
     )
 
     const TicketCategory = props => (
       <div className="ticketTable">
-        <div className="ticketCategory">
+        <div className="ticketCategory ticketHeader">
           <span className="ticketType"></span>
           <span className="ticketDescription"></span>
           <span className="ticketTitle">Regular</span>
@@ -168,8 +170,8 @@ class Index extends React.Component {
 
     const TicketSection = () => (
       <div className="ticketSection">
-        <BuyTicketsButton />
         <TicketCategory />
+        <BuyTicketsButton />
       </div>
     );
 
