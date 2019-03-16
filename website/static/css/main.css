@@ -1320,6 +1320,7 @@ input::placeholder {
   position: relative;
   z-index: 99;
   background-image: url("/2019/img/cover.jpg");
+  background-repeat: round;
 }
 
 .singleRowMobileNav.navPusher {
