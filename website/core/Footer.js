@@ -43,6 +43,7 @@ const Footer = props => {
         </div>
         <img
           src={`${props.config.baseUrl}img/logoAgileBrazil.png`}
+          className="agileBrazil-logo"
           alt="Logo Agile Brazil"
           height="45"
         />

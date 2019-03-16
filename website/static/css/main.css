@@ -2419,6 +2419,11 @@ div.registerButton:hover {
   .nav-footer .sitemap > div {
     margin-bottom: 18px;
   }
+
+  .nav-footer .agileBrazil-logo {
+    width: 9em;
+    margin: 0 auto;
+  }
 }
 
 .nav-footer .sitemap a {
