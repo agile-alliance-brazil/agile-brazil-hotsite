@@ -2257,6 +2257,30 @@ input::placeholder {
 }
 /* End of Showcase */
 
+/* Start Register Button */
+.registerButton {
+  width: 9em;
+  height: 3em;
+  margin: 10px auto;
+  color: white;
+  padding-top: 0.65em;
+  text-align: center;
+  border-radius: 1em;
+  background-image: linear-gradient(to right, #5C95B6 , #40687F);
+  transition: all 0.5s;
+}
+
+div.registerButton:hover {
+  transform: translate(0, -0.3em);
+  background-image: linear-gradient(to right, #74BCE5 , #5C95B6);
+  box-shadow: 0 0.5rem 2rem rgba(255, 255, 255, 0.249);
+}
+
+.registerButton a {
+  color: white;
+}
+/* End Register Button */
+
 /* Start Sponsorship Table */
 .sponsorshipTable {
   width: 90%;

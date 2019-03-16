@@ -120,6 +120,12 @@ class Index extends React.Component {
       </Container>
     );
 
+    const RegisterButton = props => (
+      <a className="" href="https://inscricoes.agilebrazil.com/">
+        <div className="registerButton">Register</div>
+      </a>
+    )
+
     const SponsorshipCategory = props => (
       <div className="sponsorshipTable">
         <div className="sponsorshipCategory">
@@ -143,6 +149,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Detalhes />
           <Patrocinadores />
+          <RegisterButton />
           <SponsorshipCategory />
         </div>
       </div>
