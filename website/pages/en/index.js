@@ -120,12 +120,30 @@ class Index extends React.Component {
       </Container>
     );
 
+    const SponsorshipCategory = props => (
+      <div className="sponsorshipTable">
+        <div className="sponsorshipCategory">
+          <span className="sponsorType">Jedi Early Bird</span>
+          <span className="sponsorDescription">100 inscrições ou até 15 de Abril o que vier antes.</span>
+          <span className="sponsorPrice">R$390</span>
+          <span className="sponsorPrice">AA R$351</span>
+        </div>
+        <div className="sponsorshipCategory">
+          <span className="sponsorType">Jedi Early Bird</span>
+          <span className="sponsorDescription">100 inscrições ou até 15 de Abril o que vier antes.</span>
+          <span className="sponsorPrice">R$390</span>
+          <span className="sponsorPrice">AA R$351</span>
+        </div>
+      </div>
+    );
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Detalhes />
           <Patrocinadores />
+          <SponsorshipCategory />
         </div>
       </div>
     );
