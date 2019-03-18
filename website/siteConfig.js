@@ -30,6 +30,7 @@ const siteConfig = {
   projectName: 'agile-brazil-hotsite',
   organizationName: 'agile-alliance-brazil',
   headerLinks: [
+    {doc: 'faq', label: 'FAQ'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },
     { href: "http://agilealliance.org/pt/membresia/", label: "Membresia"},
     { languages: true }
@@ -51,7 +52,9 @@ const siteConfig = {
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
   gaTrackingId: 'UA-134176117-1',
-  gaGtag: true
+  gaGtag: true,
+  enableUpdateTime: true,
+  enableUpdateBy: true,
 };
 
 module.exports = siteConfig;

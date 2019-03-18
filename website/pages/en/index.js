@@ -167,7 +167,7 @@ class Index extends React.Component {
         <div className="ticketCategory">
           <span className="ticketType">Estudantes</span>
           <span className="ticketDescription">
-            <a href="#">Leia nosso FAQ</a>
+            <a href="/2019/docs/en/faq#4-como-pago-o-valor-de-estudante">Leia nosso FAQ</a>
           </span>
           <span className="ticketPrice">R$475</span>
         </div>
