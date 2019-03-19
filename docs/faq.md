@@ -69,9 +69,9 @@ Se formarem um grupo de 15 (quinze) ou mais participantes, apenas o desconto por
 Não, você pode transferir gratuitamente para outra pessoa ou você pode solicitar a devolução do seu investimento, mas nesse caso ela será parcial. 
 
 Em casos de devolução, o percentual de reembolso será calculado de acordo com a data do pedido do cancelamento, conforme informações a seguir:
-- até 02/09/2018: 70% de restituição;
-- a partir de 03/09/2018 (1 mês antes do evento): 50% de restituição;
-- a partir de 29/09/2018 (72 horas antes do evento): não há restituição.
+- até 10/08/2019: 70% de restituição;
+- a partir de 11/08/2019 (1 mês antes do evento): 50% de restituição;
+- a partir de 08/09/2019 (72 horas antes do evento): não há restituição.
 
 ### 12. A inscrição de Estudante será somente para alunos da graduação ou poderá também ser utilizada por pós-graduandos?
 
