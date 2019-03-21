@@ -128,7 +128,7 @@ class Index extends React.Component {
           <span className="ticketTitle">Regular</span>
           <span className="ticketTitle">Agile Aliance</span>
         </div>
-        <div className="ticketCategory">
+    <div className="ticketCategory soldOut" title={<translate>Sold out!</translate>}>
           <span className="ticketType">Innovators</span>
           <span className="ticketDescription">100 inscrições ou até 15 de Abril o que vier antes.</span>
           <span className="ticketPrice">R$390</span>

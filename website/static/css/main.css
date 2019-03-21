@@ -2499,3 +2499,7 @@ div.buyTicketButton:hover {
   border-radius: 0;
   box-shadow: none;
 }
+
+.soldOut > span {
+  text-decoration: line-through;
+}
