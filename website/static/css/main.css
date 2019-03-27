@@ -2514,3 +2514,93 @@ div.buyTicketButton:hover {
 .keynotes img {
   border-radius: 50%;
 }
+
+/* Program section */
+.program--introduction-title {
+  text-align: left;
+  font-size: 4.5em;
+}
+
+.program--introduction-description {
+  background-color: #53A2D4;
+	border-radius: 2em;
+	font-size: 2em;
+	padding: 1em;
+}
+
+.program--whoweare-personas {
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  justify-content: center;
+  align-content: center;
+}
+
+.program--whoweare-personas li {
+	color: rgba(255, 255, 255, 0.8);
+	display: inline-block;
+	margin: 6em 0.2em;
+	padding: 1em;
+	width: 274px;
+  height: 260px;
+  vertical-align: text-top;
+}
+.program--whoweare-personas li::before {
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 5em;
+	font-weight: bold;
+	line-height: 115px;
+	height: 120px;
+	width: 120px;
+	transform: translateY(-60%);
+}
+
+.program--whoweare-personas .chairs::before {
+	background-color: #066BAC;
+	border: 18px solid #044875;
+	color: #044875;
+	content: "3";
+}
+.program--whoweare-personas .trackLeads::before {
+	background-color: #00BE4D;
+	border: 18px solid #008335;
+	color: #008335;
+	content: "12";
+}
+.program--whoweare-personas .committee::before {
+	background-color: #FF8E00;
+	border: 18px solid #B66600;
+	color: #B66600;
+	content: "20";
+}
+.program--whoweare-personas .reviewers::before {
+	background-color: #FF3100;
+	border: 18px solid #B62300;
+	color: #B62300;
+	content: "42";
+}
+.program--whoweare-personas li h3 {
+	font-size: 1em;
+	margin: -4em 0 1em;
+}
+
+.chairs {
+	background-color: #066BAC;
+	border: 1px solid #044875;
+}
+.trackLeads {
+	background-color: #00BE4D;
+	border: 1px solid #008335;
+}
+.committee {
+	background-color: #FF8E00;
+	border: 1px solid #B66600;
+}
+.reviewers {
+	background-color: #FF3100;
+	border: 1px solid #B62300;
+}
+
+/* End of Program section */
