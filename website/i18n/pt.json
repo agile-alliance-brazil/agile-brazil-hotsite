@@ -5,24 +5,12 @@
     "previous": "Voltar",
     "tagline": "Belo Horizonte, 2019",
     "docs": {
-      "doc1": {
-        "title": "Latino",
-        "sidebar_label": "Página de Exemplo"
-      },
-      "doc2": {
-        "title": "documento número 2"
-      },
-      "doc3": {
-        "title": "Esse é o documento número 3"
-      },
-      "doc4": {
-        "title": "Outro documento"
-      },
-      "doc5": {
-        "title": "Quinto documento"
+      "faq": {
+        "title": "Perguntas Frequentes"
       }
     },
     "links": {
+      "FAQ": "FAQ",
       "Agile Alliance": "Agile Alliance",
       "Membresia": "Membresia"
     },
@@ -34,11 +22,19 @@
   },
   "pages-strings": {
     "september 11, 12 and 13|no description given": "11, 12 e 13 de setembro",
+    "Register now!|no description given": "Increva-se já!",
     "Sponsorship|no description given": "Patrocínio",
-    "Tickets|no description given": "Inscrições",
     "Want to be a sponsor?|no description given": "Quer ser um patrocinador?",
     "In 2019 our conference will be held in Belo Horizonte!|no description given": "Em 2019 nossa conferência será realizada em Belo Horizonte!",
     "We invite the agile community to sow values ​​and agile principles and together reap the fruits of our culture.|no description given": "Convidamos a comunidade ágil para semear valores e princípios ágeis e juntos colher os frutos de nossa cultura.",
+    "Sold out!|no description given": "Vendido!",
+    "100 registrations or until April 15th, whichever comes first|no description given": "100 inscrições ou até 15 de Abril o que vier antes",
+    "100 registrations or until May 15th, whichever comes first|no description given": "100 inscrições ou até 15 de Maio o que vier antes",
+    "100 registrations or until June 15th, whichever comes first|no description given": "100 inscrições ou até 15 de Junho o que vier antes",
+    "100 registrations or until July 15th, whichever comes first|no description given": "100 inscrições ou até 15 de Julho o que vier antes",
+    "Until August 28th|no description given": "Até 28 de agosto",
+    "and commitment of payment|no description given": "e Empenhos",
+    "From August 29th until September 11th|no description given": "De 29 de Agosto até 11 de Setembro",
     "Help Translate|recruit community translators for your project": "Ajude a traduzir",
     "Edit this Doc|recruitment message asking to edit the doc source": "Editar",
     "Translate this Doc|recruitment message asking to translate the docs": "Traduzir",

@@ -112,7 +112,7 @@ class Index extends React.Component {
       </Container>
     );
 
-    const BuyTicketsButton = props => (
+    const BuyTicketsButton = () => (
       <div className="linkAgileButton">
         <a href="https://inscricoes.agilebrazil.com/">
           <div className="buyTicketButton">Register now!</div>
@@ -120,7 +120,7 @@ class Index extends React.Component {
       </div>
     )
 
-    const TicketCategory = props => (
+    const TicketCategory = () => (
       <div id="register" className="ticketTable">
         <div className="ticketCategory ticketHeader">
           <span className="ticketType"></span>
@@ -130,37 +130,37 @@ class Index extends React.Component {
         </div>
     <div className="ticketCategory soldOut" title={<translate>Sold out!</translate>}>
           <span className="ticketType">Innovators</span>
-          <span className="ticketDescription">100 inscrições ou até 15 de Abril o que vier antes.</span>
+          <span className="ticketDescription"><translate>100 registrations or until April 15th, whichever comes first</translate>.</span>
           <span className="ticketPrice">R$390</span>
           <span className="ticketPrice">R$351</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Early Adopters</span>
-          <span className="ticketDescription">100 inscrições ou até 15 de Maio o que vier antes.</span>
+          <span className="ticketDescription"><translate>100 registrations or until May 15th, whichever comes first</translate>.</span>
           <span className="ticketPrice">R$470</span>
           <span className="ticketPrice">R$423</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Early Majority</span>
-          <span className="ticketDescription">100 inscrições ou até 15 de Junho o que vier antes.</span>
+          <span className="ticketDescription"><translate>100 registrations or until June 15th, whichever comes first</translate>.</span>
           <span className="ticketPrice">R$560</span>
           <span className="ticketPrice">R$504</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Late Majority</span>
-          <span className="ticketDescription">100 inscrições ou até 15 de Julho o que vier antes.</span>
+          <span className="ticketDescription"><translate>100 registrations or until July 15th, whichever comes first</translate>.</span>
           <span className="ticketPrice">R$660</span>
           <span className="ticketPrice">R$594</span>
         </div>
         <div className="ticketCategory">
           <span className="ticketType">Late Adopters</span>
-          <span className="ticketDescription">Até 28 de Agosto.</span>
+          <span className="ticketDescription"><translate>Until August 28th</translate>.</span>
           <span className="ticketPrice">R$750</span>
           <span className="ticketPrice">R$675</span>
         </div>
         <div className="ticketCategory">
-          <span className="ticketType">Laggards e Empenhos</span>
-          <span className="ticketDescription">De 29 de Agosto até 11 de Setembro.</span>
+          <span className="ticketType">Laggards <translate>and commitment of payment</translate></span>
+          <span className="ticketDescription"><translate>From August 29th until September 11th</translate>.</span>
           <span className="ticketPrice">R$950</span>
           <span className="ticketPrice">R$855</span>
         </div>

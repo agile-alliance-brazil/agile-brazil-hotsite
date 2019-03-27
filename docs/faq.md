@@ -1,86 +1,82 @@
 ---
 id: faq
-title: Perguntas Frequentes
+title: Frequently asked questions
 ---
 
-## Inscrições
+## Registrations
 
-[Inscreva-se](https://inscricoes.agilebrazil.com/) na maior conferência de métodos ágeis do Brasil!
+[Register now](https://inscricoes.agilebrazil.com/) for the biggest Agile conference in Brazil!
 
-### 1. Posso fazer inscrição só em um curso, sem me inscrever na conferência?
+### 1. May I register just for the courses, without registering for the conference?
 
-Sim. 
-Você pode se inscrever só na conferência ou só em um curso. 
-Se quiser pode se inscrever em ambos ou então em vários cursos.
+Yes. 
+You may register only for the conference or only for a course.
+If you prefer you may register for both or for multiple courses.
 
-### 2. Posso fazer mais de um curso?
+### 2. May I register for more than one course?
 
-Sim.
-Você pode se inscrever em quantos cursos quiser, observando apenas que alguns cursos ocorrem em paralelo (ao mesmo tempo).
+Yes.
+You may register for as many courses as you want, just pay attention that some courses will happen in parallel (at the same time).
 
-### 3. Submeti uma sessão, mas ainda não sei se passei. E agora?
+### 3. I submitted a session, but don't know if it was approved. What should I do?
 
-Para garantir o menor preço, inscreva-se agora mesmo e, quando sair o resultado das submissões, você terá a escolha de transferir sua inscrição para outra pessoa ou doá-la para um estudante de computação local.
+In order to guarantee the lowest price, register right now and when the submission results come out you will have the choice to transfer your registration to another person or donate it to a local IT student.
 
-### 4. Sou membro da Agile Alliance. Tenho desconto?
+### 4. I am an Agile Alliance member. Do I have discount?
 
-Sim!
+Yes!
 
-Se você é membro da Agile Alliance, você tem desconto na sua inscrição conforme descrito [aqui](/2019/#register).
+If you are an Agile Alliance member, you have a discount in your registration, as described [here](/2019/#register).
 
-### 5. Vocês aceitam empenhos?
+### 5. Do you sell by commitment of pay?
 
-Sim, empenhos podem ser usados como forma de pagamento. 
+Yes, commitment of pay are accepted as payment.
 
-Para este tipo de inscrição, é cobrado o valor da inscrição de última hora (R$ 940,00), pois só receberemos após o evento. 
+For this type of registration we will charged the last registration price (R$940.00), since we'll only receive the payment after the conference.
 
-Em caso de dúvidas, envie um e-mail para inscricoes@agilebrazil.com. 
+If you have any questions, send an e-mail to inscricoes@agilebrazil.com.
 
-Teremos prazer em ajudá-lo(a).
+We'll be pleased to help you.
 
-### 6. Pagamento por empenho não tem direito a desconto de grupo?
+### 6. Commitment of payment does not have the group discount?
 
-Não, pois o pagamento ocorre após a realização do evento.
+No, since the payment will happen only after the conference.
 
-### 7. A Agile Brazil tem descontos em inscrições para grupos?
+### 7. Does Agile Brazil has discount for groups?
 
-Sim. Porém os descontos não serão para Super Early Birds, apenas para inscrições de Early Birds, Preço Normal e de Última Hora.
+Yes. But the discounts will not be applied to Super Early Birds, only for Early Birds, Normal Price and Last Hour registrations.
 
-### 8. A partir de quantas pessoas podemos considerar “grupo”?
+### 8. How many people are considered a "group"?
 
-Grupos: 
+Groups:
 
-de 05 (cinco) a 14 (catorze) pessoas – terão 10% de desconto na faixa vigente. 
+from 05 (five) to 14 (fourteen) people - you will have 10% off at the currently price.
 
-A partir de 15 (quinze) pessoas – terão 15% de desconto na faixa vigente.
+More than 15 (fifteen) people - you will have 15% off at the current price.
 
-### 9. Trabalho em uma empresa patrocinadora oficial da Agile Brazil. Terei descontos em inscrições para grupos?
+### 9. I work at a company that is an official sponsor of Agile Brazil. Do I have discounts on the registration for groups?
 
-Sim. Todos os colaboradores dos patrocinadores oficiais da Agile Brazil terão 10% de desconto no valor da faixa vigente.
+Yes. All the employees of the official sponsors of Agle Brazil will be granted a 10% off at the current price.
 
-### 10. Sou colaborador de uma empresa patrocinadora, podemos formar grupos e obter descontos progressivos?
+### 10. I'm an employee of a sponsor company, may we form groups in order to get progressive discounts?
 
-Colaborador de patrocinador terá direito a 10% de desconto e os descontos não serão cumulativos ou progressivos. 
+Sponsor's employees will have 10% off, and the discounts will not be cumulative or progressive.
 
-Se formarem um grupo de 15 (quinze) ou mais participantes, apenas o desconto por grupo (item 8) será aplicado.
+If you form a group of 15 (fifteen) or more attendees, only the group discount (8th item) will be applied.
 
-### 11. Se eu fizer a minha inscrição mas não puder comparecer no curso ou na conferência, eu perco meu dinheiro?
+### 11. What if I register but for any reason cannot attend the course or the conference, do I lose my money?
 
-Não, você pode transferir gratuitamente para outra pessoa ou você pode solicitar a devolução do seu investimento, mas nesse caso ela será parcial. 
+No, you can transfer to another person free of charge, or you can ask for the refund of your investment, but in this case it will be partial. 
 
-Em casos de devolução, o percentual de reembolso será calculado de acordo com a data do pedido do cancelamento, conforme informações a seguir:
-- até 10/08/2019: 70% de restituição;
-- a partir de 11/08/2019 (1 mês antes do evento): 50% de restituição;
-- a partir de 08/09/2019 (72 horas antes do evento): não há restituição.
+In case of refund, the percentage of your refund will be calculated according to the date of your cancellation request, as described:
+- until 08/10/2019: 70% of paid amount;
+- from 08/11/2019 (1 month before the conference): 50% of paid amount;
+- from 09/08/2019 (72 hours before the conference): no refund.
 
-### 12. A inscrição de Estudante será somente para alunos da graduação ou poderá também ser utilizada por pós-graduandos?
+## 12. What will it happen if I do not pay the registration fee in 04 (four) days?
 
-Você também pode se inscrever como pós-graduando. Basta que, no momento do credenciamento, você tenha as comprovações solicitadas.
+After 04 (four) days, you will receive an email informing that your registration will be cancelled.
 
-## 13. O que acontece se eu não pagar a inscrição no prazo de 04 (quatro) dias corridos?
+The cancelation will happen in case the payment does not occur until 4 days after this e-mail has been received.
 
-Após 04 (quatro) dias, você receberá um email informando que a inscrição será cancelada.
-
-O cancelamento será efetivado caso o pagamento não ocorra em até 4 dias após o recebimento deste email.
-
-Para maiores informações, entre em contato conosco pelo e-mail inscricoes@www.agilebrazil.com.
+For further informations, contact us through the e-mail: inscricoes@agilebrazi.com
