@@ -73,16 +73,34 @@ class Program extends React.Component {
     const {baseUrl, language = ''} = siteConfig;
 
     const Introduction = () => (
-      <section>
-        <h1 class="title">Como funciona o Programa <a href="http://agilebrazil.com" target="_blank">#AgileBR</a></h1>
+      <section className="program--introduction">
+        <h1 class="program--introduction-title">Como funciona o Programa <a href="http://agilebrazil.com" target="_blank">#AgileBR</a></h1>
 
-        <p>Fazer o Programa da Agile Brazil é uma jornada que se inicia no dia seguinte à Agile Brazil anterior e termina cerca de um mês após o evento acontecer. É um longo caminho e muitos voluntários da comunidade estão envolvidos nele.</p>
+        <p class="program--introduction-description">Fazer o Programa da Agile Brazil é uma jornada que se inicia no dia seguinte à Agile Brazil anterior e termina cerca de um mês após o evento acontecer. É um longo caminho e muitos voluntários da comunidade estão envolvidos nele.</p>
       </section>
     );
 
     const WhoWeAre = () => (
-      <section id="whoAreWe">
+      <section className="program--whoweare">
         <h2>Quem somos e o que fazemos?</h2>
+        <ul className="program--whoweare-personas">
+          <li class="program--whoweare-personas-persona chairs">
+            <h3>Chairs de Programa</h3>
+            <p>Responsáveis por coordenar e facilitar atividades e interagir com outros organizadores.</p>
+          </li>
+          <li class="trackLeads">
+            <h3>Track Leads</h3>
+            <p>Em pares, consideram as revisões das propostas e decidem o que será aprovado.</p>
+          </li>
+          <li class="committee">
+            <h3>Membros do comitê</h3>
+            <p>Definem o formato do Programa: trilhas, tipos de sessão, convidados, keynotes e regras.</p>
+          </li>
+          <li class="reviewers">
+            <h3>Revisores de propostas</h3>
+            <p>Lêem propostas de sessão submetidas e dão feedbacks pra autores e coordenadores de trilhas.</p>
+          </li>
+        </ul>
       </section>
     );
 
