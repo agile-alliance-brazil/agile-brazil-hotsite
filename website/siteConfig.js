@@ -6,6 +6,7 @@ var siteConfig = {
   baseUrl: '/2019/', 
   projectName: 'agile-brazil-hotsite',
   organizationName: 'agile-alliance-brazil',
+  defaultLanguage: 'pt',
   headerLinks: [
     {doc: 'faq', label: 'FAQ'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },
