@@ -26,8 +26,7 @@ var siteConfig = {
   scripts: ['https://buttons.github.io/buttons.js'],
   onPageNav: 'separate',
   cleanUrl: true,
-  enableUpdateTime: true,
-  enableUpdateBy: true,
+  enableUpdateTime: true
 };
 
 if (process.env.NODE_ENV == 'production') {

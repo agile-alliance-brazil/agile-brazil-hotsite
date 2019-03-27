@@ -638,6 +638,9 @@ blockquote {
 
 .mainContainer .wrapper .post {
   position: relative;
+  color: black;
+  padding: 20px 0;
+  background: #f7f7f7;  
 }
 
 .mainContainer .wrapper .post.basicPost {
