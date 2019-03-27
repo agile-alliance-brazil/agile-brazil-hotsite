@@ -10,7 +10,7 @@
     "crowdin-download": "crowdin --config ../crowdin.yaml download -b master"
   },
   "devDependencies": {
-    "docusaurus": "^1.7.2"
+    "docusaurus": "^1.7.3"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
