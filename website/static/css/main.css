@@ -2516,9 +2516,14 @@ div.buyTicketButton:hover {
 }
 
 /* Program section */
+.program--container {
+  font-size: 12px;
+}
+
 .program--introduction-title {
   text-align: left;
-  font-size: 4.5em;
+  font-size: 2.8em;
+  color: #5C95B6;
 }
 
 .program--introduction-description {
@@ -2528,6 +2533,11 @@ div.buyTicketButton:hover {
 	padding: 1em;
 }
 
+.program--whoweare {
+  margin: 1em auto;
+  width: 100%;
+}
+
 .program--whoweare-personas {
   text-align: center;
   display: flex;
@@ -2535,6 +2545,7 @@ div.buyTicketButton:hover {
   align-items: stretch;
   justify-content: center;
   align-content: center;
+  padding: 0;
 }
 
 .program--whoweare-personas li {
@@ -2542,42 +2553,69 @@ div.buyTicketButton:hover {
 	display: inline-block;
 	margin: 6em 0.2em;
 	padding: 1em;
-	width: 274px;
-  height: 260px;
+	width: 23%;
   vertical-align: text-top;
 }
 .program--whoweare-personas li::before {
-	border-radius: 50%;
-	display: inline-block;
-	font-size: 5em;
-	font-weight: bold;
-	line-height: 115px;
-	height: 120px;
-	width: 120px;
-	transform: translateY(-60%);
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+  transform: translateY(-100%);
+}
+
+@media only screen and (min-width: 736px) {
+  .program--whoweare-personas li::before {
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 115px;
+    height: 120px;
+    width: 120px;
+    transform: translateY(-60%);
+  }
+
+  .program--whoweare-personas .chairs::before {
+    border: 18px solid #044875;
+  }
+
+  .program--whoweare-personas .trackLeads::before {
+    border: 18px solid #008335;
+  }
+
+  .program--whoweare-personas .committee::before {
+    border: 18px solid #B66600;
+  }
+  .program--whoweare-personas .reviewers::before {
+    border: 18px solid #B62300;
+  }
 }
 
 .program--whoweare-personas .chairs::before {
 	background-color: #066BAC;
-	border: 18px solid #044875;
+	border: 10px solid #044875;
 	color: #044875;
 	content: "3";
 }
 .program--whoweare-personas .trackLeads::before {
 	background-color: #00BE4D;
-	border: 18px solid #008335;
+	border: 10px solid #008335;
 	color: #008335;
 	content: "12";
 }
 .program--whoweare-personas .committee::before {
 	background-color: #FF8E00;
-	border: 18px solid #B66600;
+	border: 10px solid #B66600;
 	color: #B66600;
 	content: "20";
 }
 .program--whoweare-personas .reviewers::before {
 	background-color: #FF3100;
-	border: 18px solid #B62300;
+	border: 10px solid #B62300;
 	color: #B62300;
 	content: "42";
 }
@@ -2601,6 +2639,76 @@ div.buyTicketButton:hover {
 .reviewers {
 	background-color: #FF3100;
 	border: 1px solid #B62300;
+}
+
+.program--timeline-events {
+	color: rgba(255, 255, 255, 0.9);
+	display: block;
+	background: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0) 14%,
+		#044875 14%,
+		#044875 16%,
+		rgba(0, 0, 0, 0) 16%,
+		rgba(0, 0, 0, 0) 37%,
+		#008335 37%,
+		#008335 39%,
+		rgba(0, 0, 0, 0) 39%,
+		rgba(0, 0, 0, 0) 61%,
+		#B66600 61%,
+		#B66600 63%,
+		rgba(0, 0, 0, 0) 63%,
+		rgba(0, 0, 0, 0) 84%,
+		#B62300 84%,
+		#B62300 86%,
+		rgba(0, 0, 0, 0) 86%,
+		rgba(0, 0, 0, 0)
+	);
+	margin-top: -4em;
+	padding-top: 4em;
+}
+.program--timeline-events h2 {
+	background-color: rgba(156,202,231, 0.3);
+	border-radius: 1em;
+	margin-top: 0.5em;
+	padding: 0.5em;
+}
+.program--timeline-events ul {
+	padding: 0 3em;
+}
+.program--timeline-events li {
+	display: block;
+	margin-top: 1em;
+	width: 24.5%;
+}
+.program--timeline-events h3 {
+	color: #FFF;
+	cursor: pointer;
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 1.8em;
+	padding: 0.5em;
+	text-align: center;
+}
+.program--timeline-events p {
+	display: none;
+}
+.program--timeline-events .isActive p {
+	display: block;
+	padding: 1em;
+	line-height: 1.4em;
+}
+.program--timeline-events .chairs h3 {
+	background-color: #044875;
+}
+.program--timeline-events .trackLeads h3 {
+	background-color: #008335;
+}
+.program--timeline-events .committee h3 {
+	background-color: #B66600;
+}
+.program--timeline-events .reviewers h3 {
+	background-color: #B62300;
 }
 
 /* End of Program section */
