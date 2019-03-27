@@ -1,9 +1,8 @@
-const siteConfig = {
+var siteConfig = {
   title: 'Agile Brazil', 
   city: 'Belo Horizonte',
   year: '2019',
   tagline: 'Belo Horizonte, 2019',
-  url: 'https://www.agilebrazil.com', 
   baseUrl: '/2019/', 
   projectName: 'agile-brazil-hotsite',
   organizationName: 'agile-alliance-brazil',
@@ -26,10 +25,16 @@ const siteConfig = {
   scripts: ['https://buttons.github.io/buttons.js'],
   onPageNav: 'separate',
   cleanUrl: true,
-  gaTrackingId: 'UA-134176117-1',
-  gaGtag: true,
   enableUpdateTime: true,
   enableUpdateBy: true,
 };
+
+if (process.env.NODE_ENV == 'production') {
+  siteConfig.url = 'https://www.agilebrazil.com';
+  siteConfig.gaTrackingId = 'UA-134176117-1';
+  siteConfig.gaGtag = true;
+} else {
+  siteConfig.url = 'http://staging.agilebrazil.com';
+}
 
 module.exports = siteConfig;
