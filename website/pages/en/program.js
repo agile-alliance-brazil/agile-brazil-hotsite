@@ -3,10 +3,10 @@ const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const translate = require('../../server/translate.js').translate;
 
+const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
-// TODO: Create a core component for this template
 class HomeSplash extends React.Component {
   render() {
     const {siteConfig, language = ''} = this.props;
@@ -104,28 +104,12 @@ class Program extends React.Component {
       </section>
     );
 
-    const TimeLineEvents = () => (
-      <h2>Antes de abrir submissões...</h2>
-    );
-
-    const Conclusion = () => (
-      <h1 class="title">É um trabalho e tanto!!!</h1>
-    );
-
-    const Content = () => (
-      <Container padding={['bottom', 'top']} background="dark">
-        <Introduction />
-        <WhoWeAre />
-        <TimeLineEvents />
-        <Conclusion />
-      </Container>
-    );
-
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer">
-          <Content />
+        <div className="mainContainer program--container">
+          <Introduction />
+          <WhoWeAre />
         </div>
       </div>
     );
