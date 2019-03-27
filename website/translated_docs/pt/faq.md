@@ -18,7 +18,7 @@ Sim. Você pode se inscrever em quantos cursos quiser, observando apenas que alg
 
 Para garantir o menor preço, inscreva-se agora mesmo e, quando sair o resultado das submissões, você terá a escolha de transferir sua inscrição para outra pessoa ou doá-la para um estudante de computação local.
 
-### 4. Eu sou um membro da Agile Alliance. Tenho desconto?
+### 4. I am an Agile Alliance member. Tenho desconto?
 
 Sim!
 
