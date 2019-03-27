@@ -86,13 +86,20 @@ class Index extends React.Component {
     );
 
     const Sponsors = () => (
-      <div
-        className="lightBackground productShowcaseSection paddingBottom"
-        id="sponsorship" 
-        style={{textAlign: 'center'}}>
+      <div className="lightBackground productShowcaseSection paddingBottom" 
+      id="sponsorship" style={{textAlign: 'center'}}> 
         <h2><translate>Sponsorship</translate></h2>
-        <translate>Want to be a sponsor?</translate>
-        <MarkdownBlock>[patrocinio@agilebrazil.com](mailto:patrocinio@agilebrazil.com)</MarkdownBlock>
+        <div class="showcase">
+          <a class="link" href="http://dtidigital.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/dti-digital-crafters.png`}
+            alt="DTI">
+            </img>
+          </a>
+        </div>
+        <div>
+         <h2><translate>Want to be a sponsor?</translate></h2>
+          <MarkdownBlock>[patrocinio@agilebrazil.com](mailto:patrocinio@agilebrazil.com)</MarkdownBlock>
+        </div>
       </div>
     );
 
