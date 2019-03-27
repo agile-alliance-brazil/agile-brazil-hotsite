@@ -2503,3 +2503,7 @@ div.buyTicketButton:hover {
 .soldOut > span {
   text-decoration: line-through;
 }
+
+.keynotes img {
+  border-radius: 50%;
+}

@@ -174,12 +174,50 @@ class Index extends React.Component {
       </div>
     );
 
+    const Keynotes = () => (
+      <div className="keynotes" id="keynotes" style={{textAlign: 'center'}}>
+        <h2>
+          <translate>Confirmed Keynotes</translate>
+        </h2>
+        <Container padding={['bottom', 'top']}>
+        <GridBlock
+          align="center"
+          contents={[
+            {
+              content:<translate>
+                *Paulo Caroli has more than 20 years of experience with software development,
+                working at various corporations from Brazil, India, USA and other across Latino America.
+                In 2000, he discovery the Extreme Programming and, since then,
+                focused his experience on Agile & Lean processes and practices.
+                He joined ThoughtWorks at 2006 and worked as Agile Coach, Trainer, Project and Delivery Manager.
+                He has a bachelor's degree in Computing and master in Software Engineering, both at PUC-Rio.
+                Caroli is passionate about innovation, entrepreneurship and digital products.
+                He is software engineer, writer, speaker and an exepctional facilitator.*
+              </translate>,
+              image: `${siteConfig.baseUrl}img/keynotes/paulo-caroli.jpg`,
+              imageAlign: 'top',
+              imageAlt: 'Paulo Caroli',
+              title:
+                'Paulo Caroli <br/><font size="2">'+
+                <translate>
+                  *Principal Consultant at Thoughtworks*
+                </translate>
+                +'</font>',
+            }
+          ]}
+          layout="threeColumn"
+        />
+      </Container>
+      </div>
+    );
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Details />
           <TicketSection />
+          <Keynotes />
           <Sponsors />
         </div>
       </div>
