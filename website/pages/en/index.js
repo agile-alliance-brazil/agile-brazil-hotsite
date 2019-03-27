@@ -87,7 +87,7 @@ class Index extends React.Component {
 
     const Sponsors = () => (
       <div
-        className="productShowcaseSection paddingBottom"
+        className="lightBackground productShowcaseSection paddingBottom"
         id="sponsorship" 
         style={{textAlign: 'center'}}>
         <h2><translate>Sponsorship</translate></h2>
@@ -121,12 +121,12 @@ class Index extends React.Component {
     )
 
     const TicketCategory = () => (
-      <div id="register" className="ticketTable">
+      <div className="ticketTable">
         <div className="ticketCategory ticketHeader">
           <span className="ticketType"></span>
           <span className="ticketDescription"></span>
           <span className="ticketTitle">Regular</span>
-          <span className="ticketTitle">Agile Aliance</span>
+          <span className="ticketTitle">Agille Aliance</span>
         </div>
     <div className="ticketCategory soldOut" title={<translate>Sold out!</translate>}>
           <span className="ticketType">Innovators</span>
@@ -168,14 +168,17 @@ class Index extends React.Component {
     );
 
     const TicketSection = () => (
-      <div className="ticketSection">
+      <div id="register" className="ticketSection productShowcaseSection">
+        <h2>
+          <translate>Registrations</translate>
+        </h2>
         <TicketCategory />
         <BuyTicketsButton />
       </div>
     );
 
     const Keynotes = () => (
-      <div className="keynotes" id="keynotes" style={{textAlign: 'center'}}>
+      <div className="lightBackground keynotes productShowcaseSection" id="keynotes">
         <h2>
           <translate>Confirmed Keynotes</translate>
         </h2>

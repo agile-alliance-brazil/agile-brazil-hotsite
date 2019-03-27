@@ -1082,7 +1082,7 @@ input::placeholder {
 
 .imageAlignTop .blockImage {
   margin-bottom: 20px;
-  max-width: 80px;
+  max-width: 20%;
 }
 
 .imageAlignTop.alignCenter .blockImage {
@@ -1139,6 +1139,8 @@ input::placeholder {
 }
 
 .lightBackground {
+  color: black;
+  padding: 20px 0;
   background: #f7f7f7;
 }
 
@@ -2106,7 +2108,6 @@ input::placeholder {
 }
 
 .productShowcaseSection {
-  padding: 0 20px 0;
   text-align: center;
 }
 
@@ -2119,7 +2120,7 @@ input::placeholder {
 }
 
 .productShowcaseSection h2 {
-  color: #fff;
+  color: black;
   font-size: 30px;
   line-height: 1em;
   margin-top: 20px;
@@ -2225,7 +2226,7 @@ div.buyTicketButton:hover {
 /* Start Ticket Table */
 .ticketSection {
   padding: 20px 0;
-  background: white;
+  background: #f7f7f7;
 }
 
 .ticketTable {
@@ -2502,6 +2503,10 @@ div.buyTicketButton:hover {
 
 .soldOut > span {
   text-decoration: line-through;
+}
+
+.keynotes h2 {
+  text-align: center;
 }
 
 .keynotes img {
