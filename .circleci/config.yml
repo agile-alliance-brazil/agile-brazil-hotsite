@@ -2,15 +2,17 @@ version: 2
 defaults: &defaults
   working_directory: ~/agile-brazil-hotsite
   docker:
-    - image: circleci/node:lts-browsers
+    - image: node:lts
 jobs:
   staging:
     <<: *defaults
     steps:
       - checkout
       - run:
-          name: Add SSH Server host key to known_hosts
-          command: ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
+          name: Add SSH Server host key to known_hosts and rsync
+          command: |
+            apt update && apt install rsync -y && \
+            ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
       - run:
           name: Deploy to staging
           command: |
@@ -22,8 +24,10 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Add SSH Server host key to known_hosts
-          command: ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
+          name: Add SSH Server host key to known_hosts and rsync
+          command: |
+            apt update && apt install rsync -y && \
+            ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
       - run:
           name: Deploy to production
           environment:
