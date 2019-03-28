@@ -2533,11 +2533,6 @@ div.buyTicketButton:hover {
 	padding: 1em;
 }
 
-.program--whoweare {
-  margin: 1em auto;
-  width: 100%;
-}
-
 .program--whoweare-personas {
   text-align: center;
   display: flex;
@@ -2551,11 +2546,12 @@ div.buyTicketButton:hover {
 .program--whoweare-personas li {
 	color: rgba(255, 255, 255, 0.8);
 	display: inline-block;
-	margin: 6em 0.2em;
+	margin: 4em 0.2em;
 	padding: 1em;
 	width: 23%;
   vertical-align: text-top;
 }
+
 .program--whoweare-personas li::before {
   border-radius: 50%;
   display: inline-block;
@@ -2565,34 +2561,6 @@ div.buyTicketButton:hover {
   height: 30px;
   width: 30px;
   transform: translateY(-100%);
-}
-
-@media only screen and (min-width: 736px) {
-  .program--whoweare-personas li::before {
-    border-radius: 50%;
-    display: inline-block;
-    font-size: 5em;
-    font-weight: bold;
-    line-height: 115px;
-    height: 120px;
-    width: 120px;
-    transform: translateY(-60%);
-  }
-
-  .program--whoweare-personas .chairs::before {
-    border: 18px solid #044875;
-  }
-
-  .program--whoweare-personas .trackLeads::before {
-    border: 18px solid #008335;
-  }
-
-  .program--whoweare-personas .committee::before {
-    border: 18px solid #B66600;
-  }
-  .program--whoweare-personas .reviewers::before {
-    border: 18px solid #B62300;
-  }
 }
 
 .program--whoweare-personas .chairs::before {
@@ -2675,7 +2643,7 @@ div.buyTicketButton:hover {
 	padding: 0.5em;
 }
 .program--timeline-events ul {
-	padding: 0 3em;
+	padding: 0 1em;
 }
 .program--timeline-events li {
 	display: block;
@@ -2685,9 +2653,9 @@ div.buyTicketButton:hover {
 .program--timeline-events h3 {
 	color: #FFF;
 	cursor: pointer;
-	font-family: 'Cabin Sketch', cursive;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	padding: 0.5em;
+  margin: 0;
 	text-align: center;
 }
 .program--timeline-events p {
@@ -2709,6 +2677,55 @@ div.buyTicketButton:hover {
 }
 .program--timeline-events .reviewers h3 {
 	background-color: #B62300;
+}
+
+.program--timeline-events li.chairs {
+	margin-left: 0;
+}
+.program--timeline-events li.trackLeads {
+	margin-left: 25%;
+}
+.program--timeline-events li.committee {
+	margin-left: 50%;
+}
+.program--timeline-events li.reviewers {
+	margin-left: 75%;
+}
+
+@media only screen and (min-width: 736px) {
+  .program--container {
+    font-size: 16px;
+  }
+
+  .program--whoweare-personas li {
+      margin: 6em 0.2em;
+  }
+
+  .program--whoweare-personas li::before {
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 115px;
+    height: 120px;
+    width: 120px;
+    transform: translateY(-60%);
+  }
+
+  .program--whoweare-personas .chairs::before {
+    border: 18px solid #044875;
+  }
+
+  .program--whoweare-personas .trackLeads::before {
+    border: 18px solid #008335;
+  }
+
+  .program--whoweare-personas .committee::before {
+    border: 18px solid #B66600;
+  }
+  .program--whoweare-personas .reviewers::before {
+    border: 18px solid #B62300;
+  }
 }
 
 /* End of Program section */
