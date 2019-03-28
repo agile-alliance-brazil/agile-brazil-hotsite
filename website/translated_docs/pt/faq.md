@@ -28,7 +28,7 @@ Se você é membro da Agile Alliance, você tem desconto na sua inscrição conf
 
 Sim, empenhos podem ser usados como forma de pagamento.
 
-Para este tipo de inscrição, é cobrado o valor da inscrição de última hora (R$ 940,00), pois só receberemos após o evento.
+Para este tipo de inscrição, é cobrado o valor da inscrição de última hora (R$ 950,00), pois só receberemos após o evento.
 
 Em caso de dúvidas, envie um e-mail para inscricoes@agilebrazil.com.
 

@@ -32,7 +32,7 @@ If you are an Agile Alliance member, you have a discount in your registration, a
 
 Yes, commitment of pay are accepted as payment.
 
-For this type of registration we will charged the last registration price (R$940.00), since we'll only receive the payment after the conference.
+For this type of registration we will charged the last registration price (R$950.00), since we'll only receive the payment after the conference.
 
 If you have any questions, send an e-mail to inscricoes@agilebrazil.com.
 
