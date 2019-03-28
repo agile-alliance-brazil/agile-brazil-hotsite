@@ -2554,7 +2554,7 @@ div.buyTicketButton:hover {
 .program--whoweare-personas li {
 	color: rgba(255, 255, 255, 0.8);
 	display: inline-block;
-	margin: 4em 0.2em;
+	margin: 3em 0.2em 0;
 	padding: 1em;
 	width: 23%;
   vertical-align: text-top;
@@ -2699,13 +2699,19 @@ div.buyTicketButton:hover {
 	margin-left: 75%;
 }
 
+.program--timeline-events .isActive p {
+	display: block;
+	padding: 1em;
+	line-height: 1.4em;
+}
+
 @media only screen and (min-width: 736px) {
   .program--container {
     font-size: 16px;
   }
 
   .program--whoweare-personas li {
-      margin: 6em 0.2em;
+      margin: 5em 0.2em 0;
   }
 
   .program--whoweare-personas li::before {
