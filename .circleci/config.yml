@@ -32,12 +32,12 @@ workflows:
   version: 2
   deploy:
     jobs:
-      - staging
+      - staging:
           filters:
             branches:
               only:
                 - development
-      - production
+      - production:
           filters:
             branches:
               only:
