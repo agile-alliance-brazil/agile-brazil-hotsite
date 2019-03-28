@@ -1,6 +1,6 @@
 version: 2
 defaults: &defaults
-  working_directory: ~/agile-brazil-hotsite/website
+  working_directory: ~/agile-brazil-hotsite
   docker:
     - image: circleci/node:lts-browsers
 jobs:
@@ -8,6 +8,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout
+      - run: cd website
       - run:
           name: Add SSH Server host key to known_hosts
           command: ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
@@ -19,6 +20,7 @@ jobs:
     <<: *defaults
     steps:
       - checkout
+      - run: cd website
       - run:
           name: Add SSH Server host key to known_hosts
           command: ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
