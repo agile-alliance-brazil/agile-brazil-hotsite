@@ -2520,17 +2520,25 @@ div.buyTicketButton:hover {
   font-size: 12px;
 }
 
+.program--container section {
+  margin: 1em auto;
+}
+
+.program--description {
+  background-color: #53A2D4;
+  border-radius: 2em;
+  font-size: 2em;
+  padding: 1em;
+  margin: 0 0.5em;
+}
+
 .program--introduction-title {
   text-align: left;
   font-size: 2.8em;
-  color: #5C95B6;
 }
 
-.program--introduction-description {
-  background-color: #53A2D4;
-	border-radius: 2em;
-	font-size: 2em;
-	padding: 1em;
+.program--introduction-title a {
+  color: white;
 }
 
 .program--whoweare-personas {
@@ -2678,7 +2686,6 @@ div.buyTicketButton:hover {
 .program--timeline-events .reviewers h3 {
 	background-color: #B62300;
 }
-
 .program--timeline-events li.chairs {
 	margin-left: 0;
 }

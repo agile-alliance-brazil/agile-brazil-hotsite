@@ -76,7 +76,7 @@ class Program extends React.Component {
       <section className="program--introduction">
         <h1 class="program--introduction-title">Como funciona o Programa <a href="http://agilebrazil.com" target="_blank">#AgileBR</a></h1>
 
-        <p class="program--introduction-description">Fazer o Programa da Agile Brazil é uma jornada que se inicia no dia seguinte à Agile Brazil anterior e termina cerca de um mês após o evento acontecer. É um longo caminho e muitos voluntários da comunidade estão envolvidos nele.</p>
+        <p class="program--description">Fazer o Programa da Agile Brazil é uma jornada que se inicia no dia seguinte à Agile Brazil anterior e termina cerca de um mês após o evento acontecer. É um longo caminho e muitos voluntários da comunidade estão envolvidos nele.</p>
       </section>
     );
 
@@ -281,6 +281,13 @@ class Program extends React.Component {
       </section>
     );
 
+    const Conclusion = () => (
+      <section className="program--conclusion">
+        <h1 class="title">É um trabalho e tanto!!!</h1>
+        <p className="program--description">São muitos os passos e muitos os fallbacks para casos problemáticos! Mas a gente faz com carinho e ética, de forma completamente voluntária e buscando ser o processo mais transparente de escolhas de sessões que conhecemos!</p>
+      </section>
+    );
+
     return (
       <main>
         <HomeSplash siteConfig={siteConfig} language={language} />
@@ -288,6 +295,7 @@ class Program extends React.Component {
           <Introduction />
           <WhoWeAre />
           <TimeLineEvents />
+          <Conclusion />
         </div>
       </main>
     );
