@@ -1,6 +1,6 @@
 version: 2
 defaults: &defaults
-  working_directory: ~/agile-brazil-hotsite/
+  working_directory: ~/agile-brazil-hotsite
   docker:
     - image: circleci/node:lts-browsers
 jobs:
@@ -8,19 +8,19 @@ jobs:
     <<: *defaults
     steps:
       - checkout
-      - run: cd ~/agile-brazil-hotsite/website
       - run:
           name: Add SSH Server host key to known_hosts
           command: ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
       - run:
           name: Deploy to staging
           command: |
+            cd website && \ 
+            yarn install && \
             make deploy-to-staging
   production:
     <<: *defaults
     steps:
       - checkout
-      - run: cd ~/agile-brazil-hotsite/website
       - run:
           name: Add SSH Server host key to known_hosts
           command: ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
@@ -29,7 +29,9 @@ jobs:
           environment:
             NODE_ENV: production
           command: |
-            pwd && make deploy-to-production
+            cd website && \
+            yarn install && \ 
+            make deploy-to-production
 workflows:
   version: 2
   deploy:
