@@ -12,7 +12,7 @@ pre-deploy: build
 	sed -i "" "s/main\.css/main\.css\?$(TIME)/g" {} \;
 
 deploy-to-staging: pre-deploy
-	rsync -zav --progress --delete $(BUILD_PATH) $(STAGING_ENV)/$(YEAR)/
+	rsync -zav --progress --delete $(BUILD_PATH) $(SSH_HOST):staging.agilebrazil.com/$(YEAR)/
 
 deploy-to-prod: pre-deploy
-	rsync -zav --progress --delete $(BUILD_PATH) $(PROD_ENV)/$(YEAR)/
+	rsync -zav --progress --delete $(BUILD_PATH) $(SSH_HOST):agilebrazil.com/$(YEAR)/
