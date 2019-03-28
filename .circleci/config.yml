@@ -1,6 +1,6 @@
 version: 2
 defaults: &defaults
-  working_directory: ~/agile-brazil-hotsite
+  working_directory: ~/agile-brazil-hotsite/
   docker:
     - image: circleci/node:lts-browsers
 jobs:
