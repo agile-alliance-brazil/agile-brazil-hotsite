@@ -70,35 +70,35 @@ class HomeSplash extends React.Component {
 class Program extends React.Component {
   render() {
     const {config: siteConfig} = this.props;
-    const {baseUrl, language = ''} = siteConfig;
+    const {language = ''} = siteConfig;
 
     const Introduction = () => (
       <section className="program--introduction">
-        <h1 class="program--introduction-title">Como funciona o Programa <a href="http://agilebrazil.com" target="_blank">#AgileBR</a></h1>
+        <h1 class="program--introduction-title"><translate>How works the program</translate> <a href="http://agilebrazil.com" target="_blank">#AgileBR</a></h1>
 
-        <p class="program--description">Fazer o Programa da Agile Brazil é uma jornada que se inicia no dia seguinte à Agile Brazil anterior e termina cerca de um mês após o evento acontecer. É um longo caminho e muitos voluntários da comunidade estão envolvidos nele.</p>
+        <p class="program--description"><translate>Making the Agile Brazil Program is a journey that starts the day after the previous Agile Brazil and ends about a month after the event happens. It's a long road and many community volunteers are involved in it.</translate></p>
       </section>
     );
 
     const WhoWeAre = () => (
       <section className="program--whoweare">
-        <h2>Quem somos e o que fazemos?</h2>
+        <h2><translate>Who are we and what do we do?</translate></h2>
         <ul className="program--whoweare-personas">
           <li class="program--whoweare-personas-persona chairs">
-            <h3>Chairs de Programa</h3>
-            <p>Responsáveis por coordenar e facilitar atividades e interagir com outros organizadores.</p>
+            <h3><translate>Program's chairs</translate></h3>
+            <p><translate>Responsible for coordinating and facilitating activities and interacting with other organizers.</translate></p>
           </li>
           <li class="trackLeads">
             <h3>Track Leads</h3>
-            <p>Em pares, consideram as revisões das propostas e decidem o que será aprovado.</p>
+            <p><translate>In pairs, they consider the revisions of the proposals and decide what will be approved.</translate></p>
           </li>
           <li class="committee">
-            <h3>Membros do comitê</h3>
-            <p>Definem o formato do Programa: trilhas, tipos de sessão, convidados, keynotes e regras.</p>
+            <h3><translate>Committee members</translate></h3>
+            <p><translate>They define the Program format: tracks, session types, guests, keynotes and rules.</translate></p>
           </li>
           <li class="reviewers">
-            <h3>Revisores de propostas</h3>
-            <p>Lêem propostas de sessão submetidas e dão feedbacks pra autores e coordenadores de trilhas.</p>
+            <h3><translate>Proposals'Reviewers</translate></h3>
+            <p><translate>They read submitted session proposals and give feedback to authors and trail coordinators.</translate></p>
           </li>
         </ul>
       </section>
@@ -106,50 +106,46 @@ class Program extends React.Component {
 
     const TimeLineEvents = () => (
       <section className="program--timeline-events">
-        <h2>Antes de abrir submissões...</h2>
+        <h2><translate>Before opening submissions</translate>...</h2>
         <ul>
           <li class="chairs">
-            <h3>Convite do comitê</h3>
+            <h3><translate>Committee invitation</translate></h3>
             <div>
-              <p>Pessoas que compuseram o comitê de Programa no ano anterior, revisores que se destacaram e participantes que demonstraram bastante interesse em ajudar no Programa da próxima conferência são convidados para compor o comitê de Programa.</p>
+              <p><translate>People who made up the Program committee the previous year, reviewers who stood out and participants who showed a lot of interest in assisting in the Program of the next conference are invited to join the Program committee.</translate></p>
             </div>
           </li>
           <li class="committee">
-            <h3>Levantamento de candidatos a keynote</h3>
+            <h3><translate>Survey of keynote candidates</translate></h3>
             <div>
-              <p>Todo ano, levantamos nomes de pessoas que poderiam ser keynote speakers no ano corrente, considerando o público esperado e a presença de palco.</p>
-
-              <p>São 2 keynote speakers internacionais, 1 nacional e 1 keynote speaker fora-da-caixa - este último para falar de assuntos não-relacionado à agilidade.</p>
+              <p><translate>Every year, we raise names of people who could be keynote speakers in the current year, considering the expected audience and the presence of the stage.</translate></p>
+              <p><translate>There are 2 international keynote speakers, 1 national and 1 keynote speaker out-of-the-box - the latter to talk about non-agility related topics.</translate></p>
             </div>
           </li>
           <li class="chairs">
-            <h3>Convite aos keynote speakers</h3>
+            <h3><translate>Invitation to keynote speakers</translate></h3>
             <div>
-              <p>Começando pelos internacionais, que precisam de mais antecedência dada a longa viagem e as agendas concorridas, e então partindo para keynote nacional e fora-da-caixa.</p>
+              <p><translate>Starting with the internationals, who need more advance given the long journey and busy schedules, and then departing for national and out-of-the-box keynote.</translate></p>
             </div>
           </li>
           <li class="committee">
-            <h3>Definição das trilhas</h3>
+            <h3><translate>Setting the tracks</translate></h3>
             <div>
-              <p>São as grandes áreas de conhecimento que esperamos ter no programa da Agile Brazil. Conheça as <a href="https://submissoes.agilebrazil.com/2015/tracks" target="_blank">trilhas de 2015</a>!</p>
-
-              <p>Número e títulos de trilhas são rediscutidos todo ano porque servem, também, como forma de incentivar propostas de temas que os membros do comitê percebem como interessantes para o público.</p>
+              <p><translate>These are the great areas of knowledge that we hope to have in the Agile Brazil program. Get to know the</translate> <a href="https://submissoes.agilebrazil.com/2019/tracks" target="_blank"><translate>tracks of 2019</translate></a>!</p>
+              <p><translate>Number and track titles are rediscutidos every year because they also serve as a way to encourage proposals of themes that the members of the committee perceive as interesting for the public.</translate></p>
             </div>
           </li>
           <li class="committee">
-            <h3>Definição dos tipos de sessão</h3>
+            <h3><translate>Setting Session Types</translate></h3>
             <div>
-              <p>São os formatos de sessão que esperamos ver na conferência.</p>
-
-              <p>Muitos deles são <a href="https://submissoes.agilebrazil.com/2015/session_types" target="_blank">usados para submissões</a>: palestra, relato de experiência, mão na massa são exemplos. Outros, como keynote e open spaces, não são submetidos mas farão parte da conferência!</p>
+              <p><translate>These are the session formats we expect to see at the conference.</translate></p>
+              <p><translate>Many of them are</translate> <a href="https://submissoes.agilebrazil.com/2019/session_types" target="_blank"><translate>used for submissions</translate></a>: <translate>lecture, experience report, hand in hand are examples. Others, such as keynote and open spaces, are not submitted but will be part of the conference!</translate></p>
             </div>
           </li>
           <li class="committee">
-            <h3>Definição dos perfis de audiência</h3>
+            <h3><translate>Defining audience profiles</translate></h3>
             <div>
-              <p>Para facilitar a escolha das sessões pelo público da conferência, autores precisam classificar a audiência esperada em níveis, além de descrever os pré-requisitos.</p>
-
-              <p>Em 2015 estamos tentando algo novo: em vez de iniciante, praticante e experiente, <a href="https://submissoes.agilebrazil.com/2015/audience_levels" target="_blank">temos 4 níveis baseados na escala de Dreyfus</a>.</p>
+              <p><translate>To facilitate the choice of sessions by the conference audience, authors need to rank the expected audience in levels, in addition to describing the prerequisites.</translate></p>
+              <p><translate>In 2019 we are trying something new: instead of beginner, experienced and experienced,</translate> <a href="https://submissoes.agilebrazil.com/2019/audience_levels" target="_blank"><translate>we have 4 levels based on the Dreyfus scale</translate></a>.</p>
             </div>
           </li>
           <li class="committee">
