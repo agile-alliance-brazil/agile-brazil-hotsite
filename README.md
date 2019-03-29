@@ -1,5 +1,6 @@
-agile_brazil_site
+Agile Brazil Hotsite
 =================
+[![CircleCI](https://circleci.com/gh/agile-alliance-brazil/agile-brazil-hotsite.svg?style=svg&circle-token=d02c5ec05e9195f29afbb4177eaeca978de28f09)](https://circleci.com/gh/agile-alliance-brazil/agile-brazil-hotsite)
 
 Repository for Agile Brazil website at https://www.agilebrazil.com/
 
