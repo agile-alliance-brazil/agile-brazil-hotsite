@@ -89,8 +89,8 @@ class Index extends React.Component {
       <div className="lightBackground productShowcaseSection paddingBottom" 
       id="sponsorship" style={{textAlign: 'center'}}> 
         <h2><translate>Sponsorship</translate></h2>
-        <div class="showcase">
-          <a class="link" href="http://dtidigital.com.br/">
+        <div className="showcase">
+          <a className="link" href="http://dtidigital.com.br/">
             <img src={`${siteConfig.baseUrl}img/sponsors/dti-digital-crafters.png`}
             alt="DTI">
             </img>
