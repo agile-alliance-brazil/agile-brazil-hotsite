@@ -34,7 +34,7 @@ jobs:
             NODE_ENV: production
           command: |
             cd website && \
-            yarn install --production=false && \ 
+            yarn install && \ 
             make deploy-to-production
 workflows:
   version: 2

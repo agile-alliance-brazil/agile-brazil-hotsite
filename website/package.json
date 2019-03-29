@@ -9,10 +9,8 @@
     "crowdin-upload": "crowdin --config ../crowdin.yaml upload sources --auto-update -b master",
     "crowdin-download": "crowdin --config ../crowdin.yaml download -b master"
   },
-  "devDependencies": {
-    "docusaurus": "^1.7.3"
-  },
   "dependencies": {
+    "docusaurus": "^1.7.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-brands-svg-icons": "^5.7.2",
     "@fortawesome/react-fontawesome": "^0.1.4"
