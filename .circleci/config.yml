@@ -17,7 +17,6 @@ jobs:
           name: Deploy to staging
           command: |
             cd website && \
-            yarn install && \
             make deploy-to-staging
   production:
     <<: *defaults
@@ -34,7 +33,6 @@ jobs:
             NODE_ENV: production
           command: |
             cd website && \
-            yarn install && \
             make deploy-to-production
 workflows:
   version: 2

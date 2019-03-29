@@ -2,9 +2,22 @@ BUILD_PATH = ./build/agile-brazil-hotsite/
 YEAR = 2019
 TIME = $(shell date +'%Y%m%d-%H%M%S')
 
-.PHONY: build pre-deploy deploy-to-staging deploy-to-production
+configure:
+	yarn install
 
-build:
+dev-server:
+	yarn start
+
+crowdin-upload:
+	crowdin --config ../crowdin.yaml upload sources --auto-update -b master
+
+crowdin-download:
+	crowdin --config ../crowdin.yaml download -b master
+
+write-translations:
+	yarn write-translations
+
+build: configure
 	yarn build
 
 pre-deploy: build
