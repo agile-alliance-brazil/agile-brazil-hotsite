@@ -8,14 +8,14 @@ configure:
 dev-server:
 	yarn start
 
-crowdin-upload:
+translations:
+	yarn write-translations
+
+translations-upload:
 	crowdin --config ../crowdin.yaml upload sources --auto-update -b master
 
-crowdin-download:
+translations-download:
 	crowdin --config ../crowdin.yaml download -b master
-
-write-translations:
-	yarn write-translations
 
 build: configure
 	yarn build
