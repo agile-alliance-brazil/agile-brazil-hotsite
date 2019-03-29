@@ -16,7 +16,7 @@ jobs:
       - run:
           name: Deploy to staging
           command: |
-            cd website && \ 
+            cd website && \
             yarn install && \
             make deploy-to-staging
   production:
