@@ -79,4 +79,9 @@ After 04 (four) days, you will receive an email informing that your registration
 
 The cancelation will happen in case the payment does not occur until 4 days after this e-mail has been received.
 
+## 13. May I share my ticket with other person on the case I don't want to attend all the 03 (three) days?
+
+The ticket is individual, with the right to a credential that can not be used by more than one person.
+
+
 For further informations, contact us through the e-mail: inscricoes@agilebrazi.com

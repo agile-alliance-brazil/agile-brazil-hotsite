@@ -76,4 +76,8 @@ Após 04 (quatro) dias, você receberá um email informando que a inscrição se
 
 O cancelamento será efetivado caso o pagamento não ocorra em até 4 dias após o recebimento deste email.
 
+## 13. Posso compartilhar o meu ingresso com outra pessoa caso eu não queira ir nos 03 (três) dias de evento?
+
+O ingresso é individual, com direito a uma credencial que não pode ser utilizada por mais de uma pessoa.
+
 Para maiores informações, entre em contato conosco pelo e-mail inscricoes@agilebrazil.com
