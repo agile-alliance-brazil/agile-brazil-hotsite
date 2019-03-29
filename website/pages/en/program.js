@@ -288,6 +288,22 @@ class Program extends React.Component {
       </section>
     );
 
+    const TimeLineEventsListener = () => (
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            const timelineEvents = document.querySelector('.program--timeline-events');
+        
+            timelineEvents.addEventListener('click', ({ target }) => {
+              if (target.tagName === 'H3') {
+                target.nextElementSibling.classList.toggle('isActive');
+              }
+            });
+          `,
+        }}
+      />
+    );
+
     return (
       <main>
         <HomeSplash siteConfig={siteConfig} language={language} />
@@ -295,6 +311,7 @@ class Program extends React.Component {
           <Introduction />
           <WhoWeAre />
           <TimeLineEvents />
+          <TimeLineEventsListener />
           <Conclusion />
         </div>
       </main>
