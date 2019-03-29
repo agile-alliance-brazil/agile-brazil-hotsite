@@ -149,128 +149,125 @@ class Program extends React.Component {
             </div>
           </li>
           <li class="committee">
-            <h3>Definição de regras de submissão</h3>
+            <h3><translate>Definition of rules of submission</translate></h3>
             <div>
-              <p>Seja por questões de viabilidade financeira, ou para dar espaço para novos nomes surgirem, também as revisamos todo ano.</p>
-
-              <p>Por exemplo, não permitimos que um mesmo palestrante fale em mais do que duas sessões, nem que um mesmo conjunto de autores se repita em duas sessões. Conheça todas as <a href="https://submissoes.agilebrazil.com/2015/guidelines" target="_blank">regras de 2015</a>!</p>
+              <p><translate>Whether for financial feasibility, or to make room for new names to emerge, we also review them every year.</translate></p>
+              <p><translate>For example, we do not allow one speaker to speak in more than two sessions, nor do we allow the same set of authors to repeat themselves in two sessions. Know all the</translate> <a href="https://submissoes.agilebrazil.com/2019/guidelines" target="_blank"><translate>rules of 2019</translate></a>!</p>
             </div>
           </li>
           <li class="committee">
-            <h3>Definição do calendário</h3>
+            <h3><translate>Setting the calendar</translate></h3>
             <div>
-              <p>A definição das datas para cada atividade, desde a abertura de submissão até a publicação da grade no site.</p>
-
-              <p>As datas mostradas no sistema de submissão são apenas algumas delas! Há outros prazos intermediários para garantir que tudo está bem encaminhado!</p>
+              <p><translate>The definition of the dates for each activity, from the opening of submission to the publication of the grid on the site.</translate></p>
+              <p><translate>The dates shown in the submission system are just a few of them! There are other intermediate deadlines to ensure that everything is well underway!</translate></p>
             </div>
           </li>
           <li class="chairs">
-            <h3>Inscrições de track leads</h3>
+            <h3><translate>Registration of track leads</translate></h3>
             <div>
-              <p>Com as trilhas definidas, perguntamos na lista do comitê quem gostaria de liderar alguma trilha e os pares são formados. Track 	leads:</p>
-              <p>- não avaliam propostas da sua trilha, assim ele tem voto de minerva se necessário;</p>
-              <p>- não pode submeter para sua trilha, para evitar conflito de interesse;</p>
+              <p><translate>With the trails defined, we asked in the committee list who would like to lead some trail and the pairs are formed. Track leads:</translate></p>
+              <p>- <translate>do not evaluate proposals of his track, so he has a vote of minerva if necessary</translate>;</p>
+              <p>- <translate>can not submit to your track, to avoid conflict of interest</translate>;</p>
             </div>
           </li>
           <li class="chairs">
-            <h3>Adequação do sistema de submissões</h3>
-            <div class="">
-              <p>Seja pedindo para o time de desenvolvimento fazer, ou arregaçando as mangas e codando, garantimos que o sistema seja atualizado para o ano corrente.</p>
+            <h3><translate>Adequacy of the submissions system</translate></h3>
+            <div>
+              <p><translate>Whether asking the development team to do it, or rolling up sleeves and coding, we ensure the system is upgraded for the current year.</translate></p>
             </div>
           </li>
           <li class="trackLeads">
-            <h3>Convite aos revisores</h3>
+            <h3><translate>Invitation to reviewers</translate></h3>
             <div>
-              <p>Revisando a lista de revisores do ano anterior e elencando novos potenciais revisores da comunidade, montamos a lista de discussão e convidamos essas pessoas.</p>
+              <p><translate>Reviewing the list of reviewers from the previous year and listing new potential reviewers from the community, we set up the mailing list and invite those people.</translate></p>
             </div>
           </li>
         </ul>
-        <h2>Submissões abrem!</h2>
+        <h2><translate>Submissions open!</translate></h2>
         <ul>
           <li class="trackLeads">
-            <h3>Divulgação das submissões</h3>
+            <h3><translate>Disclosure of submissions</translate></h3>
             <div>
-              <p>Essa é uma atividade que começa agora e não pára até o final do prazo, se intensificando conforme a data limite se aproxima</p>
+              <p><translate>This is an activity that begins now and does not stop until the end of the term, intensifying as the deadline approaches</translate></p>
             </div>
           </li>
           <li class="reviewers">
-            <h3>Comentários nas submissões</h3>
+            <h3><translate>Comments on submissions</translate></h3>
             <div>
-              <p>Para ajudar os que submetem antes e os que buscam melhorar suas propostas, os revisores começam seus trabalhos mais cedo, comentando com dúvidas e dicas na maior parte das submissões.</p>
+              <p><translate>To help those who submit before and those who seek to improve their proposals, reviewers begin their work earlier, commenting on questions and tips on most submissions.</translate></p>
             </div>
           </li>
           <li class="trackLeads">
-            <h3>Acompanhamento de submissões por trilha</h3>
+            <h3><translate>Track submissions tracking</translate></h3>
             <div>
-              <p>Embora trilhas sejam projetadas para movimentar um certo assunto, corre-se o risco de termos poucas submissões em alguma delas. Os track leads devem ficar atentos a isso e fazer divulgações mais específicas, nesse caso!</p>
+              <p><translate>Although tracks are designed to move a certain subject, there is a risk of having few submissions in any of them. Track leads should be aware of this and make more specific disclosures, in this case!</translate></p>
             </div>
           </li>
           <li class="chairs">
-            <h3>Reforço de divulgação para submissões</h3>
+            <h3><translate>Broadcast promotion for submissions</translate></h3>
             <div>
-              <p>Todos os organizadores e diversos membros da comunidade em geral são acionados para ajudarem no esforço final de divulgação do prazo de submissões.</p>
+              <p><translate>All organizers and various members of the community in general are encouraged to assist in the final effort to disseminate the submission deadline.</translate></p>
             </div>
           </li>
         </ul>
-        <h2>Aí as submissões fecham.</h2>
+        <h2><translate>Then the submissions close.</translate></h2>
         <ul>
           <li class="reviewers">
-            <h3>Revisões das propostas</h3>
+            <h3><translate>Proposed revisions</translate></h3>
             <div>
-              <p>Cada proposta, então, recebe três revisões independentes dos revisores, que consideram cada campo submetido e o perfil dos autores.</p>
+              <p><translate>Each proposal then receives three independent reviews from the reviewers, who consider each field submitted and the authors' profile.</translate></p>
             </div>
           </li>
           <li class="trackLeads">
-            <h3>Seleção das sessões</h3>
+            <h3><translate>Session Selection</translate></h3>
             <div>
-              <p>Com todas as revisões feitas, track leads trabalham com seus pares para definir quais sessões querem aprovar, deixar como reserva ou reprovar.</p>
+              <p><translate>With all the reviews made, track leads work with your peers to define which sessions they want to approve, leave as a reservation or disapprove.</translate></p>
             </div>
           </li>
           <li class="trackLeads">
-            <h3>Consolidação entre trilhas</h3>
+            <h3><translate>Consolidation between tracks</translate></h3>
             <div>
-              <p>Todos os track leads se encontram online para verificar restrições e assuntos repetidos, então escolher quais sessões serão escolhidas, quais ficarão como reserva e quais não entrarão.</p>
+              <p><translate>All track leads are online to check restrictions and repeat subjects, then choose which sessions will be chosen, which ones will be booked and which ones will not enter.</translate></p>
             </div>
           </li>
           <li class="trackLeads">
-            <h3>Escrita dos feedbacks</h3>
+            <h3><translate>Feedbacks writing</translate></h3>
             <div>
-              <p>Quando decisões de aprovação estão tomadas, os track leads ainda adicionam um breve feedback próprio em cada proposta e, quando estão todos prontos, os e-mails de confirmação são enviados.</p>
+              <p><translate>When approval decisions are made, track leads still add a brief own feedback on each proposal, and when they are all ready, confirmation emails are sent.</translate></p>
             </div>
           </li>
           <li class="chairs">
-            <h3>Confirmação dos autores</h3>
+            <h3><translate>Authors' Confirmation</translate></h3>
             <div>
-              <p>Chairs ficam de olho na confirmação dos autores das sessões aceitas e avisam os track leads quando há alguma desistência, para que eles elenquem o substituto.</p>
+              <p><translate>Chairs keep an eye on the confirmation of the authors of the accepted sessions and notify the track leads when there is any drop-off, so they can appoint the substitute.</translate></p>
             </div>
           </li>
           <li class="chairs">
-            <h3>Montagem e publicação da grade</h3>
+            <h3><translate>Assembly and publication of the grid</translate></h3>
             <div>
-              <p>Os chairs de programa, então, colaboram para montar uma grade para o evento que tenha as sessões mais populares em salas maiores e minimizando conflitos de assunto por horário.</p>
+              <p><translate>The program chairs then collaborate to set up a grid for the event that has the most popular sessions in larger rooms and minimizing subject conflicts by time.</translate></p>
             </div>
           </li>
         </ul>
-        <h2>Depois da conferência...</h2>
+        <h2><translate>After the conference...</translate></h2>
         <ul>
           <li class="chairs">
-            <h3>Consolidação dos feedbacks de sessão</h3>
+            <h3><translate>Consolidation of session feedbacks</translate></h3>
             <div>
-              <p>Depois de passar a conferência, os voluntários entregam os feedbacks por sessão para os chairs, que organizam tais dados e tiram estatísticas sobre eles.</p>
-
-              <p>Além disso, aos autores que demonstrarem interesse, enviamos os números de verdes, amarelos e vermelhos recebidos.</p>
+              <p><translate>After passing the conference, the volunteers deliver the feedbacks per session to the chairs, who organize such data and take statistics about them.</translate></p>
+              <p><translate>In addition, to authors who show interest, we have sent the received green, yellow and red numbers.</translate></p>
             </div>
           </li>
           <li class="chairs">
-            <h3>Cobrar e conferir vídeos gravados</h3>
+            <h3><translate>Charge and check recorded videos</translate></h3>
             <div>
-              <p>O processo de conseguir os videos gravados durante a conferência é longo: é preciso cobrar pelas gravações, editar os vídeos enviados, adicionar vinheta e subir para <a href="https://vimeo.com/agilebrazil" target="_blank">nosso Vimeo</a> ou na <a href="http://www.agilealliance.org/pt/videos-do-agilebrazil/" target="_blank">biblioteca pública da Agile Alliance</a></p>
+              <p><translate>The process of getting the videos recorded during the conference is long: you have to charge for the recordings, edit the uploaded videos, add a sticker and upload to</translate> <a href="https://vimeo.com/agilebrazil" target="_blank"><translate>our Vimeo</translate></a> <translate>or in</translate> <a href="http://www.agilealliance.org/pt/videos-do-agilebrazil/" target="_blank"><translate>public library of the Agile Alliance</translate></a></p>
             </div>
           </li>
           <li class="committee">
-            <h3>Retrospectiva e sugestões</h3>
+            <h3><translate>Retrospective and suggestions</translate></h3>
             <div>
-              <p>O comitê todo, então, tem a voz para apontar o que precisa melhorar e propor sugestões, que serão avaliadas pelos próximos chairs e comitê de programa, no início da organização da Agile Brazil seguinte!</p>
+              <p><translate>The entire committee then has the voice to point out what needs improvement and to suggest suggestions that will be evaluated by the next chairs and program committee at the beginning of the next Agile Brazil organization!</translate></p>
             </div>
           </li>
         </ul>
@@ -279,8 +276,8 @@ class Program extends React.Component {
 
     const Conclusion = () => (
       <section className="program--conclusion">
-        <h1 class="title">É um trabalho e tanto!!!</h1>
-        <p className="program--description">São muitos os passos e muitos os fallbacks para casos problemáticos! Mas a gente faz com carinho e ética, de forma completamente voluntária e buscando ser o processo mais transparente de escolhas de sessões que conhecemos!</p>
+        <h1 class="title"><translate>It's a big job!!!</translate></h1>
+        <p className="program--description"><translate>There are many steps and many fallbacks for problem cases! But we do with affection and ethics, completely voluntarily and seeking to be the most transparent process of choices of sessions we know!</translate></p>
       </section>
     );
 
