@@ -9,7 +9,7 @@ var siteConfig = {
   defaultLanguage: 'pt',
   headerLinks: [
     {doc: 'faq', label: 'FAQ'},
-    {page: 'program', label: 'Programa'},
+    {page: 'program', label: 'Program'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },
     { href: "http://agilealliance.org/pt/membresia/", label: "Membresia"},
     { languages: true }

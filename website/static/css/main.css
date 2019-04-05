@@ -2575,7 +2575,7 @@ div.buyTicketButton:hover {
 	background-color: #066BAC;
 	border: 10px solid #044875;
 	color: #044875;
-	content: "3";
+	content: "2";
 }
 .program--whoweare-personas .trackLeads::before {
 	background-color: #00BE4D;
@@ -2645,7 +2645,7 @@ div.buyTicketButton:hover {
 	padding-top: 4em;
 }
 .program--timeline-events h2 {
-	background-color: rgba(156,202,231, 0.3);
+	background-color: rgba(0, 0, 0);
 	border-radius: 1em;
 	margin-top: 0.5em;
 	padding: 0.5em;

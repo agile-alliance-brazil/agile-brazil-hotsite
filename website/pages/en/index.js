@@ -60,6 +60,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#register"><translate>Register now!</translate></Button>
+            <Button href="https://submissoes.agilebrazil.com/"><translate>Submissions opened!</translate></Button>
           </PromoSection>
         </div>
       </SplashContainer>
