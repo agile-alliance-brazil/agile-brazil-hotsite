@@ -8,7 +8,7 @@ title: Perguntas Frequentes
 
 ### 1. Posso fazer inscrição só em um curso, sem me inscrever na conferência?
 
-Sim. You may register only for the conference or only for a course. Se quiser pode se inscrever em ambos ou então em vários cursos.
+Sim. Você pode registrar somente para conferência ou apenas para um curso. Se quiser pode se inscrever em ambos ou então em vários cursos.
 
 ### 2. Posso fazer mais de um curso?
 
