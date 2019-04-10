@@ -1085,7 +1085,7 @@ input::placeholder {
 
 .imageAlignTop .blockImage {
   margin-bottom: 20px;
-  max-width: 20%;
+  max-width: 40%;
 }
 
 .imageAlignTop.alignCenter .blockImage {

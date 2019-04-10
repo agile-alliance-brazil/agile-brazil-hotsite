@@ -219,6 +219,27 @@ class Index extends React.Component {
                   *Principal Consultant at Thoughtworks*
                 </translate>
                 +'</font>',
+            },
+            {
+              content:<translate>
+                *Paulo Caroli has more than 20 years of experience with software development,
+                working at various corporations from Brazil, India, USA and other across Latino America.
+                In 2000, he discovery the Extreme Programming and, since then,
+                focused his experience on Agile & Lean processes and practices.
+                He joined ThoughtWorks at 2006 and worked as Agile Coach, Trainer, Project and Delivery Manager.
+                He has a bachelor's degree in Computing and master in Software Engineering, both at PUC-Rio.
+                Caroli is passionate about innovation, entrepreneurship and digital products.
+                He is software engineer, writer, speaker and an exepctional facilitator.*
+              </translate>,
+              image: `${siteConfig.baseUrl}img/keynotes/carla-link.jpg`,
+              imageAlign: 'top',
+              imageAlt: 'Carla Link',
+              title:
+                'Carla Link <br/><font size="2">'+
+                <translate>
+                  *Principal Consultant at Thoughtworks*
+                </translate>
+                +'</font>',
             }
           ]}
           layout="threeColumn"
