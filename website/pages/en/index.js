@@ -97,6 +97,13 @@ class Index extends React.Component {
             </img>
           </a>
         </div>
+        <div className="showcase">
+          <a className="link" href="https://www.knowledge21.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/k21.png`}
+            alt="K21">
+            </img>
+          </a>
+        </div>
         <div>
          <h2><translate>Want to be a sponsor?</translate></h2>
           <MarkdownBlock>[patrocinio@agilebrazil.com](mailto:patrocinio@agilebrazil.com)</MarkdownBlock>
