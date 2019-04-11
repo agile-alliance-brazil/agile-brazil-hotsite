@@ -96,8 +96,6 @@ class Index extends React.Component {
             alt="DTI">
             </img>
           </a>
-        </div>
-        <div className="showcase">
           <a className="link" href="https://www.knowledge21.com.br/">
             <img src={`${siteConfig.baseUrl}img/sponsors/k21.png`}
             alt="K21">
