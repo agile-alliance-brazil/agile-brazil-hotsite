@@ -222,14 +222,17 @@ class Index extends React.Component {
             },
             {
               content:<translate>
-                *Paulo Caroli has more than 20 years of experience with software development,
-                working at various corporations from Brazil, India, USA and other across Latino America.
-                In 2000, he discovery the Extreme Programming and, since then,
-                focused his experience on Agile & Lean processes and practices.
-                He joined ThoughtWorks at 2006 and worked as Agile Coach, Trainer, Project and Delivery Manager.
-                He has a bachelor's degree in Computing and master in Software Engineering, both at PUC-Rio.
-                Caroli is passionate about innovation, entrepreneurship and digital products.
-                He is software engineer, writer, speaker and an exepctional facilitator.*
+                *Holding a master’s degree in Strategic Design, Carla believes in the collaborative potential of
+                people to turn cities into better and more sustainable places. For 6 years, she has developed
+                social innovation projects based on design, working on strategies, platforms and services to
+                improve urban systems and quality of life in cities. As an example, in one of her projects, she 
+                traveled around 9 cities in the Brazilian semi-arid region, co-creating new futures for and with the
+                local youths. Her company, Talking City, focuses on improving public services based on
+                collaboration with citizens, with one of the main initiatives being the Safe City Movement - a
+                safety innovation laboratory for the City of Porto Alegre. She is a member of the Ocupe &
+                Abrace(Occupy and Hug) Collective (who works in the cultural and environmental occupation of
+                “Praça da Nascente” city park in São Paulo) and she is a Professor in undergraduate and
+                graduate programs at IED-SP and in the MBA Branding Innovation of Faculdades Rio Branco.*
               </translate>,
               image: `${siteConfig.baseUrl}img/keynotes/carla-link.jpg`,
               imageAlign: 'top',
@@ -237,7 +240,7 @@ class Index extends React.Component {
               title:
                 'Carla Link <br/><font size="2">'+
                 <translate>
-                  *Principal Consultant at Thoughtworks*
+                  *Founder & Service Designer at Talking City*
                 </translate>
                 +'</font>',
             }
