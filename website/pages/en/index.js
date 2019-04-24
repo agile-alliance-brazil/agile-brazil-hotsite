@@ -109,6 +109,55 @@ class Index extends React.Component {
       </div>
     );
 
+    const Supporters = () => (
+      <div className="lightBackground productShowcaseSection paddingBottom" 
+      id="sponsorship" style={{textAlign: 'center'}}> 
+        <h2><translate>Supporters</translate></h2>
+        <div className="showcase">
+          <a className="link" href="http://www.caipiraagil.com/">
+            <img src={`${siteConfig.baseUrl}img/supporters/caipiraagil.png`}
+            alt="Caipira Ágil">
+            </img>
+          </a>
+          <a className="link" href="https://scrumrio.com/">
+            <img src={`${siteConfig.baseUrl}img/supporters/scrumrio.png`}
+            alt="Scrum Gathering Rio">
+            </img>
+          </a>
+          <a className="link" href="http://agilidade.org/">
+            <img src={`${siteConfig.baseUrl}img/supporters/agilidade.png`}
+            alt="Agilidade">
+            </img>
+          </a>
+          <a className="link" href="http://www.agilefloripa.com.br/">
+            <img src={`${siteConfig.baseUrl}img/supporters/agilefloripa.png`}
+            alt="Agile Floripa">
+            </img>
+          </a>
+          <a className="link" href="http://agiletrendsbr.com/">
+            <img src={`${siteConfig.baseUrl}img/supporters/agiletrendsbr.png`}
+            alt="Agile Trends">
+            </img>
+          </a>
+          <a className="link" href="https://tasafo.org/">
+            <img src={`${siteConfig.baseUrl}img/supporters/tasafo.png`}
+            alt="Tá Safo">
+            </img>
+          </a>
+          <a className="link" href="https://www.scrumday.com.br/">
+            <img src={`${siteConfig.baseUrl}img/supporters/scrumday.png`}
+            alt="Scrum Day">
+            </img>
+          </a>
+          <a className="link" href="https://www.infoq.com/br/?utm_source=agilebrazil&utm_medium=logo-infoq&utm_campaign=parceria-eventos">
+            <img src={`${siteConfig.baseUrl}img/supporters/infoqbr.png`}
+            alt="Scrum Day">
+            </img>
+          </a>
+        </div>
+      </div>
+    );
+
     const Details = () => (
       <Container padding={['bottom', 'top']}>
         <GridBlock
@@ -257,6 +306,7 @@ class Index extends React.Component {
           <TicketSection />
           <Keynotes />
           <Sponsors />
+          <Supporters />
         </div>
       </div>
     );

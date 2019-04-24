@@ -2,6 +2,7 @@
 id: faq
 title: Perguntas Frequentes
 ---
+
 ## Inscrições
 
 [Inscreva-se já](https://inscricoes.agilebrazil.com/) para a maior conferência Agile no Brasil!

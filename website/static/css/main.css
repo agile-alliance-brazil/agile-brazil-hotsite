@@ -2192,6 +2192,10 @@ input::placeholder {
   padding: 12px;
 }
 
+.showcase img {
+  margin: 0 12px;
+}
+
 @media only screen and (max-width: 735px) {
   .showcaseSection .logos img {
     max-height: 64px;
