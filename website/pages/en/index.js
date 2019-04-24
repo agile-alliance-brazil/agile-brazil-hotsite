@@ -92,7 +92,7 @@ class Index extends React.Component {
         <h2><translate>Sponsorship</translate></h2>
         <div className="showcase">
           <a className="link" href="http://dtidigital.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/dti-digital-crafters.png`}
+            <img src={`${siteConfig.baseUrl}img/sponsors/dti.png`}
             alt="DTI">
             </img>
           </a>
