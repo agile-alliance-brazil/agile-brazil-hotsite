@@ -111,7 +111,7 @@ class Index extends React.Component {
 
     const Supporters = () => (
       <div className="lightBackground productShowcaseSection paddingBottom" 
-      id="sponsorship" style={{textAlign: 'center'}}> 
+      id="supporters" style={{textAlign: 'center'}}> 
         <h2><translate>Supporters</translate></h2>
         <div className="showcase">
           <a className="link" href="http://www.caipiraagil.com/">
