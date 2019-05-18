@@ -5,6 +5,12 @@
     "Second Category": ["doc3"]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "First Category": ["doc4", "doc5"],
+    "WBMA": [
+        "index",
+        "toi",
+        "submission",
+        "commitee"
+      ]
   }
 }

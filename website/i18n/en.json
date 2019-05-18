@@ -5,11 +5,24 @@
     "previous": "Previous",
     "tagline": "Belo Horizonte, 2019",
     "docs": {
+      "commitee": {
+        "title": "Committees"
+      },
       "faq": {
         "title": "Frequently asked questions"
+      },
+      "index": {
+        "title": "WBMA 2019"
+      },
+      "submission": {
+        "title": "Paper Submission"
+      },
+      "toi": {
+        "title": "Topics of Interest"
       }
     },
     "links": {
+      "WBMA": "WBMA",
       "FAQ": "FAQ",
       "Program": "Program",
       "Agile Alliance": "Agile Alliance",
@@ -18,7 +31,8 @@
     "categories": {
       "Docusaurus": "Docusaurus",
       "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Second Category": "Second Category",
+      "WBMA": "WBMA"
     }
   },
   "pages-strings": {

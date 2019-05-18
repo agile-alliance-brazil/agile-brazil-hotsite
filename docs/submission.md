@@ -1,14 +1,11 @@
 ---
 layout: page
-permalink: /WBMA-submission/
-title: "Welcome to the 10th Brazilian Workshop on Agile Methods (WBMA) -- Agile Brazil'2019"
+title: "Paper Submission"
 customjs:
  - http://code.jquery.com/jquery-1.4.2.min.js
  - http://yourdomain.com/yourscript.js
 ---
 
-
-## Paper Submission
 
 Original papers should be sent electronically by Easychair. Manuscripts must follow the Communications in Computer and Information Science (CCIS) – Springer template. Papers should be submitted in PDF format. Papers can be written in Portuguese or English. Submission in English is strongly encouraged since the workshop proceedings are indexed in the
 CCIS Digital Library.

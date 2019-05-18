@@ -8,6 +8,7 @@ var siteConfig = {
   organizationName: 'agile-alliance-brazil',
   defaultLanguage: 'pt',
   headerLinks: [
+    {doc: 'index', label: 'WBMA'},
     {doc: 'faq', label: 'FAQ'},
     {page: 'program', label: 'Program'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },

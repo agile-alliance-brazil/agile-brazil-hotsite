@@ -1,13 +1,7 @@
 ---
 layout: page
-permalink: /WBMA-committee/
 title: "Committees"
 ---
-
-
-
-
-## Committees
 
 ### Organizers
 

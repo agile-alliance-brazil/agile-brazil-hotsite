@@ -1,10 +1,7 @@
 ---
 layout: page
-permalink: /WBMA-committee/
-title: "Agile Brazil"
+title: "Topics of Interest"
 ---
-
-## Topics of Interest
 
 The main topics of interest to this workshop are:
 
