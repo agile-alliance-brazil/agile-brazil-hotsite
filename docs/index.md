@@ -3,11 +3,10 @@ layout: page
 title: "WBMA 2019"
 customjs:
  - http://code.jquery.com/jquery-1.4.2.min.js
- - http://yourdomain.com/yourscript.js
 ---
 
 ## Welcome to the 10th Brazilian Workshop on Agile Methods (WBMA) -- Agile Brazil'2019
-### Belo Horizonte/MG, Brazil, Setember 11, 2019
+### Belo Horizonte/MG, Brazil, September 11, 2019
 
 
 WBMA 2019 will be co-located with the Agile Brazil'2019 [Agile Brazil 2019](https://www.agilebrazil.com/2019/) in Belo Horizonte in Brazil.
