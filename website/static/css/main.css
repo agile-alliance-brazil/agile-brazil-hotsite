@@ -2750,3 +2750,11 @@ div.buyTicketButton:hover {
 }
 
 /* End of Program section */
+
+a.navItem {
+  color: #fff !important
+}
+
+h3.navGroupCategoryTitle {
+  color: #fff !important
+}
