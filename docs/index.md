@@ -7,7 +7,7 @@ customjs:
 ---
 
 ## Welcome to the 10th Brazilian Workshop on Agile Methods (WBMA) -- Agile Brazil'2019
-### Belo Horizonte/MG, Brazil, Setember 11 - 13, 2019
+### Belo Horizonte/MG, Brazil, Setember 11, 2019
 
 
 WBMA 2019 will be co-located with the Agile Brazil'2019 [Agile Brazil 2019](https://www.agilebrazil.com/2019/) in Belo Horizonte in Brazil.
@@ -23,8 +23,8 @@ WBMA 2019 will be co-located with the Agile Brazil'2019 [Agile Brazil 2019](http
 
 Last year, the Agile Brazil conference has received more than 500 attendees from all over the world.
 This year, our expectation is that the workshop will receive even more researchers,
-students, and practitioners from Brazil and abroad. This year, WBMA’2019 will be held on October,
-11 - 13, in Belo Horizonte/MG - Brazil. The workshop will be included in the Agile Brazil schedule.
+students, and practitioners from Brazil and abroad. This year, WBMA’2019 will be held on September,
+11, in Belo Horizonte/MG - Brazil. The workshop will be included in the Agile Brazil schedule.
 
 
 
@@ -33,7 +33,7 @@ students, and practitioners from Brazil and abroad. This year, WBMA’2019 will 
 - June 16th, 2019 - Abstract and Paper (full/short) Submission
 - July 19th, 2019 - Acceptance Notification
 - October 16th , 2019 - Final Version Submission (in English only)
-- Setember XXX, 2019  - WBMA Presentations at Agile Brazil 2019 (in Belo Horizonte/MG, Brazil)
+- Setember 11, 2019  - WBMA Presentations at Agile Brazil 2019 (in Belo Horizonte/MG, Brazil)
 
 
 ## Registration

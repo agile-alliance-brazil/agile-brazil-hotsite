@@ -27,7 +27,7 @@ class HomeSplash extends React.Component {
       <h2 className="projectTitle">
         {siteConfig.title}
         <small>{siteConfig.city}, <b>{siteConfig.year}</b></small>
-        <small><translate>september 11, 12 and 13</translate></small>
+        <small><translate>september 11</translate></small>
       </h2>
     );
 
