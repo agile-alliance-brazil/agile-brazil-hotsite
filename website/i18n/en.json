@@ -22,9 +22,9 @@
       }
     },
     "links": {
-      "WBMA": "WBMA",
       "FAQ": "FAQ",
       "Program": "Program",
+      "WBMA": "WBMA",
       "Agile Alliance": "Agile Alliance",
       "Membresia": "Membresia"
     },
@@ -38,7 +38,6 @@
   "pages-strings": {
     "september 11|no description given": "september 11",
     "Register now!|no description given": "Register now!",
-    "Submissions opened!|no description given": "Submissions opened!",
     "Sponsorship|no description given": "Sponsorship",
     "Want to be a sponsor?|no description given": "Want to be a sponsor?",
     "Supporters|no description given": "Supporters",
@@ -58,6 +57,7 @@
     "*Principal Consultant at Thoughtworks*|no description given": "*Principal Consultant at Thoughtworks*",
     "*Holding a master’s degree in Strategic Design, Carla believes in the collaborative potential of people to turn cities into better and more sustainable places. For 6 years, she has developed social innovation projects based on design, working on strategies, platforms and services to improve urban systems and quality of life in cities. As an example, in one of her projects, she traveled around 9 cities in the Brazilian semi-arid region, co-creating new futures for and with the local youths. Her company, Talking City, focuses on improving public services based on collaboration with citizens, with one of the main initiatives being the Safe City Movement - a safety innovation laboratory for the City of Porto Alegre. She is a member of the Ocupe & Abrace(Occupy and Hug) Collective (who works in the cultural and environmental occupation of “Praça da Nascente” city park in São Paulo) and she is a Professor in undergraduate and graduate programs at IED-SP and in the MBA Branding Innovation of Faculdades Rio Branco.*|no description given": "*Holding a master’s degree in Strategic Design, Carla believes in the collaborative potential of people to turn cities into better and more sustainable places. For 6 years, she has developed social innovation projects based on design, working on strategies, platforms and services to improve urban systems and quality of life in cities. As an example, in one of her projects, she traveled around 9 cities in the Brazilian semi-arid region, co-creating new futures for and with the local youths. Her company, Talking City, focuses on improving public services based on collaboration with citizens, with one of the main initiatives being the Safe City Movement - a safety innovation laboratory for the City of Porto Alegre. She is a member of the Ocupe & Abrace(Occupy and Hug) Collective (who works in the cultural and environmental occupation of “Praça da Nascente” city park in São Paulo) and she is a Professor in undergraduate and graduate programs at IED-SP and in the MBA Branding Innovation of Faculdades Rio Branco.*",
     "*Founder & Service Designer at Talking City*|no description given": "*Founder & Service Designer at Talking City*",
+    "Submissions opened!|no description given": "Submissions opened!",
     "How works the program|no description given": "How works the program",
     "Making the Agile Brazil Program is a journey that starts the day after the previous Agile Brazil and ends about a month after the event happens. It's a long road and many community volunteers are involved in it.|no description given": "Making the Agile Brazil Program is a journey that starts the day after the previous Agile Brazil and ends about a month after the event happens. It's a long road and many community volunteers are involved in it.",
     "Who are we and what do we do?|no description given": "Who are we and what do we do?",
