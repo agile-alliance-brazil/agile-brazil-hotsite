@@ -5,26 +5,39 @@
     "previous": "Voltar",
     "tagline": "Belo Horizonte, 2019",
     "docs": {
+      "commitee": {
+        "title": "Comitê"
+      },
       "faq": {
         "title": "Perguntas Frequentes"
+      },
+      "index": {
+        "title": "WBMA 2019"
+      },
+      "submission": {
+        "title": "Submissão de Papers"
+      },
+      "toi": {
+        "title": "Tópicos de Interesse"
       }
     },
     "links": {
       "FAQ": "FAQ",
       "Program": "Programa",
+      "WBMA": "WBMA",
       "Agile Alliance": "Agile Alliance",
       "Membresia": "Membresia"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
       "First Category": "Primeira categoria",
-      "Second Category": "Segunda categoria"
+      "Second Category": "Segunda categoria",
+      "WBMA": "WBMA"
     }
   },
   "pages-strings": {
     "september 11, 12 and 13|no description given": "11, 12 e 13 de setembro",
     "Register now!|no description given": "Increva-se já!",
-    "Submissions opened!|no description given": "Submissões abertas!",
     "Sponsorship|no description given": "Patrocínio",
     "Want to be a sponsor?|no description given": "Quer ser um patrocinador?",
     "Supporters|no description given": "Apoiadores",
@@ -44,6 +57,7 @@
     "*Principal Consultant at Thoughtworks*|no description given": "Consultor Principal da Thoughtworks",
     "*Holding a master’s degree in Strategic Design, Carla believes in the collaborative potential of people to turn cities into better and more sustainable places. For 6 years, she has developed social innovation projects based on design, working on strategies, platforms and services to improve urban systems and quality of life in cities. As an example, in one of her projects, she traveled around 9 cities in the Brazilian semi-arid region, co-creating new futures for and with the local youths. Her company, Talking City, focuses on improving public services based on collaboration with citizens, with one of the main initiatives being the Safe City Movement - a safety innovation laboratory for the City of Porto Alegre. She is a member of the Ocupe & Abrace(Occupy and Hug) Collective (who works in the cultural and environmental occupation of “Praça da Nascente” city park in São Paulo) and she is a Professor in undergraduate and graduate programs at IED-SP and in the MBA Branding Innovation of Faculdades Rio Branco.*|no description given": "*Mestre em Design Estratégico, Carla acredita no potencial colaborativo das pessoas para transformar as cidades em lugares melhores e mais sustentáveis. Há 6 anos desenvolve projetos de inovação social a partir do design, trabalhando na construção de estratégias, plataformas e serviços para melhorar os sistemas urbanos e a qualidade de vida nas cidades. Como por exemplo, em um dos projetos viajou por 9 cidades do semiárido brasileiro, cocriando novos futuros para e com os jovens locais. Sua empresa, a Talking City, foca na melhoria de serviços públicos baseada na colaboração com cidadãos, tendo com uma das principais iniciativas o Movimento Cidade Segura – um laboratório de inovação em segurança para a Cidade de Porto Alegre. Participa do Coletivo Ocupe & Abrace (que atua na ocupação cultural e ambiental da Praça da Nascente em São Paulo) e é Professora na graduação e pós do IED-SP e no MBA Branding Innovation das Faculdades Rio Branco.*",
     "*Founder & Service Designer at Talking City*|no description given": "*Fundadora & Designer de Serviço na Talking City*",
+    "Submissions opened!|no description given": "Submissões abertas!",
     "How works the program|no description given": "Como funciona o Programa",
     "Making the Agile Brazil Program is a journey that starts the day after the previous Agile Brazil and ends about a month after the event happens. It's a long road and many community volunteers are involved in it.|no description given": "Fazer o Programa da Agile Brazil é uma jornada que se inicia no dia seguinte à Agile Brazil anterior e termina cerca de um mês após o evento acontecer. É um longo caminho e muitos voluntários da comunidade estão envolvidos nele.",
     "Who are we and what do we do?|no description given": "Quem somos e o que fazemos?",
