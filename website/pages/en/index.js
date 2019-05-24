@@ -298,6 +298,83 @@ class Index extends React.Component {
       </div>
     );
 
+    const Latam = () => (
+      <div className="lightBackground productShowcaseSection paddingBottom">
+        <h2>
+          <translate>Official Air Carrier</translate>
+        </h2>
+        <Container padding={['bottom', 'top']}>
+        <GridBlock
+          contents={[
+            {
+              imageAlign: 'left',
+              image: `${siteConfig.baseUrl}img/latam.jpg`,
+              imageLink: "https://www.latam.com/pt_br/",
+              content:
+<translate>
+**Obtenha descontos de até 20% na compra de passagens para a AGILE BRAZIL com a LATAM AIRLINES.**
+</translate>+
+'</br></br>'+
+<translate>
+Acesse o site www.latam.com e insira o **Código Promocional** `E0EPR`.
+</translate>+
+'</br></br>'+
+<translate>
+* Condição válida e exclusiva aos participantes do evento;
+</translate>+
+'</br>'+
+<translate>
+* Valores sujeitos à disponibilidade de assentos e regras/restrições específicas de cada tarifa;
+</translate>+
+'</br>'+
+<translate>
+* Válidos para embarque de  09/09 a 16/09/19 no trecho Brasil/Confins/Brasil;
+</translate>+
+'</br>'+
+<translate>
+* Sem descontos sobre tarifas promocionais específicas;
+</translate>+
+'</br>'+
+<translate>
+* Em casos de ida ou retorno fora do período negociado, o desconto não se aplica;
+</translate>+
+'</br>'+
+<translate>
+* Desconto não válido para tarifas de Mega Promo;
+</translate>+
+'</br>'+
+<translate>
+* Desconto não válido para menores de 12 anos;
+</translate>+
+'</br>'+
+<translate>
+* Desconto válido para rotas operadas pela LATAM.
+</translate>+
+'</br></br>'+
+<translate>
+**Deseja alugar um carro?**
+</translate>+
+'</br>'+
+<translate>
+Acesse o hotsite http://parceiros.unidas.com.br/ppu_unidas/servlet/hhome?WEB+EVENTOS,P,0 e obtenha 60% de desconto com a Unidas para a locação de veículos.
+</translate>+
+'</br>'+
+<translate>
+O desconto é aplicado sobre os valores de tarifa balcão disponíveis.
+</translate>
+            },
+          ]}
+          layout="oneColumn"
+        />
+        </Container>
+        <div className="linkAgileButton">
+          <a href="https://www.latam.com/pt_br/">
+            <div className="buyFlightPassButton"><translate>Buy your flight pass now!</translate></div>
+          </a>
+        </div>
+      </div>
+    );
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
@@ -307,6 +384,7 @@ class Index extends React.Component {
           <Keynotes />
           <Sponsors />
           <Supporters />
+          <Latam />
         </div>
       </div>
     );

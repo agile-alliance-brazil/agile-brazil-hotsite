@@ -2217,6 +2217,17 @@ input::placeholder {
   transition: all 0.5s;
 }
 
+.buyFlightPassButton {
+  width: 14em;
+  height: 3em;
+  color: white;
+  padding-top: 0.65em;
+  text-align: center;
+  border-radius: 1em;
+  background-image: linear-gradient(to right, #5C95B6 , #40687F);
+  transition: all 0.5s;
+}
+
 .linkAgileButton {
   width: 9em;
   margin: 20px auto;
