@@ -157,8 +157,14 @@ class Index extends React.Component {
         <GridBlock
           contents={[
             {
+              imageAlign: 'left',
+              image: `${siteConfig.baseUrl}img/dayrell.jpg`,
+              imageLink: "https://www.dayrell.com.br/localizacao",
               title: <translate>In 2019 our conference will be held in Belo Horizonte!</translate>,
-              content: <translate>We invite the agile community to sow values ​​and agile principles and together reap the fruits of our culture.</translate>
+              content:
+              <translate>
+                At Dayrell Hotel & Centro de Convenções, R. Espírito Santo, 901 - Centro, Belo Horizonte
+              </translate>
             },
           ]}
           layout="oneColumn"
