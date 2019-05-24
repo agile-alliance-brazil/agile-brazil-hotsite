@@ -162,9 +162,12 @@ class Index extends React.Component {
               imageLink: "https://www.dayrell.com.br/localizacao",
               title: <translate>In 2019 our conference will be held in Belo Horizonte!</translate>,
               content:
-              <translate>
-                At Dayrell Hotel & Centro de Convenções, R. Espírito Santo, 901 - Centro, Belo Horizonte
-              </translate>
+                <translate>
+                We invite the agile community to sow values ​​and agile principles and together reap the fruits of our culture.
+                </translate>+
+                '</br></br>'+
+                'Local: Dayrell Hotel & Centro de Convenções</br>'+
+                'R. Espírito Santo, 901 - Centro, Belo Horizonte'
             },
           ]}
           layout="oneColumn"
