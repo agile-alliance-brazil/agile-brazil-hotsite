@@ -150,7 +150,7 @@ class Index extends React.Component {
           </a>
           <a className="link" href="https://www.infoq.com/br/?utm_source=agilebrazil&utm_medium=logo-infoq&utm_campaign=parceria-eventos">
             <img src={`${siteConfig.baseUrl}img/supporters/infoqbr.png`}
-            alt="Scrum Day">
+            alt="InfoQ">
             </img>
           </a>
         </div>
