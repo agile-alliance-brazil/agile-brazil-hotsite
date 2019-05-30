@@ -12,7 +12,7 @@ var siteConfig = {
     {page: 'program', label: 'Program'},
     {doc: 'index', label: 'WBMA'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },
-    { href: "http://agilealliance.org/pt/membresia/", label: "Membresia"},
+    { href: "https://www.agilealliance.org/agilealliancebrazil/membresia/", label: "Membresia"},
     { languages: true }
   ],
   headerIcon: 'img/logo-agile-brazil.svg',
