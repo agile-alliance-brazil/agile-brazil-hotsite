@@ -1,5 +1,5 @@
 ---
-layout: page
+id: toi
 title: "Topics of Interest"
 ---
 

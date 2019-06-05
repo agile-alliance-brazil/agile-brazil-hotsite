@@ -10,7 +10,7 @@ var siteConfig = {
   headerLinks: [
     {doc: 'faq', label: 'FAQ'},
     {page: 'program', label: 'Program'},
-    {doc: 'index', label: 'WBMA'},
+    {doc: 'wbma/index', label: 'WBMA'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },
     { href: "https://www.agilealliance.org/agilealliancebrazil/membresia/", label: "Membresia"},
     { languages: true }
