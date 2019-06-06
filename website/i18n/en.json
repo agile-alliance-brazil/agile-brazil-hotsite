@@ -5,19 +5,19 @@
     "previous": "Previous",
     "tagline": "Belo Horizonte, 2019",
     "docs": {
-      "commitee": {
-        "title": "Committees"
-      },
       "faq": {
         "title": "Frequently asked questions"
       },
-      "index": {
+      "wbma/committees": {
+        "title": "Committees"
+      },
+      "wbma/index": {
         "title": "WBMA 2019"
       },
-      "submission": {
+      "wbma/submission": {
         "title": "Paper Submission"
       },
-      "toi": {
+      "wbma/toi": {
         "title": "Topics of Interest"
       }
     },
