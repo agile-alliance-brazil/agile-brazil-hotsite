@@ -9,4 +9,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . /2019/index.html [L]
+    Redirect 301 /2019/wbma /2019/docs/pt/wbma/
 </IfModule>
