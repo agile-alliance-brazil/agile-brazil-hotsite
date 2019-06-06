@@ -1,8 +1,6 @@
 ---
-layout: page
+id: index
 title: "WBMA 2019"
-customjs:
- - http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
 ## Welcome to the 10th Brazilian Workshop on Agile Methods (WBMA) -- Agile Brazil'2019
@@ -31,7 +29,7 @@ students, and practitioners from Brazil and abroad. This year, WBMA’2019 will 
 
 - June 16th, 2019 - Abstract and Paper (full/short) Submission
 - July 19th, 2019 - Acceptance Notification
-- October 16th , 2019 - Final Version Submission (in English only)
+- August 16th, 2019 - Final Version Submission (in English only)
 - September 11, 2019  - WBMA Presentations at Agile Brazil 2019 (in Belo Horizonte/MG, Brazil)
 
 

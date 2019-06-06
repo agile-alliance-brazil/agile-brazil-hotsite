@@ -7,10 +7,10 @@
   "docs-other": {
     "First Category": ["doc4", "doc5"],
     "WBMA": [
-        "index",
-        "toi",
-        "submission",
-        "commitee"
+        "wbma/index",
+        "wbma/toi",
+        "wbma/submission",
+        "wbma/committees"
       ]
   }
 }
