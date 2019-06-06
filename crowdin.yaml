@@ -14,3 +14,7 @@ files:
     source: '/docs/**/*.md'
     translation: '/website/translated_docs/%locale%/**/%original_file_name%'
     languages_mapping: *anchor
+  -
+    source: '/docs/**/**/*.md'
+    translation: '/website/translated_docs/%locale%/**/**/%original_file_name%'
+    languages_mapping: *anchor
