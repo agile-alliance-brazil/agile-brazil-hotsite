@@ -17,18 +17,13 @@ No ano passado, a conferência de Agile Brasil recebeu mais de 500 participantes
 
 ## Datas importantes
 
-- 16 de Junho de 2019 - Abstract e Papel (completo/curto) Submissão
-- 19 de Julho de 2019 - Notificação de Aceitação
-- 16 de outubro, 2019 - Submissão da Versão Final (apenas em inglês)
-- 11 de setembro de 2019 - Apresentações WBMA em Agile Brasil 2019 (em Belo Horizonte/MG, Brasil)
+- 30 de Junho de 2019 - Abstract e Papel (completo/curto) Submissão
+- 22 de Julho de 2019 - Notificação de Aceitação
+- 16 de agosto, 2019 - Submissão da Versão Final (apenas em inglês)
+- 11-13 de setembro de 2019 - Apresentações WBMA em Agile Brasil 2019 (em Belo Horizonte/MG, Brasil)
 
-## Registro
+## Inscrição
 
-A ser anunciado
+A inscrição no Agile Brazil já dá acesso ao WBMA. Não há registro exclusivo para o WBMA, uma vez que nosso objetivo é integrar a indústria com a academia. Para cada artigo aceito, será disponibilizado a inscrição gratuita ao evento para um autor.
 
-## Últimos Tweets
 
-<div class="center">
-  <a class="twitter-timeline" href="https://twitter.com/agilebrazil">Tweets by agilebrazil</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
