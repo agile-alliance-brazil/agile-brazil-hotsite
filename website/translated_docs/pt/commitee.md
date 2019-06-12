@@ -6,8 +6,8 @@ title: "Comitê"
 ### Organizadores
 
 - Coordenadores do Evento: 
-  - **Paulo Meirelles (UNIFESP) - paulo.meirelles@unifesp.br **
-  - **e Maria Augusta Vieira Nelson (PUC-MG)**
+  - **Paulo Meirelles (UNIFESP) - paulo.meirelles@unifesp.br**
+  - **Maria Augusta Vieira Nelson (PUC-MG)**
 - Coordenadora publicidade:**Carla Rocha (UnB)**
 
 ### Comitê de Programa
