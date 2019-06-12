@@ -9,7 +9,7 @@ customjs:
 
 ### Abaixo Horizonte/MG, Brasil, 11 de Setembro de 2019
 
-WBMA 2019 será co-localizado com o Agile Brasil'2019 [Agrile Brasil 2019](https://www.agilebrazil.com/2019/) em Belo Horizonte no Brasil.
+WBMA 2019 será co-localizado com o Agile Brasil'2019 [Agile Brasil 2019](https://www.agilebrazil.com/2019/) em Belo Horizonte no Brasil.
 
 **WBMA** O 10ª Workshop Brasileiro em Métodos Agile (WBMA'2019) é a trilha de pesquisa na conferência Agile Brasil. O WBMA é um evento acadêmico sobre desenvolvimento Ágil de Software. A edição deste ano vem com um histórico de sucesso. Nossas edições anteriores receberam um número expressivo de submissões de papel. Tem um número considerável de participantes (estudantes, pesquisadores, e práticos) e diferentes países. Esperamos repetir este sucesso este ano e influenciar ainda mais a integração entre a indústria e a academia. Acreditamos que essa integração possa criar ideias, oportunidades e inovações para todos os involvidos.
 
