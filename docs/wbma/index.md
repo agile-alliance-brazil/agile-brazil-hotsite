@@ -22,9 +22,4 @@ Last year, the Agile Brazil conference has received more than 500 attendees from
 ## Registration
 Registering on Agile Brazil you will already be registered on WBMA. There is no exclusive registration to WBMA, once one of our objectives is to integrate industry and research. One author for each accepted paper will be granted with a free registration.
 
-## Latest Tweets
 
-<div class="center">
-  <a class="twitter-timeline" href="https://twitter.com/agilebrazil">Tweets by agilebrazil</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
