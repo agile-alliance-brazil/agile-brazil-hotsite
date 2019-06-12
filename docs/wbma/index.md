@@ -36,9 +36,4 @@ students, and practitioners from Brazil and abroad. This year, WBMA’2019 will 
 ## Registration
 To be announced
 
-## Latest Tweets
 
-<div class="center">
-  <a class="twitter-timeline" href="https://twitter.com/agilebrazil">Tweets by agilebrazil</a>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
