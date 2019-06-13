@@ -5,14 +5,18 @@ title: "Committees"
 
 ### Organizers
 
-- Program Co-Chairs: **Paulo Meirelles (UNIFESP) and Maria Augusta Vieira Nelson (PUC-MG)**
-- Publicity Co-Chair: **Carla Rocha (UnB)**
+- Program Co-Chairs: 
+  - **Paulo Meirelles (UNIFESP) - paulo.meirelles@unifesp.br**
+  - **Maria Augusta Vieira Nelson (PUC-MG)**
+- Publicity Co-Chair:
+  - **Carla Rocha (UnB)**
 
 ### Program Committee
 
-To be confirmed
-
-<!-- COMENTADO
+  
+  To be confirmed
+  
+  <!-- COMENTADO
     <ul>
       <li>Ademar Aguiar (Faculty of Engineering of the University of Porto, Portugal)</li>
       <li>Adolfo Neto (Universidade Tecnológica Federal do Paraná, Brazil)</li>
@@ -34,3 +38,6 @@ To be confirmed
       <li>Viviane Santos (Universidade Federal do Pará, Brazil)</li>
     </ul>
   -->
+
+
+

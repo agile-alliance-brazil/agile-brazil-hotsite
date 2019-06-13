@@ -32,3 +32,4 @@ The main topics of interest to this workshop are:
 - User Roles (co-participation)
 
 We also welcome other related topics of research on agile methods.
+

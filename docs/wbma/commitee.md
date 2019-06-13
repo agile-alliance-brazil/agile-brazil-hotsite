@@ -5,8 +5,11 @@ title: "Committees"
 
 ### Organizers
 
-- Program Co-Chairs: **Paulo Meirelles (UNIFESP) and Maria Augusta Vieira Nelson (PUC-MG)**
-- Publicity Co-Chair: **Carla Rocha (UnB)**
+- Program Co-Chairs: 
+  - **Paulo Meirelles (UNIFESP) - paulo.meirelles@unifesp.br**
+  - **Maria Augusta Vieira Nelson (PUC-MG)**
+- Publicity Co-Chair:
+  - **Carla Rocha (UnB)**
 
 ### Program Committee
 
