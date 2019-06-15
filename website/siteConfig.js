@@ -11,6 +11,7 @@ var siteConfig = {
     {doc: 'faq', label: 'FAQ'},
     {page: 'program', label: 'Program'},
     {doc: 'wbma/index', label: 'WBMA'},
+    {doc: 'accommodation', label: 'Accommodation'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },
     { href: "https://www.agilealliance.org/agilealliancebrazil/membresia/", label: "Membresia"},
     { languages: true }

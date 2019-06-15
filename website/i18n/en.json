@@ -5,6 +5,9 @@
     "previous": "Previous",
     "tagline": "Belo Horizonte, 2019",
     "docs": {
+      "accommodation": {
+        "title": "Know a little more about the location"
+      },
       "faq": {
         "title": "Frequently asked questions"
       },
@@ -25,6 +28,7 @@
       "FAQ": "FAQ",
       "Program": "Program",
       "WBMA": "WBMA",
+      "Accommodation": "Accommodation",
       "Agile Alliance": "Agile Alliance",
       "Membresia": "Membresia"
     },
