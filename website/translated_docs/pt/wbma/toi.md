@@ -1,35 +1,34 @@
 ---
 id: toi
-title: "Topics of Interest"
+title: "Tópicos de Interesse"
 ---
 
-The main topics of interest to this workshop are:
+Os principais tópicos de interesse para este workshop são:
 
-- Adoption of Agile / Lean
-- Agile / Lean in Distributed Environments and Large Teams
-- Agile in Government
-- Agile Practices and Future Trends, Evolution and Revolution (Technical or Managerial)
-- Agile Principles, Lean Manufacturing and Other Disciplines
-- Agile Project Management, Outsourcing and Governance in the Agile Context
-- Agile Testing & Quality: Techniques, Patterns and Automated Support
-- Conceptual Studies and Theoretical Foundations of Agile / Lean
-- Development in Distributed and Global Agile Teams
-- DevOps and Continuous Delivery
-- Experimental Studies with Agile / Lean
-- Human and Social Aspects in Agile Methods
-- Innovation and Entrepreneurship Agile
-- Lean Startups
-- Managing Technical Debt
-- Metrics, Measurements and Mining Repositories in the Context of Agile
-- Organizational Transformation and Cultural Aspects on Agile Business
-- Patterns and Anti-patterns applying Agile / Lean
-- Refactoring Issues
-- Scaling Agile to Large Corporations
-- Systems and Software Architecture and Development of Critical Systems
-- Teaching and Coaching Agile and Lean
-- Tools and Techniques on Agile / Lean
-- User Experience (UX) Environments on Agile / Lean
-- User Roles (co-participation)
+- Adopção de Agile / Lean
+- Agilidade / Folha em ambientes Distribuídos e Equipes Grandes
+- Agilidade no Governo
+- Práticas Ageis e Tendências Futuras, Evolução e Revolução (Técnica ou Gerencial)
+- Princípios Agiles, Fabricação de Lean e outras Disciplines
+- Gestão de projetos Agil, Outsourcing e Governança no Contexto Agil
+- Qualidade de testes Agil e qualidade: Técnicas, padrões e Suporte Automático
+- Estudos de Conceptuais e Fundações teóricas de Agil / Lean
+- Desenvolvimento em Equipes Ageis Distribuídas e Globais
+- DevOps e Entrega Contínua
+- Estudos experimentais com Agil / Lean
+- Aspectos humanos e sociais em Métodos Ageis
+- Inovação e espírito empreendedor Agil
+- Iniciativas do Lean
+- Gerenciando a dívida técnica
+- Métricas, Medições e Repositórios de Mineração no contexto de Agil
+- Transformação Organizacional e Aspectos Culturais em Negócios Agil
+- Padrões e Anti-padrões que aplicam Agil / Lean
+- Emitir Refatoração
+- Agilidade em escala para grandes empresas
+- Sistemas e arquitetura de software e desenvolvimento de Sistemas Críticos
+- Ensinar e coaching em Agile e Lean
+- Ferramentas e Técnicas em Agil / Lean
+- Experiência do usuário (UX) Ambientes em Agil / Lean
+- Papéis do usuário (participação)
 
-We also welcome other related topics of research on agile methods.
-
+Saudamos igualmente outros temas relacionados com a investigação sobre métodos ageis.

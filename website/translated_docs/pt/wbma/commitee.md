@@ -1,22 +1,21 @@
 ---
-id: committees
-title: "Committees"
+id: comitê
+title: "Comitê"
 ---
 
-### Organizers
+### Organizadores
 
-- Program Co-Chairs: 
+- Coordenadores do Evento: 
   - **Paulo Meirelles (UNIFESP) - paulo.meirelles@unifesp.br**
   - **Maria Augusta Vieira Nelson (PUC-MG)**
-- Publicity Co-Chair:
+- Coordenadora de publicidade: 
   - **Carla Rocha (UnB)**
 
-### Program Committee
+### Comitê de Programa
 
-  
-  To be confirmed
-  
-  <!-- COMENTADO
+    À ser confirmado
+    
+    <!-- COMENTADO
     <ul>
       <li>Ademar Aguiar (Faculty of Engineering of the University of Porto, Portugal)</li>
       <li>Adolfo Neto (Universidade Tecnológica Federal do Paraná, Brazil)</li>
@@ -38,6 +37,3 @@ title: "Committees"
       <li>Viviane Santos (Universidade Federal do Pará, Brazil)</li>
     </ul>
   -->
-
-
-
