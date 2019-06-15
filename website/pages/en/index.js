@@ -208,7 +208,7 @@ class Index extends React.Component {
           <span className="ticketPrice">R$470</span>
           <span className="ticketPrice">R$423</span>
         </div>
-        <div className="ticketCategory">
+        <div className="ticketCategory soldOut">
           <span className="ticketType">Early Majority</span>
           <span className="ticketDescription"><translate>100 registrations or until June 15th, whichever comes first</translate>.</span>
           <span className="ticketPrice">R$560</span>
