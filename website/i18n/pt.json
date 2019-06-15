@@ -8,6 +8,9 @@
       "faq": {
         "title": "Perguntas Frequentes"
       },
+      "volunteers": {
+        "title": "Be a volunteer at Agile Brazil!"
+      },
       "wbma/committees": {
         "title": "Comitê"
       },
@@ -23,6 +26,7 @@
     },
     "links": {
       "FAQ": "FAQ",
+      "Volunteers": "Volunteers",
       "Program": "Programa",
       "WBMA": "WBMA",
       "Agile Alliance": "Agile Alliance",
@@ -72,7 +76,6 @@
     "Acesse o hotsite http://parceiros.unidas.com.br/ppu_unidas/servlet/hhome?WEB+EVENTOS,P,0 e obtenha 60% de desconto com a Unidas para a locação de veículos.|no description given": "Acesse o hotsite http://parceiros.unidas.com.br/ppu_unidas/servlet/hhome?WEB+EVENTOS,P,0 e obtenha 60% de desconto com a Unidas para a locação de veículos.",
     "O desconto é aplicado sobre os valores de tarifa balcão disponíveis.|no description given": "O desconto é aplicado sobre os valores de tarifa balcão disponíveis.",
     "Buy your flight pass now!|no description given": "Garanta sua passagem!",
-    "Submissions opened!|no description given": "Submissões abertas!",
     "How works the program|no description given": "Como funciona o Programa",
     "Making the Agile Brazil Program is a journey that starts the day after the previous Agile Brazil and ends about a month after the event happens. It's a long road and many community volunteers are involved in it.|no description given": "Fazer o Programa da Agile Brazil é uma jornada que se inicia no dia seguinte à Agile Brazil anterior e termina cerca de um mês após o evento acontecer. É um longo caminho e muitos voluntários da comunidade estão envolvidos nele.",
     "Who are we and what do we do?|no description given": "Quem somos e o que fazemos?",
