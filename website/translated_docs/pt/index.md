@@ -1,17 +1,13 @@
 ---
-layout: page
+id: index
 title: "WBMA 2019"
-customjs:
-  - http://code.jquery.com/jquery-1.4.2.min.js
 ---
 
-## Bem-vindo à 10ª Oficina Brasileira em Métodos Ágeis (WBMA) -- AgilE Brazil'2019
+## Bem-vindo à 10ª Oficina Brasileira em Métodos Agile (WBMA) -- Agile Brasil'2019
 
 ### Abaixo Horizonte/MG, Brasil, 11 de Setembro de 2019
 
-WBMA 2019 será co-localizado com o  [Agile Brazil 2019](https://www.agilebrazil.com/2019/) em Belo Horizonte no Brasil.
-
-**WBMA** O 10ª Workshop Brasileiro em Métodos Ágeis (WBMA'2019) é a trilha de pesquisa na conferência Agile Brazil. O WBMA é um evento acadêmico sobre desenvolvimento Ágil de Software. A edição deste ano vem com um histórico de sucesso. Nossas edições anteriores receberam um número expressivo de submissões de artigos. Tem um número considerável de participantes (estudantes, pesquisadores, e práticos) de diferentes países. Esperamos repetir este sucesso este ano e influenciar ainda mais a integração entre a indústria e a academia. Acreditamos que essa integração possa criar ideias, oportunidades e inovações para todos os involvidos.
+O 10ª Workshop Brasileiro em Métodos Ágeis (WBMA'2019) é a trilha de pesquisa na conferência Agile Brazil. O WBMA é um evento acadêmico sobre desenvolvimento Ágil de Software. A edição deste ano vem com um histórico de sucesso. Nossas edições anteriores receberam um número expressivo de submissões de artigos. Tem um número considerável de participantes (estudantes, pesquisadores, e práticos) de diferentes países. Esperamos repetir este sucesso este ano e influenciar ainda mais a integração entre a indústria e a academia. Acreditamos que essa integração possa criar ideias, oportunidades e inovações para todos os involvidos.
 
 No ano passado, a conferência de Agile Brazil recebeu mais de 500 participantes de todo o mundo. Este ano, a nossa expectativa é que o workshop receba ainda mais investigadores, estudantes e profissionais do Brasil e estrangeiros. Este ano, WBMA'2019 será realizado em Setembro, 11, em Belo Horizonte/MG - Brasil. Esse workshop faz parte do calendário do Agile Brazil.
 
@@ -25,5 +21,3 @@ No ano passado, a conferência de Agile Brazil recebeu mais de 500 participantes
 ## Inscrição
 
 A inscrição no Agile Brazil dá acesso ao WBMA. Não há inscrição exclusiva para o WBMA, uma vez que nosso objetivo é integrar a indústria com a academia. Para cada artigo aceito, será disponibilizado a inscrição gratuita ao evento para um autor.
-
-

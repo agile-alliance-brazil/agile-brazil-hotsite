@@ -1,5 +1,5 @@
 ---
-layout: page
+id: comitê
 title: "Comitê"
 ---
 
@@ -8,13 +8,14 @@ title: "Comitê"
 - Coordenadores do Evento: 
   - **Paulo Meirelles (UNIFESP) - paulo.meirelles@unifesp.br**
   - **Maria Augusta Vieira Nelson (PUC-MG)**
-- Coordenadora publicidade:**Carla Rocha (UnB)**
+- Coordenadora de publicidade: 
+  - **Carla Rocha (UnB)**
 
 ### Comitê de Programa
 
-para ser confirmado
-
-<!-- COMENTADO
+    À ser confirmado
+    
+    <!-- COMENTADO
     <ul>
       <li>Ademar Aguiar (Faculty of Engineering of the University of Porto, Portugal)</li>
       <li>Adolfo Neto (Universidade Tecnológica Federal do Paraná, Brazil)</li>
