@@ -3,7 +3,7 @@ id: index
 title: "WBMA 2019"
 ---
 
-## Bem-vindo à 10ª Oficina Brasileira em Métodos Agile (WBMA) -- Agile Brasil'2019
+## Bem-vindo ao 10ª Workshop Brasileiro em Métodos Agile (WBMA) -- Agile Brasil'2019
 
 ### Abaixo Horizonte/MG, Brasil, 12 de Setembro de 2019
 
