@@ -8,6 +8,10 @@ title: "Comitê"
 - Coordenadores do Evento: 
   - **Paulo Meirelles (UNIFESP) - paulo.meirelles@unifesp.br**
   - **Maria Augusta Vieira Nelson (PUC-MG)**
+
+- Award co-Chair:
+  - **Claudia Melo**
+
 - Coordenadora de publicidade: 
   - **Carla Rocha (UnB)**
 
