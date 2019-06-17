@@ -9,6 +9,7 @@ var siteConfig = {
   defaultLanguage: 'pt',
   headerLinks: [
     {doc: 'faq', label: 'FAQ'},
+    {doc: 'volunteers', label: 'Volunteers'},
     {page: 'program', label: 'Program'},
     {doc: 'wbma/index', label: 'WBMA'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },

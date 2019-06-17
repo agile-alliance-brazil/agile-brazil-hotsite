@@ -8,6 +8,9 @@
       "faq": {
         "title": "Frequently asked questions"
       },
+      "volunteers": {
+        "title": "Be a volunteer at Agile Brazil!"
+      },
       "wbma/committees": {
         "title": "Committees"
       },
@@ -23,6 +26,7 @@
     },
     "links": {
       "FAQ": "FAQ",
+      "Volunteers": "Volunteers",
       "Program": "Program",
       "WBMA": "WBMA",
       "Agile Alliance": "Agile Alliance",
