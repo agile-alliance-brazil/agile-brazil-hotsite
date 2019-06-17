@@ -1,6 +1,6 @@
 ---
 id: submissão
-title: "Submissão de Paper"
+title: "Submissão de Artigos"
 ---
 
 
