@@ -8,6 +8,10 @@ title: "Committees"
 - Program Co-Chairs: 
   - **Paulo Meirelles (UNIFESP) - paulo.meirelles@unifesp.br**
   - **Maria Augusta Vieira Nelson (PUC-MG)**
+  
+- Award co-Chair:
+  - **Claudia Melo**
+
 - Publicity Co-Chair:
   - **Carla Rocha (UnB)**
 
