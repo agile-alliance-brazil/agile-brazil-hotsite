@@ -38,5 +38,3 @@ The dates of the volunteer program are:
 - 06/24: Closing of registrations;
 - 07/01: Notice of approved volunteers;
 - 07/08: Deadline for confirmation of selected.
-
-[Be a volunteer at Agile Brazil!](https://agilebrazil.typeform.com/to/LPEFoW)
