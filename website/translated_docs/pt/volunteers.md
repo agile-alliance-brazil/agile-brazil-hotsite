@@ -35,5 +35,3 @@ As datas do programa de voluntários são:
 - 24/06: Fechamento das inscrições;
 - 01/07: Aviso dos voluntários aprovados;
 - 08/07: Prazo para confirmação dos selecionados.
-
-[Seja um voluntário no Agile Brazil!](https://agilebrazil.typeform.com/to/LPEFoW)
