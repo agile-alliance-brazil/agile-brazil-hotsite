@@ -90,6 +90,11 @@ class Index extends React.Component {
       id="sponsorship" style={{textAlign: 'center'}}> 
         <h2><translate>Sponsorship</translate></h2>
         <div className="showcase">
+          <a className="link" href="https://www.accenture.com/br-pt">
+            <img src={`${siteConfig.baseUrl}img/sponsors/accenture.png`}
+            alt="Accenture Solutions IQ">
+            </img>
+          </a>
           <a className="link" href="http://dtidigital.com.br/">
             <img src={`${siteConfig.baseUrl}img/sponsors/dti.png`}
             alt="DTI">
