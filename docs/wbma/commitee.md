@@ -21,7 +21,7 @@ title: "Committees"
   To be confirmed
   
 
-    <ul>
+   <ul>
       <li>Ademar Aguiar (Faculty of Engineering of the University of Porto, Portugal)</li>
        <li>Adolfo Neto (Universidade Tecnológica Federal do Paraná, Brazil)</li>
        <li> Alfredo Goldman (Universidade de São Paulo, Brazil)</li>
