@@ -4,7 +4,7 @@ title: "Submissão de Artigos"
 ---
 
 
-Os documentos originais devem ser enviados electronicamente pelo [Easychair](https://easychair.org/conferences/?conf=wbma2019). Os manuscritos devem seguir as Comunicações na Ciência da Computação e da Informação (CCIS) – Modelo Springer. Papéis devem ser enviados no formato PDF. Os papistas podem ser escritos em português, espanhol ou inglês. A submissão em inglês é fortemente encorajada, uma vez que os procedimentos da workshop são indexados na biblioteca digital CCIS.
+Os documentos originais devem ser enviados electronicamente pelo [Easychair](https://easychair.org/conferences/?conf=wbma2019). Os manuscritos devem seguir as Comunicações na Ciência da Computação e da Informação (CCIS) – Modelo Springer. Papéis devem ser enviados no formato PDF. Os papistas podem ser escritos em português, espanhol ou inglês. A submissão em inglês é fortemente encorajada, uma vez que os procedimentos da workshop são indexados na biblioteca digital CCIS (em aprovação).
 
 - https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
 - https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WuA4JS5uZpi
