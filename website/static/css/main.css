@@ -1186,7 +1186,7 @@ input::placeholder {
 }
 
 .container.paddingTop {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 @media only screen and (max-width: 735px) {
@@ -2531,6 +2531,7 @@ div.buyTicketButton:hover {
 }
 
 .keynotes img {
+  margin-top: 12px;
   border-radius: 50%;
 }
 
