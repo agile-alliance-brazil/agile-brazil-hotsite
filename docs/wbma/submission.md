@@ -4,7 +4,7 @@ title: "Paper Submission"
 ---
 
 
-Original papers should be sent electronically by [Easychair](https://easychair.org/conferences/?conf=wbma2019). Manuscripts must follow the Communications in Computer and Information Science (CCIS) – Springer template. Papers should be submitted in PDF format. Papers can be written in Portuguese, Spanish or English. Submission in English is strongly encouraged since the workshop proceedings are indexed in the CCIS Digital Library.
+Original papers should be sent electronically by [Easychair](https://easychair.org/conferences/?conf=wbma2019). Manuscripts must follow the Communications in Computer and Information Science (CCIS) – Springer template. Papers should be submitted in PDF format. Papers can be written in Portuguese, Spanish or English. Submission in English is strongly encouraged since the workshop proceedings are indexed in the CCIS Digital Library  (under approval).
 
 - https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines
 - https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WuA4JS5uZpi
