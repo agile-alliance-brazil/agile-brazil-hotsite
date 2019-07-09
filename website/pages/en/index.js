@@ -267,22 +267,22 @@ class Index extends React.Component {
           contents={[
             {
               content:<translate>
-                *Paulo Caroli has more than 20 years of experience with software development,
-                working at various corporations from Brazil, India, USA and other across Latino America.
-                In 2000, he discovery the Extreme Programming and, since then,
-                focused his experience on Agile & Lean processes and practices.
-                He joined ThoughtWorks at 2006 and worked as Agile Coach, Trainer, Project and Delivery Manager.
-                He has a bachelor's degree in Computing and master in Software Engineering, both at PUC-Rio.
-                Caroli is passionate about innovation, entrepreneurship and digital products.
-                He is software engineer, writer, speaker and an exepctional facilitator.*
+                *Dr. Alistair Cockburn is one of the creators of the Manifesto for Agile Software Development 
+                and the world's pre-eminent expert in use cases and agile methodologies. He was voted one of the 
+                "The All-Time Top 150 i-Technology Heroes" in 2007. He helped creating the 
+                Declaration of Interdependence, the International Consortium for Agile, 
+                and most recently, founding the Heart of Agile. 
+                He travels the world consulting, coaching, and teaching, 
+                but in his spare time dancing, learning languages, 
+                and sitting underwater.*
               </translate>,
-              image: `${siteConfig.baseUrl}img/keynotes/paulo-caroli.jpg`,
+              image: `${siteConfig.baseUrl}img/keynotes/alistair-cockburn.png`,
               imageAlign: 'top',
-              imageAlt: 'Paulo Caroli',
+              imageAlt: 'Alistair Cockburn',
               title:
-                'Paulo Caroli <br/><font size="2">'+
+                'Alistair Cockburn <br/><font size="2">'+
                 <translate>
-                  *Principal Consultant at Thoughtworks*
+                  *Agile Manifesto Co-Creator*
                 </translate>
                 +'</font>',
             },
@@ -309,9 +309,48 @@ class Index extends React.Component {
                   *Founder & Service Designer at Talking City*
                 </translate>
                 +'</font>',
+            },
+            {
+              content:<translate>
+                *Paulo Caroli has more than 20 years of experience with software development,
+                working at various corporations from Brazil, India, USA and other across Latino America.
+                In 2000, he discovery the Extreme Programming and, since then,
+                focused his experience on Agile & Lean processes and practices.
+                He joined ThoughtWorks at 2006 and worked as Agile Coach, Trainer, Project and Delivery Manager.
+                He has a bachelor's degree in Computing and master in Software Engineering, both at PUC-Rio.
+                Caroli is passionate about innovation, entrepreneurship and digital products.
+                He is software engineer, writer, speaker and an exepctional facilitator.*
+              </translate>,
+              image: `${siteConfig.baseUrl}img/keynotes/paulo-caroli.jpg`,
+              imageAlign: 'top',
+              imageAlt: 'Paulo Caroli',
+              title:
+                'Paulo Caroli <br/><font size="2">'+
+                <translate>
+                  *Principal Consultant at Thoughtworks*
+                </translate>
+                +'</font>',
+            },
+            {
+              content:<translate>
+                *An independent Agile Guide and Coach that has been programming computers for 35+ years. 
+                He is a pioneer of the Mob Programming approach to teamwork in software development, 
+                and one of the founders of the "#NoEstimates" discussion on Twitter. 
+                He works with teams to create an environment where everyone can excel 
+                in their work and lives.*
+              </translate>,
+              image: `${siteConfig.baseUrl}img/keynotes/woody-zuill.png`,
+              imageAlign: 'top',
+              imageAlt: 'Woody Zuill',
+              title:
+                'Woody Zuill <br/><font size="2">'+
+                <translate>
+                  *Agile Guide and Coaching*
+                </translate>
+                +'</font>',
             }
           ]}
-          layout="threeColumn"
+          layout="twoColumn"
         />
       </Container>
       </div>
