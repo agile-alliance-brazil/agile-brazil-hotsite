@@ -17,10 +17,6 @@ title: "Committees"
 
 ### Program Committee
 
-  
-  To be confirmed
-  
-
    <ul>
       <li>Ademar Aguiar (Faculty of Engineering of the University of Porto, Portugal)</li>
        <li>Adolfo Neto (Universidade Tecnológica Federal do Paraná, Brazil)</li>
