@@ -105,6 +105,11 @@ class Index extends React.Component {
             alt="K21">
             </img>
           </a>
+          <a className="link" href="https://www.thoughtworks.com/pt/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/thoughtworks.png`}
+            alt="K21">
+            </img>
+          </a>
         </div>
         <div>
          <h2><translate>Want to be a sponsor?</translate></h2>
