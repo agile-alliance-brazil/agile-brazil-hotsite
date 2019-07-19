@@ -13,7 +13,7 @@ Last year, the Agile Brazil conference has received more than 500 attendees from
 
 ## Important dates
 
-- July 20th, 2019 (Deadline extended) - Abstract and Paper (full/short) Submission
+- *July 20th, 2019 (Deadline extended)* - Abstract and Paper (full/short) Submission
 - August 12nd, 2019 - Acceptance Notification
 - August 29th , 2019 - Final Version Submission (in English only)
 - Setember 13, 2019  - WBMA Presentations at Agile Brazil 2019 (in Belo Horizonte/MG, Brazil)
