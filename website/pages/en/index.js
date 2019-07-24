@@ -168,6 +168,11 @@ class Index extends React.Component {
             alt="InfoQ">
             </img>
           </a>
+          <a className="link" href="https://www.agileminas.com.br/2018/">
+            <img src={`${siteConfig.baseUrl}img/supporters/agileminas.jpeg`}
+            alt="Agile Minas">
+            </img>
+          </a>
         </div>
       </div>
     );
