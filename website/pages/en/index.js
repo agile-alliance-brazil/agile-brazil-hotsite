@@ -170,7 +170,7 @@ class Index extends React.Component {
           </a>
           <a className="link" href="https://www.agileminas.com.br/2018/">
             <img src={`${siteConfig.baseUrl}img/supporters/agileminas.jpeg`}
-            alt="Agile Minas" width="100" height="100">
+            alt="Agile Minas" width="100" height="130">
             </img>
           </a>
         </div>
