@@ -173,6 +173,11 @@ class Index extends React.Component {
             alt="Agile Minas" width="130" height="100">
             </img>
           </a>
+          <a className="link" href="https://www.meetup.com/agilecampinas/">
+            <img src={`${siteConfig.baseUrl}img/supporters/agilecampinas.png`}
+            alt="Agile Campinas e Região" width="130" height="100">
+            </img>
+          </a>
         </div>
       </div>
     );
