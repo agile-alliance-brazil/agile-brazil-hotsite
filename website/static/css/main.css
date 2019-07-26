@@ -486,19 +486,34 @@ blockquote {
 }
 
 .homeContainer .homeWrapper {
-  padding: 2em 10px;
+  padding: 4em 10px 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.homeContainer .homeWrapper .wrapper {
-  margin: 0px auto;
-  max-width: 900px;
-  padding: 0 20px;
+.homeContainer .homeWrapper .projectLogo {
+  padding: 0;
+  width: auto;
+  height: 15vw;
 }
 
+.homeContainer .homeWrapper img.aabLogo {
+  order: 3;
+}
+
+.homeContainer .homeWrapper img.aabLogo,
 .homeContainer .homeWrapper .projectLogo img {
-  height: 100px;
+  height: 250px;
   margin-bottom: 0px;
-  float: right;
+  max-height: 15vw;
+  max-width: 36vw;
+}
+
+.homeContainer .homeWrapper .inner {
+  margin: auto;
+  min-width: 40vw;
+  order: 5;
 }
 
 .homeContainer .homeWrapper #project_title {
@@ -514,20 +529,10 @@ blockquote {
   line-height: 1em;
 }
 
-@media only screen and (min-width: 736px) {
-  .homeContainer .homeWrapper {
-    position: relative;
-  }
-
-  .homeContainer .homeWrapper #inner {
-    max-width: 600px;
-    padding-right: 40px;
-  }
-}
-
 .projectLogo {
-  display: none;
+  display: flex;
   pointer-events: none;
+  order: 1;
 }
 
 .projectLogo img {
@@ -573,16 +578,25 @@ blockquote {
 @media only screen and (min-width: 736px) {
   .homeContainer .homeWrapper {
     position: relative;
+    flex-wrap: nowrap;
   }
 
-  .homeContainer .homeWrapper #inner {
+  .homeContainer .homeWrapper .inner {
+    margin: 0 1em;
     max-width: 600px;
-    padding-right: 40px;
+    min-width: 25em;
+    order: 2;
+  }
+
+  .homeContainer .homeWrapper img.aabLogo,
+  .homeContainer .homeWrapper .projectLogo img {
+    min-width: 30vw;
+    max-height: 250px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .homeContainer .homeWrapper #inner {
+  .homeContainer .homeWrapper .inner {
     max-width: 750px;
   }
 
@@ -592,14 +606,15 @@ blockquote {
     display: flex;
     justify-content: flex-end;
     left: 0;
-    padding: 2em 100px 4em;
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
   }
+
+  .homeContainer .homeWrapper img.aabLogo,
   .homeContainer .homeWrapper .projectLogo img {
-    height: 100%;
-    max-height: 250px;
+    min-width: 15vw;
+    max-height: 180px;
   }
 }
 
@@ -1325,6 +1340,7 @@ input::placeholder {
   position: relative;
   z-index: 99;
   background-image: url("/2019/img/cover.jpg");
+  width: 124%;
 }
 
 .singleRowMobileNav.navPusher {
@@ -1351,6 +1367,7 @@ input::placeholder {
     flex-grow: 1;
     min-height: calc(100vh - 50px);
     padding-top: 50px;
+    width: 100%;
   }
 
   /* those make the footer sticky and work even in IE 11 */
