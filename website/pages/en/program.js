@@ -23,14 +23,6 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-    const ProjectTitle = () => (
-      <h2 className="projectTitle">
-        {siteConfig.title}
-        <small>{siteConfig.city}, <b>{siteConfig.year}</b></small>
-        <small><translate>september 11, 12 and 13</translate></small>
-      </h2>
-    );
-
     const Logo = props => (
       <div className="projectLogo">
         <img src={props.img_src} alt="Project Logo" />
@@ -54,15 +46,7 @@ class HomeSplash extends React.Component {
     );
 
     return (
-      <SplashContainer>
-        <Logo img_src={`${baseUrl}img/logo-ab.svg`} />
-        <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
-            <Button href="#register"><translate>Register now!</translate></Button>
-          </PromoSection>
-        </div>
-      </SplashContainer>
+      <SplashContainer></SplashContainer>
     );
   }
 }
