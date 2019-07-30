@@ -50,9 +50,11 @@ Yes. But the discounts will not be applied to Super Early Birds, only for Early 
 
 Groups:
 
-from 05 (five) to 14 (fourteen) people - you will have 10% off at the currently price.
+from 05 (five) to 14 (fourteen) people - you will have 10% off at the currently price.  
+from 15 (fifteen) to 29 (twenty-nine) people - you will have 15% off at the currently price.  
+from 30 (thirty) to 49 (forty-nine) people - you will have 20% off at the currently price.  
 
-More than 15 (fifteen) people - you will have 15% off at the current price.
+More than 50 (fifty) people - you will have 25% off at the current price.
 
 ### 9. I work at a company that is an official sponsor of Agile Brazil. Do I have discounts on the registration for groups?
 
