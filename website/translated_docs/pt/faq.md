@@ -45,11 +45,14 @@ Sim. Porém os descontos não serão para Super Early Birds, apenas para inscri�
 
 ### 8. A partir de quantas pessoas podemos considerar "grupo"?
 
-Groups:
+Grupos:
 
-de 05 (cinco) a 14 (catorze) pessoas – terão 10% de desconto na faixa vigente.
+de 05 (cinco) a 14 (catorze) pessoas – terão 10% de desconto na faixa vigente.  
+de 15 (quinze) a 29 (vinte e nove) pessoas – terão 15% de desconto na faixa vigente.  
+de 30 (trinta) a 49 (quarenta e nove) pessoas – terão 20% de desconto na faixa vigente.  
 
-A partir de 15 (quinze) pessoas – terão 15% de desconto na faixa vigente.
+A partir de 50 (cinquenta) pessoas – terão 25% de desconto na faixa vigente.  
+
 
 ### 9. Trabalho em uma empresa patrocinadora oficial da Agile Brazil. Terei descontos em inscrições para grupos?
 
