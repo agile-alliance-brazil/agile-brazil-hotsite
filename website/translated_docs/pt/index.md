@@ -5,18 +5,18 @@ title: "WBMA 2019"
 
 ## Bem-vindo ao 10ª Workshop Brasileira em Métodos Agile (WBMA) -- Agile Brasil'2019
 
-### Abaixo Horizonte/MG, Brasil,13 de Setembro de 2019
+### Abaixo Horizonte/MG, Brasil,11 de Setembro de 2019
 
 O 10ª Workshop Brasileiro em Métodos Ágeis (WBMA'2019) é a trilha de pesquisa na conferência Agile Brazil. O WBMA é um evento acadêmico sobre desenvolvimento Ágil de Software. A edição deste ano vem com um histórico de sucesso. Nossas edições anteriores receberam um número expressivo de submissões de artigos. Tem um número considerável de participantes (estudantes, pesquisadores, e práticos) de diferentes países. Esperamos repetir este sucesso este ano e influenciar ainda mais a integração entre a indústria e a academia. Acreditamos que essa integração possa criar ideias, oportunidades e inovações para todos os involvidos.
 
-No ano passado, a conferência de Agile Brazil recebeu mais de 500 participantes de todo o mundo. Este ano, a nossa expectativa é que o workshop receba ainda mais investigadores, estudantes e profissionais do Brasil e estrangeiros. Este ano, WBMA'2019 será realizado em 13 de Setembro, em Belo Horizonte/MG - Brasil. Esse workshop faz parte do calendário do Agile Brazil.
+No ano passado, a conferência de Agile Brazil recebeu mais de 500 participantes de todo o mundo. Este ano, a nossa expectativa é que o workshop receba ainda mais investigadores, estudantes e profissionais do Brasil e estrangeiros. Este ano, WBMA'2019 será realizado em 11 de Setembro, em Belo Horizonte/MG - Brasil. Esse workshop faz parte do calendário do Agile Brazil.
 
 ## Datas importantes
 
 - **20 de Julho de 2019 (prazo estendido)**- Submissão do Abstract e Artigo (completo/curto) 
 - 12 de Agosto de 2019 - Notificação de Aceitação
 - 29 de Agosto, 2019 - Submissão da Versão Final (apenas em inglês)
-- 13 de Setembro de 2019 - Apresentações WBMA em Agile Brazil 2019 (em Belo Horizonte/MG, Brasil)
+- 11 de Setembro de 2019 - Apresentações WBMA em Agile Brazil 2019 (em Belo Horizonte/MG, Brasil)
 
 ## Inscrição
 
