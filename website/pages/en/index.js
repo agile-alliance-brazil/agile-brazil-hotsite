@@ -123,7 +123,7 @@ class Index extends React.Component {
           </a>
           <a className="link" href="https://www.creditas.com.br/">
             <img src={`${siteConfig.baseUrl}img/sponsors/creditas-square.png`}
-            alt="Creditas" width="244" height="50">
+            alt="Creditas">
             </img>
           </a>
           <a className="link" href="https://nubank.com.br/">
