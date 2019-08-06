@@ -116,6 +116,21 @@ class Index extends React.Component {
             alt="Stefanini">
             </img>
           </a>
+          <a className="link" href="https://adapt.works/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/adaptworks.png`}
+            alt="Adaptworks">
+            </img>
+          </a>
+          <a className="link" href="https://www.creditas.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/creditas.png`}
+            alt="Creditas" width="244" height="50">
+            </img>
+          </a>
+          <a className="link" href="https://nubank.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/nubank.png`}
+            alt="Nubank" width="350" height="248">
+            </img>
+          </a>
         </div>
         <div>
          <h2><translate>Want to be a sponsor?</translate></h2>
@@ -166,7 +181,7 @@ class Index extends React.Component {
           </a>
           <a className="link" href="https://www.infoq.com/br/?utm_source=agilebrazil&utm_medium=logo-infoq&utm_campaign=parceria-eventos">
             <img src={`${siteConfig.baseUrl}img/supporters/infoqbr.png`}
-            alt="InfoQ">
+            alt="InfoQ" width="140" height="70">
             </img>
           </a>
           <a className="link" href="https://www.meetup.com/pt-BR/Agile-Minas/">
