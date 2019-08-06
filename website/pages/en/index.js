@@ -117,18 +117,18 @@ class Index extends React.Component {
             </img>
           </a>
           <a className="link" href="https://adapt.works/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/adaptworks.png`}
+            <img src={`${siteConfig.baseUrl}img/sponsors/adaptworks-square.png`}
             alt="Adaptworks">
             </img>
           </a>
           <a className="link" href="https://www.creditas.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/creditas.png`}
+            <img src={`${siteConfig.baseUrl}img/sponsors/creditas-square.png`}
             alt="Creditas" width="244" height="50">
             </img>
           </a>
           <a className="link" href="https://nubank.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/nubank.png`}
-            alt="Nubank" width="350" height="248">
+            <img src={`${siteConfig.baseUrl}img/sponsors/nubank-square.png`}
+            alt="Nubank">
             </img>
           </a>
         </div>
