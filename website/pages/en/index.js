@@ -60,6 +60,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#register"><translate>Register now!</translate></Button>
+            <Button href="https://eventmobi.com/agilebrazil2019/"><translate>Schedule</translate></Button>
           </PromoSection>
         </div>
         <img class="aabLogo" src={`${baseUrl}img/aab-logo-white.svg`} />

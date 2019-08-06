@@ -15,7 +15,7 @@
         "title": "Committees"
       },
       "wbma/index": {
-        "title": "WBMA 2019"
+        "title": "wbma/index"
       },
       "wbma/submission": {
         "title": "Paper Submission"
@@ -39,6 +39,7 @@
   "pages-strings": {
     "september 11, 12 and 13|no description given": "september 11, 12 and 13",
     "Register now!|no description given": "Register now!",
+    "Schedule|no description given": "Schedule",
     "Sponsorship|no description given": "Sponsorship",
     "Want to be a sponsor?|no description given": "Want to be a sponsor?",
     "Supporters|no description given": "Supporters",
