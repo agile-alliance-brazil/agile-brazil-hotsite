@@ -93,43 +93,48 @@ class Index extends React.Component {
         <h2><translate>Sponsorship</translate></h2>
         <div className="showcase">
           <a className="link" href="https://www.accenture.com/br-pt">
-            <img src={`${siteConfig.baseUrl}img/sponsors/accenturesolutionsiq.png`}
+            <img src={`${siteConfig.baseUrl}img/sponsors/accenturesolutionsiq-white.png`}
             alt="Accenture Solutions IQ">
             </img>
           </a>
-          <a className="link" href="http://dtidigital.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/dti.png`}
-            alt="DTI">
-            </img>
-          </a>
-          <a className="link" href="https://www.knowledge21.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/knowledge21.png`}
-            alt="K21">
-            </img>
-          </a>
-          <a className="link" href="https://www.thoughtworks.com/pt/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/thoughtworks.png`}
-            alt="ThoughtWorks">
-            </img>
-          </a>
-          <a className="link" href="https://stefanini.com/pt-br">
-            <img src={`${siteConfig.baseUrl}img/sponsors/stefanini.png`}
-            alt="Stefanini">
-            </img>
-          </a>
           <a className="link" href="https://adapt.works/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/adaptworks-square.png`}
+            <img src={`${siteConfig.baseUrl}img/sponsors/adaptworks-white.png`}
             alt="Adaptworks">
             </img>
           </a>
           <a className="link" href="https://www.creditas.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/creditas-square.png`}
+            <img src={`${siteConfig.baseUrl}img/sponsors/creditas-white.png`}
             alt="Creditas">
             </img>
           </a>
+          <a className="link" href="http://dtidigital.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/dti-white.png`}
+            alt="DTI">
+            </img>
+          </a>
+          <a className="link" href="https://www.knowledge21.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/knowledge21-white.png`}
+            alt="K21">
+            </img>
+          </a>
           <a className="link" href="https://nubank.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/nubank-square.png`}
+            <img src={`${siteConfig.baseUrl}img/sponsors/nubank-white.png`}
             alt="Nubank">
+            </img>
+          </a>
+          <a className="link" href="https://stefanini.com/pt-br">
+            <img src={`${siteConfig.baseUrl}img/sponsors/stefanini-white.png`}
+            alt="Stefanini">
+            </img>
+          </a>
+          <a className="link" href="https://www.thoughtworks.com/pt/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/thoughtworks-white.png`}
+            alt="ThoughtWorks">
+            </img>
+          </a>
+          <a className="link" href="https://mercantildobrasil.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/mercantil-white.png`}
+            alt="Mercantil do Brasil">
             </img>
           </a>
         </div>
