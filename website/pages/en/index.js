@@ -97,26 +97,6 @@ class Index extends React.Component {
             alt="Accenture Solutions IQ">
             </img>
           </a>
-          <a className="link" href="http://dtidigital.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/dti.png`}
-            alt="DTI">
-            </img>
-          </a>
-          <a className="link" href="https://www.knowledge21.com.br/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/knowledge21.png`}
-            alt="K21">
-            </img>
-          </a>
-          <a className="link" href="https://www.thoughtworks.com/pt/">
-            <img src={`${siteConfig.baseUrl}img/sponsors/thoughtworks.png`}
-            alt="ThoughtWorks">
-            </img>
-          </a>
-          <a className="link" href="https://stefanini.com/pt-br">
-            <img src={`${siteConfig.baseUrl}img/sponsors/stefanini.png`}
-            alt="Stefanini">
-            </img>
-          </a>
           <a className="link" href="https://adapt.works/">
             <img src={`${siteConfig.baseUrl}img/sponsors/adaptworks-square.png`}
             alt="Adaptworks">
@@ -127,9 +107,29 @@ class Index extends React.Component {
             alt="Creditas">
             </img>
           </a>
+          <a className="link" href="http://dtidigital.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/dti.png`}
+            alt="DTI">
+            </img>
+          </a>
+          <a className="link" href="https://www.knowledge21.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/knowledge21.png`}
+            alt="K21">
+            </img>
+          </a>
           <a className="link" href="https://nubank.com.br/">
             <img src={`${siteConfig.baseUrl}img/sponsors/nubank-square.png`}
             alt="Nubank">
+            </img>
+          </a>
+          <a className="link" href="https://stefanini.com/pt-br">
+            <img src={`${siteConfig.baseUrl}img/sponsors/stefanini.png`}
+            alt="Stefanini">
+            </img>
+          </a>
+          <a className="link" href="https://www.thoughtworks.com/pt/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/thoughtworks.png`}
+            alt="ThoughtWorks">
             </img>
           </a>
         </div>
