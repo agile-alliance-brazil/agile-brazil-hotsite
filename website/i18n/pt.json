@@ -5,6 +5,9 @@
     "previous": "Voltar",
     "tagline": "Belo Horizonte, 2019",
     "docs": {
+      "conduct": {
+        "title": "Código de conduta"
+      },
       "faq": {
         "title": "Perguntas Frequentes"
       },
@@ -29,6 +32,7 @@
       "Volunteers": "Voluntários",
       "Program": "Programa",
       "WBMA": "WBMA",
+      "Conduct": "Código de Conduta",
       "Agile Alliance": "Agile Alliance",
       "Membresia": "Membresia"
     },

@@ -5,6 +5,9 @@
     "previous": "Previous",
     "tagline": "Belo Horizonte, 2019",
     "docs": {
+      "conduct": {
+        "title": "Code of Conduct"
+      },
       "faq": {
         "title": "Frequently asked questions"
       },
@@ -29,6 +32,7 @@
       "Volunteers": "Volunteers",
       "Program": "Program",
       "WBMA": "WBMA",
+      "Conduct": "Conduct",
       "Agile Alliance": "Agile Alliance",
       "Membresia": "Membresia"
     },

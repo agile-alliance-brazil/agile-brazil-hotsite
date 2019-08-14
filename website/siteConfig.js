@@ -12,6 +12,7 @@ var siteConfig = {
     {doc: 'volunteers', label: 'Volunteers'},
     {page: 'program', label: 'Program'},
     {doc: 'wbma/index', label: 'WBMA'},
+    {doc: 'conduct', label: 'Conduct'},
     { href: "http://agilealliance.org/pt/", label: "Agile Alliance" },
     { href: "https://www.agilealliance.org/agilealliancebrazil/membresia/", label: "Membresia"},
     { languages: true }
