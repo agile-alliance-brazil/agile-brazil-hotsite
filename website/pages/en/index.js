@@ -132,6 +132,11 @@ class Index extends React.Component {
             alt="ThoughtWorks">
             </img>
           </a>
+          <a className="link" href="https://mercantildobrasil.com.br/">
+            <img src={`${siteConfig.baseUrl}img/sponsors/mercantil-white.png`}
+            alt="Mercantil do Brasil">
+            </img>
+          </a>
         </div>
         <div>
          <h2><translate>Want to be a sponsor?</translate></h2>
