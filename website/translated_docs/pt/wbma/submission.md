@@ -1,5 +1,5 @@
 ---
-id: submissão
+id: submission
 title: "Submissão de Artigos"
 ---
 
