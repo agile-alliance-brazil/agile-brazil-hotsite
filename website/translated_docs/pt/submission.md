@@ -1,5 +1,5 @@
 ---
-id: submissão
+id: submission
 title: "Submissão de Artigos"
 ---
 
@@ -26,4 +26,11 @@ Artigos short papers podem ter entre 6 e8 páginas, incluindo números e bibliog
 
 ## Publicação
 
-Os artigos aceites serão publicados, depois da conferência, num volume de comunicações em Ciência da Computação e da Informação (CCIS) – Springer. É a terceira vez que os processos WBMA serão publicados em Springer, o que dará visibilidade a nível mundial aos investigadores apresentados em WBMA'2019.
+Temos o prazer de anunciar que as publicações da WBMA serão publicados na série de livros Comunicações em Ciência da Computação e Informação (CCIS), uma Publicação Springer. As publicações anteriores da WBMA estão disponíveis no SpringerLink, [https://link.springer.com/conference/wbma](https://link.springer.com/conference/wbma). 
+
+
+ Os autores devem consultar as diretrizes dos autores da Springer e usar seus modelos de publicações(disponíveis em  [ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf](ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf)), seja para o LaTeX,  em [ftp://ftp.springernature.com/cs-proceeding/llncs/llncs2e.zip](ftp://ftp.springernature.com/cs-proceeding/llncs/llncs2e.zip), ou para o Word, em [ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip](ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip),  para a preparação de seus trabalhos. A Springer incentiva os autores a incluírem seus [ORCIDs](https://www.springer.com/gp/authors-editors/orcid?wt_mc=Other.Other.1.AUT642.ORCID+proceedings+pilot+2017&utm_medium=other&utm_source=other&utm_content=8232017&utm_campaign=1_barz01_orcid+proceedings+pilot+2017) em seus trabalhos. Além disso, o autor correspondente de cada artigo, agindo em nome de todos os autores desse artigo, deve preencher e assinar um formulário de consentimento para publicação. O autor que assina o formulário de direitos autorais deve corresponder ao autor correspondente marcado no artigo (pode ser encontrado  [aqui](https://github.com/lappis-unb/agile-brazil-hotsite/blob/master/docs/wbma/figs/Contract_Book_Contributor_Consent_to_Publish_CCIS_SIP.pdf)). Depois que os arquivos forem enviados para a Springer, as alterações relacionadas à autoria dos trabalhos não poderão ser feitas.  
+
+
+![image](https://github.com/lappis-unb/agile-brazil-hotsite/blob/master/docs/wbma/figs/CCIS-Logo.jpg)
+

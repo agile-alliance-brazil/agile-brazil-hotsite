@@ -2,6 +2,7 @@
   "docs-other": {
     "WBMA": [
         "wbma/index",
+        "wbma/schedule",
         "wbma/toi",
         "wbma/submission",
         "wbma/committees"

@@ -1,5 +1,5 @@
 ---
-id: comitê
+id: committees
 title: "Comitê"
 ---
 

@@ -27,4 +27,10 @@ Short papers might have between 6 and 8 pages including figures and bibliography
 
 ## Proceedings
 
-Accepted papers will be published, after the conference, in a volume of Communications in Computer and Information Science (CCIS) – Springer. This is the third time that the WBMA Proceedings are going to be published at Springer, which will give world-wide visibility to the researchers presented at WBMA'2019.
+
+We are pleased to announce that the WBMA proceedings will be published in the Communications in Computer and Information Science (CCIS) book series, a Springer Publication. We suggest that you check out previous proceedings of WBMA on SpringerLink, [https://link.springer.com/conference/wbma](https://link.springer.com/conference/wbma). 
+
+Authors should consult Springer’s authors’ guidelines in [ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf](ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf) and use their proceedings templates, either for LaTeX, [ftp://ftp.springernature.com/cs-proceeding/llncs/llncs2e.zip](ftp://ftp.springernature.com/cs-proceeding/llncs/llncs2e.zip) or for Word, in [ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip](ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip), for the preparation of their papers. Springer encourages authors to include their [ORCIDs](https://www.springer.com/gp/authors-editors/orcid?wt_mc=Other.Other.1.AUT642.ORCID+proceedings+pilot+2017&utm_medium=other&utm_source=other&utm_content=8232017&utm_campaign=1_barz01_orcid+proceedings+pilot+2017) in their papers. In addition, the corresponding author of each paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form (can be found [here](https://github.com/lappis-unb/agile-brazil-hotsite/blob/master/docs/wbma/figs/Contract_Book_Contributor_Consent_to_Publish_CCIS_SIP.pdf)). The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.
+
+
+![image](https://github.com/lappis-unb/agile-brazil-hotsite/blob/master/docs/wbma/figs/CCIS-Logo.jpg)

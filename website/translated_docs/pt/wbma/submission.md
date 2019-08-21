@@ -1,5 +1,5 @@
 ---
-id: submissão
+id: submission
 title: "Submissão de Artigos"
 ---
 
@@ -26,4 +26,10 @@ Artigos short papers podem ter entre 6 e8 páginas, incluindo números e bibliog
 
 ## Publicação
 
-Os artigos aceites serão publicados, depois da conferência, num volume de comunicações em Ciência da Computação e da Informação (CCIS) – Springer. É a terceira vez que os processos WBMA serão publicados em Springer, o que dará visibilidade a nível mundial aos investigadores apresentados em WBMA'2019.
+Temos o prazer de anunciar que as publicações da WBMA serão publicados na série de livros Comunicações em Ciência da Computação e Informação (CCIS), uma Publicação Springer. As publicações anteriores da WBMA estão disponíveis no SpringerLink, [https://link.springer.com/conference/wbma](https://link.springer.com/conference/wbma). 
+
+
+ Os autores devem consultar as diretrizes dos autores da Springer e usar seus modelos de publicações, seja para o LaTeX ou para o Word, para a preparação de seus trabalhos. A Springer incentiva os autores a incluírem seus ORCIDs em seus trabalhos. Além disso, o autor correspondente de cada artigo, agindo em nome de todos os autores desse artigo, deve preencher e assinar um formulário de consentimento para publicação. O autor que assina o formulário de direitos autorais deve corresponder ao autor correspondente marcado no artigo. Depois que os arquivos forem enviados para a Springer, as alterações relacionadas à autoria dos trabalhos não poderão ser feitas.  
+
+
+![image](https://github.com/lappis-unb/agile-brazil-hotsite/blob/master/docs/wbma/figs/CCIS-Logo.jpg)
