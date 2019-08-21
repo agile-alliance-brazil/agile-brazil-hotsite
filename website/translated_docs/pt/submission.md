@@ -35,3 +35,5 @@ We recommend that you announce publication of the proceedings in CCIS on your co
 
 We ask you to include the following text on your website and in your Call for Papers: “Authors should consult Springer’s authors’ guidelines and use their proceedings templates, either for LaTeX or for Word, for the preparation of their papers. Springer encourages authors to include their ORCIDs in their papers. In addition, the corresponding author of each paper, acting on behalf of all of the authors of that paper, must complete and sign a Consent-to-Publish form. The corresponding author signing the copyright form should match the corresponding author marked on the paper. Once the files have been sent to Springer, changes relating to the authorship of the papers cannot be made.” The appropriate links should be made available to the authors.
 
+![image](https://github.com/lappis-unb/agile-brazil-hotsite/blob/master/docs/wbma/figs/CCIS-Logo.jpg)
+
