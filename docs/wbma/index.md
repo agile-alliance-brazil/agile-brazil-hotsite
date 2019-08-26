@@ -61,7 +61,7 @@ Registering on Agile Brazil you will already be registered on WBMA. There is no 
 * WBMA Technical Session 3: Agile practices
 
 - A survey on agile practices and challenges of a global software development team
-- ATIMO – Uma ferramenta para alocação times agéis
+- ATIMO – Uma ferramenta para alocação times ágeis
 - Identificando fatores de sucesso em um projeto de reengenharia de sistemas legados utilizando métodos ágeis (short-paper)
 - Pair Programming: a step beyond (short-paper)
 
