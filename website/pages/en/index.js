@@ -400,6 +400,30 @@ class Index extends React.Component {
                   *Agile Guide and Coaching*
                 </translate>
                 +'</font>',
+            },
+            {
+              content:<translate>
+                *A founding partner of Arkhi since 2009, I work as a consultant, helping companies in 
+                their journey of agile transformation. I aid in developing people and teams, designing 
+                organizational structures, designing work systems, deploying process practices, and 
+                creating a culture of continuous learning and improvement. I am also a lecturer for IEC 
+                at PUC Minas since 2004, where I teach courses in Software Engineering, Distributed 
+                Software Architecture, and Full-stack Web Development.
+                I have 26 years of experience in many companies in Brazil and abroad in the fields of 
+                project leadership, agile transformation, system architecture, agility, Kanban and DevOps.
+                I have B.S. (1993) and M.Sc. (1996) degrees in Computer Science from UFMG and am an 
+                enthusiast about agile methods, software architecture, DevOps, and systemic thinking 
+                in organizations.*
+              </translate>,
+              image: `${siteConfig.baseUrl}img/keynotes/marco-mendes.jpg`,
+              imageAlign: 'top',
+              imageAlt: 'Marco Mendes',
+              title:
+                'Marco Mendes <br/><font size="2">'+
+                <translate>
+                  *Founding partner of Arkhi*
+                </translate>
+                +'</font>',
             }
           ]}
           layout="twoColumn"
