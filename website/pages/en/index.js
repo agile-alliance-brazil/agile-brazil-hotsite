@@ -319,22 +319,25 @@ class Index extends React.Component {
           contents={[
             {
               content:<translate>
-                *Dr. Alistair Cockburn is one of the creators of the Manifesto for Agile Software Development 
-                and the world's pre-eminent expert in use cases and agile methodologies. He was voted one of the 
-                "The All-Time Top 150 i-Technology Heroes" in 2007. He helped creating the 
-                Declaration of Interdependence, the International Consortium for Agile, 
-                and most recently, founding the Heart of Agile. 
-                He travels the world consulting, coaching, and teaching, 
-                but in his spare time dancing, learning languages, 
-                and sitting underwater.*
+                *A founding partner of Arkhi since 2009, I work as a consultant, helping companies in 
+                their journey of agile transformation. I aid in developing people and teams, designing 
+                organizational structures, designing work systems, deploying process practices, and 
+                creating a culture of continuous learning and improvement. I am also a lecturer for IEC 
+                at PUC Minas since 2004, where I teach courses in Software Engineering, Distributed 
+                Software Architecture, and Full-stack Web Development.
+                I have 26 years of experience in many companies in Brazil and abroad in the fields of 
+                project leadership, agile transformation, system architecture, agility, Kanban and DevOps.
+                I have B.S. (1993) and M.Sc. (1996) degrees in Computer Science from UFMG and am an 
+                enthusiast about agile methods, software architecture, DevOps, and systemic thinking 
+                in organizations.*
               </translate>,
-              image: `${siteConfig.baseUrl}img/keynotes/alistair-cockburn.png`,
+              image: `${siteConfig.baseUrl}img/keynotes/marco.jpg`,
               imageAlign: 'top',
-              imageAlt: 'Alistair Cockburn',
+              imageAlt: 'Marco Mendes',
               title:
-                'Alistair Cockburn <br/><font size="2">'+
+                'Marco Mendes <br/><font size="2">'+
                 <translate>
-                  *Agile Manifesto Co-Creator*
+                  *Founding partner of Arkhi*
                 </translate>
                 +'</font>',
             },
@@ -403,30 +406,27 @@ class Index extends React.Component {
             },
             {
               content:<translate>
-                *A founding partner of Arkhi since 2009, I work as a consultant, helping companies in 
-                their journey of agile transformation. I aid in developing people and teams, designing 
-                organizational structures, designing work systems, deploying process practices, and 
-                creating a culture of continuous learning and improvement. I am also a lecturer for IEC 
-                at PUC Minas since 2004, where I teach courses in Software Engineering, Distributed 
-                Software Architecture, and Full-stack Web Development.
-                I have 26 years of experience in many companies in Brazil and abroad in the fields of 
-                project leadership, agile transformation, system architecture, agility, Kanban and DevOps.
-                I have B.S. (1993) and M.Sc. (1996) degrees in Computer Science from UFMG and am an 
-                enthusiast about agile methods, software architecture, DevOps, and systemic thinking 
-                in organizations.*
+                *Dr. Alistair Cockburn is one of the creators of the Manifesto for Agile Software Development 
+                and the world's pre-eminent expert in use cases and agile methodologies. He was voted one of the 
+                "The All-Time Top 150 i-Technology Heroes" in 2007. He helped creating the 
+                Declaration of Interdependence, the International Consortium for Agile, 
+                and most recently, founding the Heart of Agile. 
+                He travels the world consulting, coaching, and teaching, 
+                but in his spare time dancing, learning languages, 
+                and sitting underwater.*
               </translate>,
-              image: `${siteConfig.baseUrl}img/keynotes/marco-mendes.jpg`,
+              image: `${siteConfig.baseUrl}img/keynotes/alistair-cockburn.png`,
               imageAlign: 'top',
-              imageAlt: 'Marco Mendes',
+              imageAlt: 'Alistair Cockburn',
               title:
-                'Marco Mendes <br/><font size="2">'+
+                'Alistair Cockburn <br/><font size="2">'+
                 <translate>
-                  *Founding partner of Arkhi*
+                  *Agile Manifesto Co-Creator*
                 </translate>
                 +'</font>',
             }
           ]}
-          layout="twoColumn"
+          layout="threeColumn"
         />
       </Container>
       </div>
