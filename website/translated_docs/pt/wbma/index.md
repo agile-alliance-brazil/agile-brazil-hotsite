@@ -26,45 +26,48 @@ A inscrição no Agile Brazil dá acesso ao WBMA. Não há inscrição exclusiva
 ## Programação
 
 11:00 - 12:00
-* WBMA Technical Session 1: Agile in Education
+* WBMA Technical Session 1 - Emipirical studies on Agile:
 
-- Mining undergraduate students’ code repositories: insights from Interdisciplinary Software Projects
-- Initial Assessment of Agile Development in the Undergraduate Curricula
-- Lições Aprendidas com a Transformação Ágil de um Centro de Computação da Aeronáutica
-- Vivências ágeis em uma Disciplina Extensionista de produção de software no Bacharelado em Engenharia de Software (short-paper)
+- An Empirical Study of Test Driven Development vs. Test-Last Development using Eye Tracking (Joelma Choma, INPE)
+- On the Mapping of Underlying Concepts of a Combined Use of Lean and User-Centered Design with Agile Development: The Case Study of the Transformation Process of an IT Company (Maximilian Zorzetti, PUC-RS)
+- Mob Programming and Simultaneous Style Pair Programming in the development of a battle royale game: an action research (Herez Kattan, USP)
 
 12:00 - 13:00
-* WBMA Technical Session 2: Emipirical studies on Agile
+* WBMA Technical Session 2 - Agile in Education:
 
-- An Empirical Study of Test Driven Development vs. Test-Last Development using Eye Tracking
-- On the Mapping of Underlying Concepts of a Combined Use of Lean and User-Centered Design with Agile Development: The Case Study of the Transformation Process of an IT Company
-- Mob Programming and Simultaneous Style Pair Programming in the development of a battle royale game: an action research
+- Mining undergraduate students’ code repositories: insights from Interdisciplinary Software Projects (Pedro Pongelupe Lopes, PUC-MG)
+- Initial Assessment of Agile Development in the Undergraduate Curricula (Nicolas Paez, UNTREF)
+- Lessons Learned from the Agile Transformation of an Aeronautics Computing Center (Fernando Rodrigues de Sá, ITA)
+- Agile experiences in a software development extension discipline at a Software Engineering bachelor's degree (Carlos Felipe Arantes, PUC-MG)
 
 13:00 - 14:30
-* Almoço
+* Lunch
 
-14:30 as 15:30 
-* WBMA'10 Awards
+14:30 - 15:30
+* WBMA'10 Awards:
 
-- Claudia Melo (WBMA 2019 Award co-chair)
-- Alfredo Goldman (10-years more influent researcher)
+- The purpose of Agility (Claudia Melo, WBMA Award chair)
+- Having fun doing research on agile methods (Alfredo Goldman, 10-years most influential researcher)
 
-15:00 as 16:30
-* WBMA Keynote : Marco Mendes (Arkhi)
+15:30 - 16:30
+* WBMA Keynote
 
-- Práticas de Engenharia de Software Robustas e Antifrágeis para Ambientes Complexos
+- Práticas de Engenharia de Software Robustas e Antifrágeis para Ambientes Complexos (Marco Mendes, Arkhi)
 
 16:30 - 17:00
 * Coffee
 
-17:00 - 18:30
-* WBMA Technical Session 3: Agile practices
+17:00 - 18:00
+* WBMA Technical Session 3 - Agile practices:
 
-- A survey on agile practices and challenges of a global software development team
-- ATIMO – Uma ferramenta para alocação times agéis
-- Identificando fatores de sucesso em um projeto de reengenharia de sistemas legados utilizando métodos ágeis (short-paper)
-- Pair Programming: a step beyond (short-paper)
+- Identifying Success Factors in a Legacy Systems Reengineering Project Using Agile Methods (Everton Fernandes, IFSP)
+- Pair Programming: a step beyond (Herez Kattan, USP)
+- ATIMO – A tool for alocating agile teams (Júnea Caldeira, FUMEC/TOTVS)
+- A survey on agile practices and challenges of a global software development team (Tatiane Lautert, UTFPR)
 
-18:30 - 19:00
-- Closing 
+18:00 - 19:00
+* WBMA Closing:
+
+- WBMA 2019 data
+- WBMA 2019 Best Award announcement
 - Steering Committee meeting
