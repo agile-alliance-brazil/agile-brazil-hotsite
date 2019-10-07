@@ -2207,10 +2207,35 @@ input::placeholder {
 
 .showcase {
   padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.showcase .link {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase .link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  background: #fff;
+  z-index: -1;
 }
 
 .showcase img {
-  margin: 0 4px;
+  margin: 8px;
+  display: inline-block;
+  max-width: 80%;
 }
 
 @media only screen and (max-width: 735px) {
