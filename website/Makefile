@@ -3,10 +3,11 @@ YEAR = 2020
 TIME = $(shell date +'%Y%m%d-%H%M%S')
 
 configure:
+	npm install -g gatsby-cli@2.8.2
 	yarn install
 
 dev-server:
-	yarn start
+	gatsby develop
 
 translations:
 	yarn write-translations
