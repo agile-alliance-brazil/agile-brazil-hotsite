@@ -1,4 +1,4 @@
-BUILD_PATH = ./build/agile-brazil-hotsite/
+BUILD_PATH = ./public/
 YEAR = 2020
 TIME = $(shell date +'%Y%m%d-%H%M%S')
 
@@ -10,16 +10,16 @@ dev-server:
 	gatsby develop
 
 translations:
-	yarn write-translations
+	echo "Pending migration to GatsbyJS"
 
 translations-upload:
-	crowdin --config ../crowdin.yaml upload sources --auto-update -b master
+	echo "Pending migration to GatsbyJS"
 
 translations-download:
-	crowdin --config ../crowdin.yaml download -b master
+	echo "Pending migration to GatsbyJS"
 
 build: configure
-	yarn build
+	gatsby build
 
 pre-deploy: build
 	find $(BUILD_PATH) -type f -name 'index.html' -exec \
