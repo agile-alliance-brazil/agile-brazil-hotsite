@@ -13,196 +13,76 @@ https://github.com/hartator/wayback-machine-downloader
     docker run --rm -it -v $PWD/websites:/websites hartator/wayback-machine-downloader http://www.agilebrazil.com/2017/ -f 20171211041111
     docker run --rm -it -v $PWD/websites:/websites hartator/wayback-machine-downloader http://www.agilebrazil.com/2015/ -f 20170203113140
 
-This website was created with [Docusaurus](https://docusaurus.io/).
+## 🚀 Quick start
 
-# What's In This Document
+1.  **Start developing.**
 
-* [Get Started in 5 Minutes](#get-started-in-5-minutes)
-* [Directory Structure](#directory-structure)
-* [Editing Content](#editing-content)
-* [Adding Content](#adding-content)
-* [Full Documentation](#full-documentation)
+    Navigate into your new site’s directory and start it up.
 
-# Get Started in 5 Minutes
+    ```shell
+    cd website/
+    make configure
+    make dev-server
+    ```
 
-1. Make sure all the dependencies for the website are installed:
+  And with Docker:
 
-```sh
-# Install dependencies
-$ yarn
-```
-2. Run your dev server:
+    ```shell
+    docker-compose up
+    ```  
 
-```sh
-# Start the site
-$ yarn start
-```
+2.  **Open the source code and start editing!**
 
-## Directory Structure
+    Your site is now running at `http://localhost:8000`!
 
-Your project file structure should look something like this
+    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-```
-my-docusaurus/
-  docs/
-    doc-1.md
-    doc-2.md
-    doc-3.md
-  website/
-    blog/
-      2016-3-11-oldest-post.md
-      2017-10-24-newest-post.md
-    core/
-    node_modules/
-    pages/
-    static/
-      css/
-      img/
-    package.json
-    sidebar.json
-    siteConfig.js
-```
+    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-# Editing Content
+## 🧐 What's inside?
 
-## Editing an existing docs page
+A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-Edit docs by navigating to `docs/` and editing the corresponding document:
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── .prettierrc
+    ├── gatsby-browser.js
+    ├── gatsby-config.js
+    ├── gatsby-node.js
+    ├── gatsby-ssr.js
+    ├── LICENSE
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 
-`docs/doc-to-be-edited.md`
+1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-```markdown
----
-id: page-needs-edit
-title: This Doc Needs To Be Edited
----
+2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-Edit me...
-```
+3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
+4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-## Editing an existing blog post
+5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-Edit blog posts by navigating to `website/blog` and editing the corresponding post:
+6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
 
-`website/blog/post-to-be-edited.md`
-```markdown
----
-id: post-needs-edit
-title: This Blog Post Needs To Be Edited
----
+7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-Edit me...
-```
+8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
+9.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-# Adding Content
+10. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-## Adding a new docs page to an existing sidebar
+11. **`README.md`**: A text file containing useful reference information about your project.
 
-1. Create the doc as a new markdown file in `/docs`, example `docs/newly-created-doc.md`:
+## 🎓 Learning Gatsby
 
-```md
----
-id: newly-created-doc
-title: This Doc Needs To Be Edited
----
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-My new content here..
-```
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-1. Refer to that doc's ID in an existing sidebar in `website/sidebar.json`:
-
-```javascript
-// Add newly-created-doc to the Getting Started category of docs
-{
-  "docs": {
-    "Getting Started": [
-      "quick-start",
-      "newly-created-doc" // new doc here
-    ],
-    ...
-  },
-  ...
-}
-```
-
-For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Adding a new blog post
-
-1. Make sure there is a header link to your blog in `website/siteConfig.js`:
-
-`website/siteConfig.js`
-```javascript
-headerLinks: [
-    ...
-    { blog: true, label: 'Blog' },
-    ...
-]
-```
-
-2. Create the blog post with the format `YYYY-MM-DD-My-Blog-Post-Title.md` in `website/blog`:
-
-`website/blog/2018-05-21-New-Blog-Post.md`
-
-```markdown
----
-author: Frank Li
-authorURL: https://twitter.com/foobarbaz
-authorFBID: 503283835
-title: New Blog Post
----
-
-Lorem Ipsum...
-```
-
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
-
-## Adding items to your site's top navigation bar
-
-1. Add links to docs, custom pages or external links by editing the headerLinks field of `website/siteConfig.js`:
-
-`website/siteConfig.js`
-```javascript
-{
-  headerLinks: [
-    ...
-    /* you can add docs */
-    { doc: 'my-examples', label: 'Examples' },
-    /* you can add custom pages */
-    { page: 'help', label: 'Help' },
-    /* you can add external links */
-    { href: 'https://github.com/facebook/Docusaurus', label: 'GitHub' },
-    ...
-  ],
-  ...
-}
-```
-
-For more information about the navigation bar, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Adding custom pages
-
-1. Docusaurus uses React components to build pages. The components are saved as .js files in `website/pages/en`:
-1. If you want your page to show up in your navigation header, you will need to update `website/siteConfig.js` to add to the `headerLinks` element:
-
-`website/siteConfig.js`
-```javascript
-{
-  headerLinks: [
-    ...
-    { page: 'my-new-custom-page', label: 'My New Custom Page' },
-    ...
-  ],
-  ...
-}
-```
-
-For more information about custom pages, click [here](https://docusaurus.io/docs/en/custom-pages).
-
-# Full Documentation
-
-Full documentation can be found on the [website](https://docusaurus.io/).
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
