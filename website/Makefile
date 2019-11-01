@@ -1,4 +1,4 @@
-BUILD_PATH = public/
+BUILD_PATH = ./public/
 YEAR = 2020
 
 configure:
@@ -20,8 +20,8 @@ translations-download:
 build: configure
 	gatsby build
 
-deploy-to-staging:
+deploy-to-staging: build
 	rsync -zav --progress --delete $(BUILD_PATH) $(SSH_USER)@$(SSH_HOST):staging.agilebrazil.com/$(YEAR)/
 
-deploy-to-production:
+deploy-to-production: build
 	#rsync -zav --progress --delete $(BUILD_PATH) $(SSH_USER)@$(SSH_HOST):agilebrazil.com/$(YEAR)/
