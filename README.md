@@ -25,7 +25,7 @@ https://github.com/hartator/wayback-machine-downloader
     make dev-server
     ```
 
-  And with Docker:
+    And with Docker:
 
     ```shell
     docker-compose up
