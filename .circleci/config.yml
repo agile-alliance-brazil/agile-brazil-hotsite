@@ -42,7 +42,7 @@ workflows:
           filters:
             branches:
               only:
-                - 2020
+                - "2020"
       - production:
           filters:
             branches:
