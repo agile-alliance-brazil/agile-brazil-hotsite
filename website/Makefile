@@ -1,4 +1,4 @@
-BUILD_PATH = ./public/
+BUILD_PATH = public/
 YEAR = 2020
 
 configure:
