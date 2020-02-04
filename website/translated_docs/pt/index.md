@@ -70,7 +70,7 @@ A inscrição no Agile Brazil dá acesso ao WBMA. Não há inscrição exclusiva
 - WBMA 2019 Best Award announcement
 - Steering Committee meeting
 
-## Proceedings
+## Anais
 
 Os artigos selecionados e revisados no WBMA estão disponíveis [aqui](https://link.springer.com/book/10.1007/978-3-030-36701-5).
 
