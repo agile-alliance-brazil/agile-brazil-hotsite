@@ -71,3 +71,8 @@ Registering on Agile Brazil you will already be registered on WBMA. There is no 
 - WBMA 2019 data
 - WBMA 2019 Best Award announcement
 - Steering Committee meeting
+
+## Proceedings
+
+
+WBMA Revised Selected Papers are avaible [here](https://link.springer.com/book/10.1007/978-3-030-36701-5).
