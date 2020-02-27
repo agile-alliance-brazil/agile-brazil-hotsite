@@ -16,11 +16,11 @@ const Header = ({ siteTitle }) => (
             <ul className={styles.menuList}>
               <li>FAQ</li>
               <li>Voluntários</li>
-              <li><Link to="/programa">Programa</Link></li>
+              <li><Link to="/2020/programa">Programa</Link></li>
               <li>WBMA</li>
               <li>Código de Conduta</li>
-              <li><a href="http://agilealliance.org/pt/">Agile Alliance</a></li>
-              <li><a href="https://www.agilealliance.org/agilealliancebrazil/membresia/">Membresia</a></li>
+              <li><a target="_blank" href="http://agilealliance.org/pt/">Agile Alliance</a></li>
+              <li><a target="_blank" href="https://www.agilealliance.org/agilealliancebrazil/membresia/">Membresia</a></li>
             </ul>
           </nav>          
         </div>
@@ -34,7 +34,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Agile Brazil 2020 - Porto Alegre`,
 }
 
 export default Header

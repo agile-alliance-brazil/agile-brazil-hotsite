@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Agile Brazil 2020 - Porto Alegre`,
+    description: `Convidamos a comunidade ágil para semear os valores e principios ágeis e juntos colher os frutos de nossa cultura.`,
     author: `@gatsbyjs`,
   },
   plugins: [
