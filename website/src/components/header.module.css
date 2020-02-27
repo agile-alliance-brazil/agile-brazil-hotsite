@@ -2,14 +2,24 @@
     display: flex;
     flex-flow: row nowrap;
     text-align: left;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.fixedBlueBarTop {
+    background:#3C6076;
+    height: 20px;
+    text-align: right;
+}
+
+.fixedBlueBarTop div {
+    margin-right: 5%;
 }
 
 .fixedHeadContainer {
     background:#5c95b6;
     color:#fff;
     min-height: 50px;
-    padding: 8px 0;
+    padding: 0px 0px 8px 0;
     position: fixed;
     width: 100%;
     z-index: 9999;
@@ -26,6 +36,8 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
+    font-size: 14px;
+    padding-top: 5px;
 }
 
 .menuList > * > a {
