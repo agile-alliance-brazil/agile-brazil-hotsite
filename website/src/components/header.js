@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.css"
@@ -16,11 +15,10 @@ const Header = ({ siteTitle }) => (
             <ul className={styles.menuList}>
               <li>FAQ</li>
               <li>Voluntários</li>
-              <li><Link to="/2020/programa">Programa</Link></li>
               <li>WBMA</li>
               <li>Código de Conduta</li>
-              <li><a target="_blank" href="http://agilealliance.org/pt/">Agile Alliance</a></li>
-              <li><a target="_blank" href="https://www.agilealliance.org/agilealliancebrazil/membresia/">Membresia</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="http://agilealliance.org/pt/">Agile Alliance</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href="https://www.agilealliance.org/agilealliancebrazil/membresia/">Membresia</a></li>
             </ul>
           </nav>          
         </div>

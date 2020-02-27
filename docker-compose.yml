@@ -4,7 +4,7 @@ services:
   gatsby:
     build: .
     ports:
-      - 8000:8000
+      - "8000:8000"
     volumes:
       - ./website/src:/app/website/src
       - ./website/.prettierignore:/app/website/.prettierignore
