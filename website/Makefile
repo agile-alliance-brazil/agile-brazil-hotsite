@@ -18,6 +18,7 @@ translations-download:
 	echo "Pending migration to GatsbyJS"
 
 build: configure
+	rm -rf .cache public
 	gatsby build
 
 deploy-to-staging: build
