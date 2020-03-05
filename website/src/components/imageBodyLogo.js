@@ -8,8 +8,8 @@ const ImageBodyMainLogo = () => {
       query {
         placeholderImage: file(relativePath: { eq: "AB-Color-Dark-BG.png" }) {
           childImageSharp {
-            fluid(maxWidth: 340, maxHeight: 120) {
-              ...GatsbyImageSharpFluid
+            fluid(quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
