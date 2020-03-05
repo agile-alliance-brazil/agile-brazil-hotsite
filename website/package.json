@@ -6,8 +6,8 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "10": "0.0.1",
-    "@babel/core": "^7.8.6",   
-    "gatsby": "^2.19.24",
+    "@babel/core": "^7.8.7",
+    "gatsby": "^2.19.28",
     "gatsby-image": "^2.2.42",
     "gatsby-plugin-manifest": "^2.2.42",
     "gatsby-plugin-offline": "^3.0.35",
@@ -15,10 +15,10 @@
     "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-sharp": "^2.3.16",
-    "prop-types": "^15.7.2",    
-    "react-error-overlay": "^6.0.6",
+    "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-error-overlay": "^6.0.6",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
