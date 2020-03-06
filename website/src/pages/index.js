@@ -8,7 +8,7 @@ import styles from "../components/index.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Inicial" />
       <ImageBodyMain></ImageBodyMain>
       <div className={styles.floatingLogo}>
         <ImageBodyMainLogo>

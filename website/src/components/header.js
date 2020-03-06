@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.css"
 import ImageHeaderLogo from "./image"
+import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
   <div className={styles.fixedHeadContainer}>
@@ -15,7 +16,7 @@ const Header = ({ siteTitle }) => (
             <ul className={styles.menuList}>
               <li>FAQ</li>
               <li>Voluntários</li>
-              <li>WBMA</li>
+              <li><Link to="/wbma">WBMA</Link></li>
               <li>Código de Conduta</li>
               <li><a target="_blank" rel="noopener noreferrer" href="http://agilealliance.org/pt/">Agile Alliance</a></li>
               <li><a target="_blank" rel="noopener noreferrer" href="https://www.agilealliance.org/agilealliancebrazil/membresia/">Membresia</a></li>

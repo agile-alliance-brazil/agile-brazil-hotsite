@@ -620,3 +620,21 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+footer ul {
+  display: inline-flex; 
+  width: 350px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+footer li {
+  list-style: none; 
+  width: 50px; 
+  height: 25px;
+  float: left;
+}
+
+footer p {
+  font-size: 12px;
+}

@@ -18,7 +18,7 @@ const ImageHeaderLogo = () => {
     query {
       placeholderImage: file(relativePath: { eq: "agilealliance-brazil_blue_INPI.jpg" }) {
         childImageSharp {
-          fixed(quality: 100) {
+          fixed(width: 115, height: 100) {
             ...GatsbyImageSharpFixed
           }
         }
