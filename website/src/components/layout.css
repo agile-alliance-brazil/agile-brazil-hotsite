@@ -42,6 +42,7 @@ template {
   display: none;
 }
 a {
+  font-family: Lato;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
