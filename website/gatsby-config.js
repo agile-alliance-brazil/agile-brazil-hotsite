@@ -3,7 +3,7 @@ module.exports = {
     title: `Agile Brazil 2020 - Porto Alegre`,
     description: `Convidamos a comunidade ágil para semear os valores e principios ágeis e juntos colher os frutos de nossa cultura.`,
     author: `@gatsbyjs`,
-    /*pathPrefix: '',*/
+    pathPrefix: '/2020',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,7 +21,7 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/`,
+        start_url: `/2020`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
