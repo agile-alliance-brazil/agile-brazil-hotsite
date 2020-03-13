@@ -1,4 +1,5 @@
 .header {
+    font-family: 'Lato', 'Noto Sans', sans-serif;
     display: flex;
     flex-flow: row nowrap;
     text-align: left;
