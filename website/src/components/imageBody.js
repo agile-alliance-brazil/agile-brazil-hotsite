@@ -16,10 +16,17 @@ const ImageBodyMain = () => {
       }
     `)
   
-    return <Img style={{
-      zIndex: `-1`,
-      maxHeight: `500px`
-    }} fluid={data.placeholderImage.childImageSharp.fluid} />
+    return (
+      <div style={{
+        backgroundImage: `linear-gradient(0deg, rgb(0, 56, 88) 1%, transparent 60%)`,
+        zIndex: `10`
+      }}>
+        <Img style={{
+          zIndex: `-1`,
+          maxHeight: `500px`
+        }} fluid={data.placeholderImage.childImageSharp.fluid} />
+      </div>
+    )
   }
   
   export default ImageBodyMain
