@@ -5340,12 +5340,12 @@ gatsby-graphiql-explorer@^0.2.36:
   dependencies:
     "@babel/runtime" "^7.8.7"
 
-gatsby-image@^2.2.43:
-  version "2.2.43"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.43.tgz#af6fd591fa4a08b6ddadf5f40220bc5066a8f317"
-  integrity sha512-21UpYpXXax8AkDH3cYOeS2P898VdMGEb5G5kG4BysEh3nWbxpTpnvtETYW8Ps+qfzZL+W604JrXqZQ32m/F3jA==
+gatsby-image@^2.2.45:
+  version "2.2.45"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.45.tgz#4cd178c7d3697b6a87ee33d1c088cba31a226384"
+  integrity sha512-bJP7ozqginTbNjakPc8tfnJZnCXpGzUvfhhXQgri/+uO61ZEU32++C9OO1z7sTjmkLOeiGDJQljFL0Kw7SXQbA==
   dependencies:
-    "@babel/runtime" "^7.7.6"
+    "@babel/runtime" "^7.8.7"
     object-fit-images "^3.2.4"
     prop-types "^15.7.2"
 
@@ -5382,14 +5382,14 @@ gatsby-plugin-manifest@^2.2.48:
     semver "^5.7.1"
     sharp "^0.23.4"
 
-gatsby-plugin-offline@^3.0.40:
-  version "3.0.40"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.40.tgz#0cc8c20d4ef6c1f1b89acbcc1ff4df36b0af800a"
-  integrity sha512-T4a4pFTLopUlJEOmzgAXLzdxH9Bu21I7ETiPQ1sZn+6fN9cmN1C4Rgb97Q0Gyk8Jle3K4mXUcvAgZBAy5Zu9mw==
+gatsby-plugin-offline@^3.0.42:
+  version "3.0.42"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.42.tgz#915c1b4b404f0d06662a6dc2d660377bffdecaef"
+  integrity sha512-PZVc8Z9Y+XDvTn1a5iB368aYLrtaP2gaXwwmPtVwgG/1ur62ebvi6qMF6ySRn/igaZo2Ki0KP+vkS0sLrRoEjg==
   dependencies:
-    "@babel/runtime" "^7.7.6"
+    "@babel/runtime" "^7.8.7"
     cheerio "^1.0.0-rc.3"
-    gatsby-core-utils "^1.0.33"
+    gatsby-core-utils "^1.0.34"
     glob "^7.1.6"
     idb-keyval "^3.2.0"
     lodash "^4.17.15"
@@ -5422,12 +5422,12 @@ gatsby-plugin-prefetch-google-fonts@^1.4.3:
     google-fonts-plugin "2.0.2"
     object-hash "^1.3.0"
 
-gatsby-plugin-react-helmet@^3.1.23:
-  version "3.1.23"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.1.23.tgz#f324dbdc1a8777b5b257dbab62afc6beac01cd1a"
-  integrity sha512-l6OomFCfggJ6IG8XOw0WuCqbTnVrqtMRxA/O5qbCpXH7K9JxjE406vUM8To0dVjoaCiSvRZU/Dz0vU0wEWe0UQ==
+gatsby-plugin-react-helmet@^3.1.24:
+  version "3.1.24"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.1.24.tgz#c732cd6a6eb7b7bfc2fa06ca1423254fa6412118"
+  integrity sha512-kLR/RMDBVriJptsJufoL1UBVHgq2fZIMXen7nru2ugGn0m8xwpArFoOz6meYlpiDB3Z41eYR/+Nr8GizQnYcxg==
   dependencies:
-    "@babel/runtime" "^7.7.6"
+    "@babel/runtime" "^7.8.7"
 
 gatsby-plugin-sharp@^2.4.13:
   version "2.4.13"
