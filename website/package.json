@@ -14,7 +14,7 @@
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.23",
     "gatsby-plugin-sharp": "^2.4.13",
-    "gatsby-source-filesystem": "^2.1.54",
+    "gatsby-source-filesystem": "^2.1.57",
     "gatsby-transformer-sharp": "^2.3.19",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
