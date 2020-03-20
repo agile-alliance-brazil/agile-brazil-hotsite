@@ -1,9 +1,9 @@
 module.exports = {
+  pathPrefix: `/2020`,
   siteMetadata: {
     title: `Agile Brazil 2020 - Porto Alegre`,
     description: `Convidamos a comunidade ágil para semear os valores e principios ágeis e juntos colher os frutos de nossa cultura.`,
-    author: `@gatsbyjs`,
-    // pathPrefix: '/2020',
+    author: `@gatsbyjs`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
