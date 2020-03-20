@@ -5339,10 +5339,10 @@ gatsby-graphiql-explorer@^0.3.0:
   dependencies:
     "@babel/runtime" "^7.8.7"
 
-gatsby-image@^2.2.45:
-  version "2.2.45"
-  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.2.45.tgz#4cd178c7d3697b6a87ee33d1c088cba31a226384"
-  integrity sha512-bJP7ozqginTbNjakPc8tfnJZnCXpGzUvfhhXQgri/+uO61ZEU32++C9OO1z7sTjmkLOeiGDJQljFL0Kw7SXQbA==
+gatsby-image@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.3.0.tgz#4533b9dc784f97332c11d78bddb07fcaacd41cbd"
+  integrity sha512-X/ZAGA9pejQNwO9JpffgWXwlXqnMUQhU5Sk65Q4krs4clwBvggyZIi4UWotWRUmXcy7xDDJTydva+O3Z65zQ4w==
   dependencies:
     "@babel/runtime" "^7.8.7"
     object-fit-images "^3.2.4"
@@ -5506,10 +5506,10 @@ gatsby-telemetry@^1.2.0:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby-transformer-sharp@^2.3.19:
-  version "2.3.19"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.19.tgz#a6bfc93ec9070fef9a8e97bf839ccc193fa26b0e"
-  integrity sha512-V3OoG9R0k+dUcJiHoI3miHrmW2kcTj8FD4GT3XZHXmpoJNIUJ/2a78+O0m6Px/3F8EzafGo35id4fFhLePZdsw==
+gatsby-transformer-sharp@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.4.0.tgz#201ae0af7184e404bae8e541025e71066309684d"
+  integrity sha512-2guJ3vHUs78lqbchfb7mjb1a0l93yIKMI9heP73BYSxrAgng0LlWYtQmb7skzOIpbmopM5wVwcTn+qjluUATrw==
   dependencies:
     "@babel/runtime" "^7.8.7"
     bluebird "^3.7.2"
@@ -10109,10 +10109,10 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
-react@^16.13.0, react@^16.8.0:
-  version "16.13.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.13.0.tgz#d046eabcdf64e457bbeed1e792e235e1b9934cf7"
-  integrity sha512-TSavZz2iSLkq5/oiE7gnFzmURKZMltmi193rm5HEoUDAXpzT9Kzw6oNZnGoai/4+fUnm7FqS5dwgUL34TujcWQ==
+react@^16.13.1, react@^16.8.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
+  integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
