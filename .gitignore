@@ -92,3 +92,10 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
