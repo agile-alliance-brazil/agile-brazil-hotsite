@@ -1,0 +1,79 @@
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  height: 100%;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 4.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container, .content-container.container-fluid, .nav-container {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.main-container {
+  height: 100%;
+}
+
+.content-container {
+  height: 100%;
+}
+
+.nav-container {
+  background-color: #3C6076;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.nav-container a {
+  color: #fff !important;
+}
+
+h6 {
+  margin-bottom: 1.45rem;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 0.78405rem;
+  line-height: 1.1;
+}
+
+.jumbotron {
+  margin-top: -9rem;
+  padding-top: 10rem;
+  background-image: url("../images/foto-poa-02.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.jumbotron img {
+  padding: 10px 40px;
+}
+
+.aliance-logo {
+  position: absolute;
+  overflow: hidden;
+  display: inline-block;
+  width: 115px;
+  height: 100px;
+  top: -20px;
+  right: 10em;
+}
+
+@media (max-width: 600px){
+  .aliance-logo {
+      right: 1em;
+  }    
+}

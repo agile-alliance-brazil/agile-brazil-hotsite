@@ -1,34 +1,23 @@
 import React from "react"
+import { Jumbotron, Image} from "react-bootstrap"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import ImageBodyMain from "../components/imageBody"
-import ImageBodyMainLogo from "../components/imageBodyLogo"
-import styles from "../components/index.module.css"
+import Layout from "../templates/layout"
+import logo from "../assets/images/logo-agile-brazil.png"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Inicial" />
-      <ImageBodyMain></ImageBodyMain>
-      <div className={styles.floatingLogo}>
-        <ImageBodyMainLogo>
-          
-        </ImageBodyMainLogo>
-        <br />
+const IndexPage = () => {
+  return (
+    <Layout seoTitle="Inicial" fluid>
+      <Jumbotron fluid>
+        <Image className="align-self-center" src={logo} fluid />
         <h1>Porto Alegre, 2020</h1>
-        <div className={styles.grayBox}>
-          <h2>7, 8 e 9 de Outubro</h2>
-        </div>
-      </div>
-        <p>
-          <br />
-          Em 2020 nossa conferência será realizada em Porto Alegre!
-        </p>
+        <h2>7, 8 e 9 de Outubro</h2>
         <p>
           Convidamos a comunidade ágil para semear os valores e principios ágeis e juntos <br />
           colher os frutos de nossa cultura.
-        </p>    
-  </Layout>
-)
+        </p>   
+      </Jumbotron>
+    </Layout>
+  )
+}
 
 export default IndexPage

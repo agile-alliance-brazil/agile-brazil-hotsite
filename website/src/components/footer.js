@@ -1,13 +1,8 @@
 import React from 'react'
+import "../assets/stylesheets/footer.css"
 
 const Footer = () => (
-    <footer style={{
-        background: `#1B2C36`,
-        textAlign: `center`,
-        padding: `30px 15px 15px 15px`,
-        color: `white`,
-        height: `100%`,
-    }}>
+    <footer>
       <h6>Redes Sociais</h6>
       <ul>
         <li>
@@ -60,7 +55,7 @@ const Footer = () => (
           </a>
         </li>
       </ul>
-        <p>© Agile Brazil 2020 - Todos os direitos reservados</p>  
+      <h6>© Agile Brazil 2020 - Todos os direitos reservados</h6>  
     </footer>
 )
 

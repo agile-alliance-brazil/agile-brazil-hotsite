@@ -1,0 +1,25 @@
+footer {
+    background: #1B2C36;
+    text-align: center;
+    padding: 30px 15px 15px 15px;
+    color: white;
+}
+
+footer ul {
+    display: inline-flex; 
+    width: 350px;
+    text-align: center;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+footer li {
+    list-style: none; 
+    width: 50px; 
+    height: 25px;
+    float: left;
+}
+
+footer p {
+    font-size: 12px;
+}
