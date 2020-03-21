@@ -7,6 +7,7 @@ export default function Template({ data }) {
   const { frontmatter, html } = markdownRemark
   return (
       <Layout seoTitle={frontmatter.title}>
+          <h1>{frontmatter.title}</h1>
           <div
         className="blog-post-content"
         dangerouslySetInnerHTML={{ __html: html }}

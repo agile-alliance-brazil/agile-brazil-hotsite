@@ -1,8 +1,7 @@
 ---
 path: /faq
+title: Perguntas Frequentes
 ---
-
-# Perguntas Frequentes
 
 ## Inscrições
 

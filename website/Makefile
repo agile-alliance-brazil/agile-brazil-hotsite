@@ -6,7 +6,7 @@ configure:
 	yarn install
 
 dev-server:
-	gatsby develop -H 0.0.0.0 -p 8000
+	gatsby develop -H 0.0.0.0 -p 8000 --use-dev-url
 
 translations:
 	echo "Pending migration to GatsbyJS"

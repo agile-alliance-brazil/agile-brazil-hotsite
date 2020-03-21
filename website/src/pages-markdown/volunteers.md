@@ -1,8 +1,7 @@
 ---
 path: /volunteers
+title: Seja um voluntário na Agile Brazil!
 ---
-
-# Seja um voluntário na Agile Brazil!
 
 Se você é uma pessoa animada e que gosta de trabalhar em equipe, o programa de voluntariado da Agile Brazil 2019 é uma ótima oportunidade para que você possa auxiliar na realização da conferência pondo a Agilidade em prática e inovando de diversas formas!
 

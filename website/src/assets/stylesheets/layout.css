@@ -15,7 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.main-container, .content-container.container-fluid, .nav-container {
+.main-container, .content-container.container-fluid {
   margin: 0px 0px;
   padding: 0px 0px;
 }
@@ -28,16 +28,6 @@ body {
   height: 100%;
 }
 
-.nav-container {
-  background-color: #3C6076;
-  padding-top: 20px;
-  text-align: center;
-}
-
-.nav-container a {
-  color: #fff !important;
-}
-
 h6 {
   margin-bottom: 1.45rem;
   font-weight: bold;
@@ -46,34 +36,30 @@ h6 {
   line-height: 1.1;
 }
 
+/*### HOME ###*/
 .jumbotron {
   margin-top: -9rem;
   padding-top: 10rem;
-  background-image: url("../images/foto-poa-02.jpg");
+  background-image: url("../images/foto-poa-01.jpg");
   background-size: cover;
   background-position: bottom;
   height: 100%;
-  text-align: center;
   color: #fff;
-  vertical-align: bottom;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.57);
+  text-align: center;
+  
+}
+
+.jumbotron .container {
+  display: table;
+  height: 110%;
+}
+
+.jumbotron .container .container{
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .jumbotron img {
   padding: 10px 40px;
-}
-
-.aliance-logo {
-  position: absolute;
-  overflow: hidden;
-  display: inline-block;
-  width: 115px;
-  height: 100px;
-  top: -20px;
-  right: 10em;
-}
-
-@media (max-width: 600px){
-  .aliance-logo {
-      right: 1em;
-  }    
 }

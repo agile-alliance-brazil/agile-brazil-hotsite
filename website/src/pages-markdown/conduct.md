@@ -1,8 +1,7 @@
 ---
 path: /conduct
+title: Codigo de conduta
 ---
-
-# Codigo de conduta
 
 ### Nosso compromisso em manter atitudes éticas
 Para a promoção de um ambiente de interações construtivas e positivas, este documento representa nossos anseios e direcionamentos para as relações sociais existentes entre os membros do comitê de Organização do Agile Brazil e sua participação com a comunidade.
