@@ -4,7 +4,7 @@ import { Container, Navbar, Nav, NavDropdown, Image, Row, Col } from "react-boot
 import AgileAlianceLogo from "../assets/images/logo-agilealliance-brazil.jpg"
 import "../assets/stylesheets/navbar.css"
 
-const hideMenu = true // Hack to publish teaser site
+const hideMenu = false // Hack to publish teaser site
 
 const NavigationBar = () => (
   <Container className="fixed-top nav-container" fluid>
