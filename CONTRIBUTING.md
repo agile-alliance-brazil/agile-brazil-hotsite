@@ -1,4 +1,4 @@
-#Como contribuir para este projeto
+# Como contribuir para este projeto
 
 ## Em que está feito o site? 
 Está em Gatsby, um framework baseado no React (https://www.gatsbyjs.org/tutorial/)
