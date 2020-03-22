@@ -1,0 +1,65 @@
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  height: 100%;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 4.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container, .content-container.container-fluid {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.main-container {
+  height: 100%;
+}
+
+.content-container {
+  height: 100%;
+}
+
+h6 {
+  margin-bottom: 1.45rem;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 0.78405rem;
+  line-height: 1.1;
+}
+
+/*### HOME ###*/
+.jumbotron {
+  margin-top: -9rem;
+  padding-top: 10rem;
+  background-image: url("../images/foto-poa-01.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.57);
+  text-align: center;
+  
+}
+
+.jumbotron .container {
+  display: table;
+  height: 110%;
+}
+
+.jumbotron .container .container{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.jumbotron img {
+  padding: 10px 40px;
+}
