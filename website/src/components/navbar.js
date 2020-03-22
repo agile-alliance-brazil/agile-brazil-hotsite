@@ -4,15 +4,15 @@ import { Container, Navbar, Nav, NavDropdown, Image, Row, Col } from "react-boot
 import AgileAlianceLogo from "../assets/images/logo-agilealliance-brazil.jpg"
 import "../assets/stylesheets/navbar.css"
 
-const hideMenu = false // Hack to publish teaser site
+const hideMenu = true // Hack to publish teaser site
 
 const NavigationBar = () => (
   <Container className="fixed-top nav-container" fluid>
     <Row className="nav-agilealliance">
       <Col>
         <Container>
-          <a href="https://www.agilealliance.org/agilealliancebrazil/" target="_blank">Agile Alliance</a>
-          <a href="https://www.agilealliance.org/agilealliancebrazil/membresia/" target="_blank">Membresia</a>
+          <a href="https://www.agilealliance.org/agilealliancebrazil/" target="_blank" rel="noopener noreferrer">Agile Alliance</a>
+          <a href="https://www.agilealliance.org/agilealliancebrazil/membresia/" target="_blank" rel="noopener noreferrer">Membresia</a>
         </Container>
       </Col>
     </Row>
