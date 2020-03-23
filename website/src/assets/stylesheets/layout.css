@@ -28,6 +28,10 @@ body {
   height: 100%;
 }
 
+.content-container > h1 {
+  margin-top: 1.5em;
+}
+
 h6 {
   margin-bottom: 1.45rem;
   font-weight: bold;
