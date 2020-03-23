@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 defaults: &defaults
   working_directory: ~/agile-brazil-hotsite
   docker:
@@ -42,7 +42,7 @@ workflows:
           filters:
             branches:
               only:
-                - development
+                - "2020"
       - production:
           filters:
             branches:

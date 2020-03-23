@@ -1,31 +1,28 @@
-BUILD_PATH = ./build/agile-brazil-hotsite/
+BUILD_PATH = ./public/
 YEAR = 2020
-TIME = $(shell date +'%Y%m%d-%H%M%S')
 
 configure:
+	npm install -g gatsby-cli@2.8.2
 	yarn install
 
 dev-server:
-	yarn start
+	gatsby develop -H 0.0.0.0 -p 8000 --use-dev-url
 
 translations:
-	yarn write-translations
+	echo "Pending migration to GatsbyJS"
 
 translations-upload:
-	crowdin --config ../crowdin.yaml upload sources --auto-update -b master
+	echo "Pending migration to GatsbyJS"
 
 translations-download:
-	crowdin --config ../crowdin.yaml download -b master
+	echo "Pending migration to GatsbyJS"
 
 build: configure
-	yarn build
+	rm -rf .cache public
+	gatsby build --prefix-paths
 
-pre-deploy: build
-	find $(BUILD_PATH) -type f -name 'index.html' -exec \
-	sed -i "s/main\.css/main\.css\?$(TIME)/g" {} \;
-
-deploy-to-staging: pre-deploy
+deploy-to-staging: build
 	rsync -zav --progress --delete $(BUILD_PATH) $(SSH_USER)@$(SSH_HOST):staging.agilebrazil.com/$(YEAR)/
 
-deploy-to-production: pre-deploy
-	#rsync -zav --progress --delete $(BUILD_PATH) $(SSH_USER)@$(SSH_HOST):agilebrazil.com/$(YEAR)/
+deploy-to-production: build
+	rsync -zav --progress --delete $(BUILD_PATH) $(SSH_USER)@$(SSH_HOST):agilebrazil.com/$(YEAR)/

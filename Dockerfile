@@ -1,10 +1,10 @@
-FROM node:8.11.4
+FROM node:10.16.3
+ENV GATSBY_TELEMETRY_DISABLED=1
 
 WORKDIR /app/website
 
-EXPOSE 3000 35729
-COPY ./docs /app/docs
 COPY ./website /app/website
-RUN yarn install
+RUN make configure
 
-CMD ["yarn", "start"]
+EXPOSE 8000
+CMD ["make", "dev-server"]

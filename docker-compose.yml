@@ -1,17 +1,17 @@
 version: "3"
 
 services:
-  docusaurus:
+  gatsby:
     build: .
     ports:
-      - 3000:3000
-      - 35729:35729
+      - "8000:8000"
     volumes:
-      - ./docs:/app/docs
-      - ./website/core:/app/website/core
-      - ./website/i18n:/app/website/i18n
-      - ./website/pages:/app/website/pages
-      - ./website/static:/app/website/static
-      - ./website/sidebars.json:/app/website/sidebars.json
-      - ./website/siteConfig.js:/app/website/siteConfig.js
+      - ./website/src:/app/website/src
+      - ./website/.prettierignore:/app/website/.prettierignore
+      - ./website/.prettierrc:/app/website/.prettierrc
+      - ./website/gatsby-browser.js:/app/website/gatsby-browser.js
+      - ./website/gatsby-config.js:/app/website/gatsby-config.js
+      - ./website/gatsby-node.js:/app/website/gatsby-node.js
+      - ./website/gatsby-ssr.js:/app/website/gatsby-ssr.js
+      - ./website/Makefile:/app/website/Makefile
     working_dir: /app/website
