@@ -1,3 +1,5 @@
+import { globalHistory } from "@reach/router"
+
 export class Util {
 
   static isProductionEnvironment = () => {
@@ -5,7 +7,7 @@ export class Util {
   }
 
   static environment = () => {
-    let host = window.location.href
+    let host = globalHistory.location.href
     let env = 'development'
     if ('staging.agilebrazil.com'.includes(host)) {
       env = 'staging'
