@@ -6,7 +6,6 @@
   text-align: center;
 }
 
-
 .nav-container .navbar {
   background-color: #5c95b6;
 }
@@ -14,7 +13,6 @@
 .nav-container a {
   color: #fff !important;
 }
-
 
 .nav-container .dropdown-menu {
   background-color: #5c95b6;
@@ -24,16 +22,15 @@
   background-color: #3C6076;
 }
 
-  
-
 .nav-agilealliance {
   max-height: 25px;
-  text-align: right;
+  text-align: left;
 }
 
 .nav-agilealliance a {
   font-size: 0.8em;
   margin-left: 10px;
+  margin-right: 10px;
   margin-top: -5px;
 }
 
@@ -50,9 +47,5 @@
 @media (max-width: 600px){
   .aliance-logo {
       right: 1em;
-  }
-
-  .nav-agilealliance {  
-    text-align: left;
   }
 }
