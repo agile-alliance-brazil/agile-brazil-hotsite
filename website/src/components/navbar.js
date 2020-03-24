@@ -1,10 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import { Container, Navbar, Nav, NavDropdown, Image, Row, Col } from "react-bootstrap"
+import { Util } from "../helpers/util"
 import AgileAlianceLogo from "../assets/images/logo-agilealliance-brazil.jpg"
 import "../assets/stylesheets/navbar.css"
-
-const hideMenu = false // Hack to publish teaser site
 
 const NavigationBar = () => (
   <Container className="fixed-top nav-container" fluid>
@@ -20,7 +19,7 @@ const NavigationBar = () => (
       <Col>
         <Navbar expand="lg">
           <Image className="aliance-logo" src={AgileAlianceLogo} />
-          <Container style={{ visibility: hideMenu ? 'hidden' : 'visible' }}>
+          <Container style={{ visibility: Util.isProductionEnvironment() ? 'hidden' : 'visible' }}>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto centered-text">
