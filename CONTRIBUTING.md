@@ -15,8 +15,8 @@ Iniciamos o processo de migrar pro trello, pois a maioria de quem está ajudando
 Segue link para entrar no board: https://trello.com/invite/b/OTIPNJW6/8ef3a625f4b6d4e4c11beb2e63c2a986/site-2020
 
 ## Qual fluxo de trabalho?
-Nesse momento inicial até a primeira release tá indo commit direto na 2020, aí ficamos de revisitar essa regra quando o primeiro deploy acontecer em prod.
-Mas se quiser fazer algum experimento e quiser uma segunda opinião pode fazer um pull request pra branch 2020
+Nesse momento inicial até a primeira release tá indo commit direto na development, aí ficamos de revisitar essa regra quando o primeiro deploy acontecer em prod.
+Mas se quiser fazer algum experimento e quiser uma segunda opinião pode fazer um pull request pra branch development
 
 
 ### Sentiu falta de alguma informação? Fique a vontade para complementar!
