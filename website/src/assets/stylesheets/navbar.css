@@ -22,25 +22,13 @@
   background-color: #3C6076;
 }
 
-.nav-agilealliance {
-  max-height: 25px;
-  text-align: left;
-}
-
-.nav-agilealliance a {
-  font-size: 0.8em;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: -5px;
-}
-
 .aliance-logo {
   position: absolute;
   overflow: hidden;
   display: inline-block;
   width: 115px;
   height: 100px;
-  top: -25px;
+  top: -10px;
   right: 10em;
 }
 

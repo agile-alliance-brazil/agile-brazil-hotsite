@@ -7,33 +7,33 @@ import "../assets/stylesheets/navbar.css"
 
 const NavigationBar = () => (
   <Container className="fixed-top nav-container" fluid>
-    <Row className="nav-agilealliance">
-      <Col>
-        <Container>
-          <a href="https://www.agilealliance.org/agilealliancebrazil/" target="_blank" rel="noopener noreferrer">Agile Alliance</a>
-          <a href="https://www.agilealliance.org/agilealliancebrazil/membresia/" target="_blank" rel="noopener noreferrer">Membresia</a>
-        </Container>
-      </Col>
-    </Row>
     <Row>
       <Col>
         <Navbar expand="lg">
           <Image className="aliance-logo" src={AgileAlianceLogo} />
-          <Container style={{ visibility: Util.isProductionEnvironment() ? 'hidden' : 'visible' }}>
+          <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto centered-text">
-                <Link className="nav-link" to="/">Inicial</Link>
-                <Link className="nav-link" to="volunteers">Voluntários</Link>
-                <Link className="nav-link" to="conduct">Código de Conduta</Link>
-                <Link className="nav-link" to="virada">Virada Agil</Link>
-                <Link className="nav-link" to="faq">FAQ</Link>
-                <NavDropdown title="WBMA" id="basic-nav-dropdown">
+                <Link style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }} 
+                  className="nav-link" to="/">Inicial</Link>
+                <Link style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }} 
+                  className="nav-link" to="volunteers">Voluntários</Link>
+                <Link style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }}
+                  className="nav-link" to="conduct">Código de Conduta</Link>
+                <Link style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }}
+                  className="nav-link" to="virada">Virada Agil</Link>
+                <Link style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }}
+                  className="nav-link" to="faq">FAQ</Link>
+                <NavDropdown style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }}
+                  title="WBMA" id="basic-nav-dropdown">
                   <Link className="dropdown-item" to="wbma">WBMA 2020</Link>
                   <Link className="dropdown-item" to="wbma-topics">Tópicos de Interesse</Link>
                   <Link className="dropdown-item" to="wbma-submission">Submissão de Papers</Link>
                   <Link className="dropdown-item" to="wbma-committee">Comitê</Link>
                 </NavDropdown>
+                <a className="nav-link" href="https://www.agilealliance.org/agilealliancebrazil/" target="_blank" rel="noopener noreferrer">Agile Alliance</a>
+                <a className="nav-link" href="https://www.agilealliance.org/agilealliancebrazil/membresia/" target="_blank" rel="noopener noreferrer">Membresia</a>
               </Nav>
             </Navbar.Collapse>
           </Container>
