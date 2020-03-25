@@ -7,14 +7,6 @@ import "../assets/stylesheets/navbar.css"
 
 const NavigationBar = () => (
   <Container className="fixed-top nav-container" fluid>
-    <Row className="nav-agilealliance">
-      <Col>
-        <Container>
-          <a href="https://www.agilealliance.org/agilealliancebrazil/" target="_blank" rel="noopener noreferrer">Agile Alliance</a>
-          <a href="https://www.agilealliance.org/agilealliancebrazil/membresia/" target="_blank" rel="noopener noreferrer">Membresia</a>
-        </Container>
-      </Col>
-    </Row>
     <Row>
       <Col>
         <Navbar expand="lg">

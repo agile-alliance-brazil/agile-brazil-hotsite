@@ -7,11 +7,9 @@ export class Util {
   }
 
   static environment = () => {
-    let host = useLocation().href || ''
+    let host = useLocation().host || ''
     let env = 'development'
-    if (host.includes('staging.agilebrazil.com')) {
-      env = 'staging'
-    } else if (host.includes('agilebrazil.com')) {
+    if (host.includes('www.agilebrazil.com')) {
       env = 'production'
     }
     return env
