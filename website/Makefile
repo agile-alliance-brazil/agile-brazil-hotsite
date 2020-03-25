@@ -2,20 +2,11 @@ BUILD_PATH = ./public/
 YEAR = 2020
 
 configure:
-	npm install -g gatsby-cli@2.8.2
+	npm install -g gatsby-cli@2.11.2
 	yarn install
 
 dev-server:
 	gatsby develop -H 0.0.0.0 -p 8000 --use-dev-url
-
-translations:
-	echo "Pending migration to GatsbyJS"
-
-translations-upload:
-	echo "Pending migration to GatsbyJS"
-
-translations-download:
-	echo "Pending migration to GatsbyJS"
 
 build: configure
 	rm -rf .cache public
