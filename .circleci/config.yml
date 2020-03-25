@@ -42,7 +42,8 @@ workflows:
           filters:
             branches:
               only:
-                - "development"
+                - development
+- development
       - production:
           filters:
             branches:
