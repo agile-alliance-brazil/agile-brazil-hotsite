@@ -1,4 +1,4 @@
-import { globalHistory } from "@reach/router"
+import { useLocation } from "@reach/router"
 
 export class Util {
 
@@ -7,7 +7,7 @@ export class Util {
   }
 
   static environment = () => {
-    let host = globalHistory.location.href
+    let host = useLocation().href || ''
     let env = 'development'
     if (host.includes('staging.agilebrazil.com')) {
       env = 'staging'
