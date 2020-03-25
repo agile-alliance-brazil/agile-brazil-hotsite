@@ -9,9 +9,9 @@ export class Util {
   static environment = () => {
     let host = globalHistory.location.href
     let env = 'development'
-    if ('staging.agilebrazil.com'.includes(host)) {
+    if (host.includes('staging.agilebrazil.com')) {
       env = 'staging'
-    } else if ('agilebrazil.com'.includes(host)) {
+    } else if (host.includes('agilebrazil.com')) {
       env = 'production'
     }
     return env
