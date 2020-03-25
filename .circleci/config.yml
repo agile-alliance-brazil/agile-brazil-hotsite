@@ -43,6 +43,7 @@ workflows:
             branches:
               only:
                 - development
+- development
       - production:
           filters:
             branches:
