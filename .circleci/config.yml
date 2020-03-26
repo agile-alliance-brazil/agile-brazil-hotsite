@@ -15,6 +15,8 @@ jobs:
             ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
       - run:
           name: Deploy to staging
+          environment:
+            NODE_ENV: production
           command: |
             cd website && \
             make deploy-to-staging

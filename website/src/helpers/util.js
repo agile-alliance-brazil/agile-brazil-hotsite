@@ -1,5 +1,3 @@
-import { useLocation } from "@reach/router"
-
 export class Util {
 
   static isProductionEnvironment = () => {
@@ -7,9 +5,8 @@ export class Util {
   }
 
   static environment = () => {
-    let host = useLocation().host || ''
     let env = 'development'
-    if (host.includes('www.agilebrazil.com')) {
+    if (process.env.NODE_ENV === 'production') {
       env = 'production'
     }
     return env
