@@ -14,4 +14,5 @@ services:
       - ./website/gatsby-node.js:/app/website/gatsby-node.js
       - ./website/gatsby-ssr.js:/app/website/gatsby-ssr.js
       - ./website/Makefile:/app/website/Makefile
+      - ./website/public:/app/website/public
     working_dir: /app/website
