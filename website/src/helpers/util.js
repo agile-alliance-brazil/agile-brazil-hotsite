@@ -1,4 +1,5 @@
-import { useLocation } from "@reach/router"
+const activeEnv =
+  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
 
 export class Util {
 
@@ -7,11 +8,11 @@ export class Util {
   }
 
   static environment = () => {
-    let host = useLocation().host || ''
     let env = 'development'
-    if (host.includes('www.agilebrazil.com')) {
+    if (activeEnv === 'production') {
       env = 'production'
     }
     return env
   }
+
 }

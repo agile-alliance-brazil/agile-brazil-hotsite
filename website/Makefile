@@ -9,7 +9,7 @@ dev-server:
 	gatsby develop -H 0.0.0.0 -p 8000 --use-dev-url
 
 build: configure
-	rm -rf .cache public
+	rm -rf .cache/* public/*
 	gatsby build --prefix-paths
 
 deploy-to-staging: build

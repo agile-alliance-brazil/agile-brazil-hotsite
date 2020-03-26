@@ -15,6 +15,8 @@ jobs:
             ssh-keyscan -t rsa $SSH_HOST >> ~/.ssh/known_hosts
       - run:
           name: Deploy to staging
+          environment:
+            GATSBY_ACTIVE_ENV: staging
           command: |
             cd website && \
             make deploy-to-staging
@@ -30,7 +32,7 @@ jobs:
       - run:
           name: Deploy to production
           environment:
-            NODE_ENV: production
+            GATSBY_ACTIVE_ENV: production
           command: |
             cd website && \
             make deploy-to-production
