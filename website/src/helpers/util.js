@@ -1,3 +1,6 @@
+const activeEnv =
+  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
+
 export class Util {
 
   static isProductionEnvironment = () => {
@@ -6,9 +9,10 @@ export class Util {
 
   static environment = () => {
     let env = 'development'
-    if (process.env.NODE_ENV === 'production') {
+    if (activeEnv === 'production') {
       env = 'production'
     }
     return env
   }
+
 }
