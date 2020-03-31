@@ -1,0 +1,86 @@
+.priceTable-section {
+  width: 100%;
+  padding-top: 20px;
+  background: #f7f7f7;
+  padding: 30px 10px 20px 10px;
+}
+
+.pt-title {
+  text-align: center;
+}
+
+.priceTable {
+  margin: 30px 40px;
+  padding: 20px 25px 30px 25px;
+  background: #fff;
+  box-shadow: 15px 1rem 2rem 0px rgba(25, 28, 30, 0.1);
+}
+
+.pt-header {
+  border-bottom: 1px solid #eee;
+  color: #cc5357;
+}
+
+.pt-ticket {
+  border-bottom: 1px solid #eee;
+  color: #999;
+}
+
+.priceTable div {
+  display: flex;
+  padding: 20px 10px 5px 10px;
+}
+
+.pt-type {
+  min-width: 60px;
+  width: 18%;
+  align-items: center;
+  justify-content: center;
+}
+
+.pt-description {
+  width: 46%;
+  align-items: center;
+  justify-content: center;
+}
+
+.pt-price-regular {
+  min-width: 60px;
+  width: 18%;
+  align-items: center;
+  justify-content: center;
+}
+
+.pt-price-alliance {
+  min-width: 60px;
+  width: 18%;
+  align-items: center;
+  justify-content: center;
+}
+
+.buyTicketButton {
+  width: 144px;
+  height: 48px;
+  color: white;
+  padding-top: 11px;
+  text-align: center;
+  border-radius: 1em;
+  background-image: linear-gradient(to right, #5c95b6, #40687f);
+  transition: all 0.5s;
+}
+
+.linkAgileButton {
+  width: 90px;
+  margin: 20px auto;
+}
+
+div.buyTicketButton:hover {
+  transform: translate(0, -0.3em);
+  background-image: linear-gradient(to right, #74bce5, #5c95b6);
+  box-shadow: 0 0.5rem 2rem rgba(25, 28, 30, 0.08);
+}
+
+.linkAgileButton a {
+  color: white;
+  text-decoration: none;
+}
