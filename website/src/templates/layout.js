@@ -16,7 +16,6 @@ import Footer from "../components/footer";
 import NavigationBar from "../components/navbar";
 import SEO from "../components/seo";
 import PriceTable from "../components/priceTable/priceTable";
-import { Util } from "../helpers/util";
 
 const Layout = ({ children, seoTitle, fluid = false }) => {
   return (
@@ -26,9 +25,7 @@ const Layout = ({ children, seoTitle, fluid = false }) => {
       <Container className="content-container" fluid={fluid}>
         {children}
       </Container>
-      <PriceTable
-        style={{ display: Util.isProductionEnvironment() ? "none" : "block" }}
-      />
+      <PriceTable />
       <Footer />
     </Container>
   );

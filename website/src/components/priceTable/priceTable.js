@@ -1,10 +1,12 @@
 import React from "react";
+import { Util } from "../../helpers/util"
 
 import "./priceTable.css";
 
 const PriceTable = () => (
   <>
-    <section className="priceTable-section">
+    <section style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }} 
+      className="priceTable-section">
       <h2 className="pt-title">Registrations</h2>
       <div className="priceTable">
         <div className="pt-header">
