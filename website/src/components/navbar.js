@@ -22,7 +22,7 @@ const NavigationBar = () => (
                 <Link style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }}
                   className="nav-link" to="conduct">Código de Conduta</Link>
                 <Link style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }}
-                  className="nav-link" to="virada">Virada Agil</Link>
+                  className="nav-link" to="virada">Virada Ágil</Link>
                 <Link style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }}
                   className="nav-link" to="faq">FAQ</Link>
                 <NavDropdown style={{ display: Util.isProductionEnvironment() ? 'none' : 'block' }}
