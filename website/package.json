@@ -25,7 +25,7 @@
     "react-dom": "^16.13.0",
     "react-error-overlay": "^6.0.6",
     "react-fontawesome": "^1.7.1",
-    "react-helmet": "^5.2.1",
+    "react-helmet": "^6.0.0",
     "sharp": "^0.25.2"
   },
   "devDependencies": {
