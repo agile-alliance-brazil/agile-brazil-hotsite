@@ -5865,10 +5865,10 @@ gatsby-page-utils@^0.1.3:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-google-analytics@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.2.3.tgz#d2a9ae9a1409a147dcfee878d4cbd2867efbe5ed"
-  integrity sha512-Aji5BsN8vlpTUHjmAPfNpXvYnRCadmcd4zbZXkoHW6rfUAiD5tYcc6rQXrvvgt+2i+j5GdILWXLYAI1bqqmKbQ==
+gatsby-plugin-google-analytics@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.2.4.tgz#d03ae7b8088240f283a82d5ac5f843ee636a0f32"
+  integrity sha512-PupngEov6tod6AOybZMq4Iaaeo6MmzgwBcWljMWLetO5ugPV5rAkTSLJsaINk8wzImQsIDNMBg2GIaU94g1vJw==
   dependencies:
     "@babel/runtime" "^7.8.7"
     minimatch "3.0.4"
@@ -5923,10 +5923,10 @@ gatsby-plugin-prefetch-google-fonts@^1.4.3:
     google-fonts-plugin "2.0.2"
     object-hash "^1.3.0"
 
-gatsby-plugin-react-helmet@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.2.3.tgz#d3b130429e66a70120dbb3dfe90748a0047a219e"
-  integrity sha512-MS4IyGyw++ebpFw4nCYdNre/I/265M6tqZ9KdvljaPY7God3QLVkn0ZcDg+H7EB8mSnhsxUsv6F5nfWRbLMdmQ==
+gatsby-plugin-react-helmet@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-3.2.4.tgz#3a69488454a433c5cef5aa02263a8faffa8cabd1"
+  integrity sha512-AHmmhodv7E8+qkHC5W0XSTgoQb1iHMB15Jn4NnEnDz696pZ448g1MCnX3bEMGCjYg2wHKJlo29EVoa4z5dS5lw==
   dependencies:
     "@babel/runtime" "^7.8.7"
 
@@ -6069,14 +6069,14 @@ gatsby-telemetry@^1.2.5:
     stack-utils "1.0.2"
     uuid "3.4.0"
 
-gatsby-transformer-remark@^2.7.2:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.7.2.tgz#8da54c05d62649d7cfdc1d2781dbde60c2a7f6a2"
-  integrity sha512-o+9zoxaEM7Nh6mw3JCy6y8OatfiBJ5+bsoZ7G68K8pZtp858A94omOxiVhdM8uwMInFxfnH7Na14fIKphDqbLA==
+gatsby-transformer-remark@^2.7.3:
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.7.3.tgz#11828281a8ec979a5dfbe1d17f99f83c88c78035"
+  integrity sha512-Q88BTKI5g2ITE61oKh7LD6F0ZG7aKw9Zulwo2fIYrPfvTI7WeLo/dG8XHmma3hBbvuK1hmPvtZVRNEDnhqB10w==
   dependencies:
     "@babel/runtime" "^7.8.7"
     bluebird "^3.7.2"
-    gatsby-core-utils "^1.1.2"
+    gatsby-core-utils "^1.1.3"
     gray-matter "^4.0.2"
     hast-util-raw "^4.0.0"
     hast-util-to-html "^4.0.1"
