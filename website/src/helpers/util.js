@@ -4,7 +4,7 @@ const activeEnv =
 export class Util {
 
   static isProductionEnvironment = () => {
-    return this.environment() === 'production'
+    return true // this.environment() === 'production'
   }
 
   static environment = () => {
