@@ -55,7 +55,7 @@ h6 {
 
 .jumbotron-caravana {
   margin-top: -9rem;
-  background-image: linear-gradient(0deg, rgb(0, 56, 88) 10%, transparent 60%), url("../images/foto-caravana.jpg");
+  background-image: url("../images/foto-caravana-02.jpg");
 }
 
 .jumbotron .container {
@@ -70,4 +70,8 @@ h6 {
 
 .jumbotron img {
   padding: 10px 40px;
+}
+
+.jumbotron-caravana img {
+
 }
