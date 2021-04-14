@@ -1,8 +1,13 @@
+import React from "react"
+//import { Jumbotron, Container, Image } from "react-bootstrap"
+
+import Hotsite from "../templates/hotsite"
+//import logo from "../assets/images/logo-agile-brazil.png"
+
 const IndexPage = () => {
-  if (typeof window !== 'undefined') {
-    window.location = 'https://www.even3.com.br/abraca2020/';
-  }
-  return null
+  return (
+    <Hotsite seoTitle="Inicial" fluid />
+  )
 }
 
 export default IndexPage

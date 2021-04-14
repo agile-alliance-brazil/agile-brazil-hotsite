@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/2020`,
   siteMetadata: {
-    title: `Agile Brazil 2020 - Porto Alegre`,
+    title: `Agile Brazil 2021`,
     description: `Convidamos a comunidade ágil para semear os valores e principios ágeis e juntos colher os frutos de nossa cultura.`,
     author: `@gatsbyjs`
   },
@@ -39,7 +39,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/favicon.png`,
+        icon: `src/assets/images/agilebrazil-favicon.png`,
         icon_options: {
           purpose: `any`,
         },
@@ -50,11 +50,11 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Lato`,
+            family: `Roboto`,
             variants: [`400`, `700`]
           },
           {
-            family: `Noto Sans`,
+            family: `Roboto`,
             variants: [`400`]
           },
         ],
