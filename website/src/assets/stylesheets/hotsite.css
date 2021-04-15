@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: unset;
+}
+
+body, html {
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 1em;
+}
+
+.agileAlliance img {
+    position: fixed;
+    top: 0;
+    right: 1.15em;
+    width: 100px;
+    max-width: 30%;
+}
+
+h1.conference {
+    display: none;
+}
+
+h2.dates {
+    color: black;
+    font-size: 48px;
+    max-width: 65vw;
+}
+
+.ab-logo {
+    margin-top: 1em;
+    width: 50vw;
+    max-width: 250px;
+}
+
+.information p {
+    font-size: 120%;
+}
+
+hr {
+    background: rgb(20,115,50);
+    background: linear-gradient(90deg, rgba(20,115,50,1) 0%, rgba(255,165,6,1) 100%);
+    border: 0;
+    height: 2px;
+}
+
+.social {
+    padding-top: 2em;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social div {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    width: 100%;
+}
+
+.social svg {
+    color: #cccccc;
+    display: inline-block;
+    width: 2.1em;
+    padding-right: 0.58em;
+}
+
+.social a:hover svg {
+    color: #bbbbbb;
+}
+
+@media (min-width: 550px) {
+    body {
+        background: url(../images/call-your-friends.svg) no-repeat top 10em right 6em;
+        background-size: 36vw;
+        font-size: 150%;
+        margin: 4em 6em;
+        max-width: 400px;
+    }
+
+    .agileAlliance img {
+        right: 6em;
+        width: 150px;
+        max-width: 15%;
+    }
+
+    h2.dates {
+        font-size: 70px;
+        margin-bottom: 0.4em;
+        margin-top: 1em;
+    }
+}
