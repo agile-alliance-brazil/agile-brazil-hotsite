@@ -1,5 +1,5 @@
 BUILD_PATH = ./public/
-YEAR = 2020
+YEAR = 2021
 
 configure:
 	npm install -g gatsby-cli@2.11.2
