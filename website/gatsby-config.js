@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/2020`,
+  pathPrefix: `/2021`,
   siteMetadata: {
     title: `Agile Brazil 2021`,
     description: `Convidamos a comunidade ágil para semear os valores e principios ágeis e juntos colher os frutos de nossa cultura.`,
