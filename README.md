@@ -6,14 +6,12 @@ Agile Brazil Hotsite
 
 Repository for Agile Brazil website at https://www.agilebrazil.com/
 
-## Old websites downloaded with
+## Important branches
 
-https://github.com/hartator/wayback-machine-downloader
+* `development`: branch for development of the current year;
+* `legacy`: branch for past conferences. Most years are being recovered using a wayback-machine downloader. More info on _how to_ on the README on that branch;
+* `master`: we don't push there. :-D Some magic with Mergify will do the magic of pulling the two together when you create a PR from either of the branches above.
 
-    docker pull hartator/wayback-machine-downloader
-    docker run --rm -it -v $PWD/websites:/websites hartator/wayback-machine-downloader http://www.agilebrazil.com/2018/ -f 20180807005015
-    docker run --rm -it -v $PWD/websites:/websites hartator/wayback-machine-downloader http://www.agilebrazil.com/2017/ -f 20171211041111
-    docker run --rm -it -v $PWD/websites:/websites hartator/wayback-machine-downloader http://www.agilebrazil.com/2015/ -f 20170203113140
 
 ## 🚀 Quick start
 
@@ -22,16 +20,16 @@ https://github.com/hartator/wayback-machine-downloader
     Navigate into your new site’s directory and start it up.
 
     ```shell
+    docker-compose up
+    ```  
+
+    And with Make:
+
+    ```shell
     cd website/
     make configure
     make dev-server
     ```
-
-    And with Docker:
-
-    ```shell
-    docker-compose up
-    ```  
 
 2.  **Open the source code and start editing!**
 
@@ -40,6 +38,25 @@ https://github.com/hartator/wayback-machine-downloader
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
     Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+
+## Deploying
+
+The deployment of this website relies on code *and* some pretty extensive configuration of Github webhooks and integrations. The specifics are unknown to this author but check the procedures below.
+
+While following the steps below, check CircleCI (https://app.circleci.com/pipelines/github/agile-alliance-brazil/agile-brazil-hotsite) for deployment status in either environment.
+
+### To staging
+
+Whenever you push code to the `develoment` branch, it triggers the CircleCI pipeline.
+Check it out at http://staging.agilebrazil.com/
+
+### To prod
+
+* After checking that staging is ok, open a pull request into `master` from `development`.
+* Then ask a fellow commiter to review your PR, and make the necessary fixes. 
+* When they approve it, Mergify will automatically merge it to `master`.
+* A couple minutes later, it should be fine.
+
 
 ## 🧐 What's inside?
 
