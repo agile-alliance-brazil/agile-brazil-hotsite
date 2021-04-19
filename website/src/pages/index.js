@@ -6,7 +6,7 @@ import Hotsite from "../templates/hotsite"
 
 const IndexPage = () => {
   return (
-    <Hotsite seoTitle="Inicial" fluid />
+    <Hotsite seoTitle="Agile Brazil 2021 - ONLINE de 05 a 09 Outubro" fluid />
   )
 }
 
