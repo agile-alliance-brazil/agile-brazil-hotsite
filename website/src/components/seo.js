@@ -48,6 +48,14 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          property: `og:author`,
+          content: site.siteMetadata.author,
+        },
+        {
+          property: `og:image`,
+          content: `summary`,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
