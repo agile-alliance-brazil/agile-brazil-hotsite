@@ -35,7 +35,7 @@ h2.dates {
     width: 50vw;
 }
 
-.information p {
+.information {
     font-size: 120%;
 }
 
@@ -78,7 +78,8 @@ hr {
         background-size: 60vh;
         font-size: 150%;
         margin: 0 4em;
-        max-width: 16em;
+        max-width: 18em;
+        padding-left: 4em;
     }
 
     .agileAlliance img {
@@ -95,5 +96,6 @@ hr {
     h2.dates {
         font-size: 4vw;
         margin-bottom: 0.4em;
+        max-width: 6em;
     }
 }
