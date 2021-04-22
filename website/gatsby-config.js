@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: `/2021`,
   siteMetadata: {
     title: `Agile Brazil 2021`,
-    description: `Convidamos a comunidade ágil para semear os valores e principios ágeis e juntos colher os frutos de nossa cultura.`,
+    description: `A Agile Brazil é a mais relevante conferência brasileira sobre cultura ágil. O evento não possui fins lucrativos e é organizado pela Agile Alliance Brazil.`,
     author: `@gatsbyjs`
   },
   plugins: [
