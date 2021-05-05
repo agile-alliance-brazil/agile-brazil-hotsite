@@ -50,7 +50,7 @@ const Content = () => (
                         </path>
                     </svg>
                 </a>
-                <a href="https://www.linkedin.com/groups/Agile-Brazil-3148432/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/company/agilebrazil/" target="_blank" rel="noreferrer">
                     <svg aria-hidden="true"
                         focusable="false" data-prefix="fab" data-icon="linkedin"
                         className="svg-inline--fa fa-linkedin fa-w-14 " role="img"
