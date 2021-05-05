@@ -8,7 +8,7 @@ body, html {
     color: #666;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 2vh;
     padding: 1em;
 }
 
@@ -16,7 +16,7 @@ body, html {
     position: fixed;
     top: 0;
     right: 1.15em;
-    width: 100px;
+    width: 32vw;
     max-width: 30%;
 }
 
@@ -26,17 +26,16 @@ h1.conference {
 
 h2.dates {
     color: black;
-    font-size: 48px;
-    max-width: 65vw;
+    font-size: 14vw;
+    max-width: 72vw;
 }
 
 .ab-logo {
-    margin-top: 1em;
+    margin: 1em 0 2em;
     width: 50vw;
-    max-width: 250px;
 }
 
-.information p {
+.information {
     font-size: 120%;
 }
 
@@ -76,21 +75,27 @@ hr {
 @media (min-width: 550px) {
     body {
         background: url(../images/call-your-friends.svg) no-repeat top 10em right 6em;
-        background-size: 36vw;
+        background-size: 60vh;
         font-size: 150%;
-        margin: 4em 6em;
-        max-width: 400px;
+        margin: 0 4em;
+        max-width: 18em;
+        padding-left: 4em;
     }
 
     .agileAlliance img {
         right: 6em;
-        width: 150px;
+        width: 8vw;
         max-width: 15%;
     }
 
+    .ab-logo {
+        width: 16vw;
+        margin-bottom: 1em;
+    }
+    
     h2.dates {
-        font-size: 70px;
+        font-size: 4vw;
         margin-bottom: 0.4em;
-        margin-top: 1em;
+        max-width: 6em;
     }
 }
