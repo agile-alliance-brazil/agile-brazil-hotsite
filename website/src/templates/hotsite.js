@@ -33,7 +33,7 @@ const Content = () => (
         <div className="information">
             <p>Evento 100% online</p>
             <hr />
-            <a href="https://submissoes.agilebrazil.com/2021"> Submeta sua sessão (até 16/05) </a>
+            <a href="https://submissoes.agilebrazil.com/2021"> Submeta sua sessão (até 23/05) </a>
             <p>Mais informações em breve</p>
         </div>
 
