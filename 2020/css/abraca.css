@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: Roboto, sans-serif;
+    width: 100%;
+}
+
+header {
+    margin: 0 auto;
+}
+
+header,
+section,
+footer {
+    max-width: 800px;
+    margin: 0 auto 1em;
+}
+
+header div,
+section,
+footer {
+    background-color: #fff;
+    border-radius: 2em;
+    padding: 2em;
+    margin: 2em auto;
+}
+
+header img {
+    width: 100%;
+}
+
+header {
+    font-size: 124%;
+}
+
+header span {
+    font-size: 3.2rem;
+}
+
+header p:last-child {
+    margin-bottom: 0;
+}
+
+ol li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+section.sponsors a img {
+    width: 80%;
+}
+
+section.sponsors .tw-sponsor {
+    padding-top: 48px;
+}
+
+.callout {
+    color: #1C733D;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+}
+
+footer svg {
+    color: #cccccc;
+    display: inline-block;
+    margin: 0.2em;
+    width: 2.4em;
+}
+
+footer a:hover svg {
+    color: #bbbbbb;
+}
+
+@media (min-width: 740px) {
+    header div,
+    section {
+        padding: 2em 6em;
+    }
+
+    section.sponsors a {
+        max-width: 40%;
+        max-height: 200px;
+    }
+
+    section.sponsors .tw-sponsor {
+        padding: 40px 0 8px;
+    }
+}
